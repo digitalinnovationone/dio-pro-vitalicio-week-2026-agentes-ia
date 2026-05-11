@@ -1,17 +1,17 @@
 # Resumos das Lives
 
-Esta pasta vai receber um resumo exclusivo de cada live da **DIO PRO Vitalício Week 2026**. Os resumos são gerados a partir da transcrição de cada sessão e rotulam, em cada momento da gravação, qual dos 7 conceitos essenciais do Claude Code está sendo demonstrado.
+Esta pasta tem um arquivo por live da **DIO PRO Vitalício Week 2026**. Cada arquivo recebe o resumo da sessão correspondente, gerado a partir da transcrição da live, rotulando em cada momento qual dos 12 conceitos essenciais do Claude Code está sendo demonstrado.
 
-## Lives da Week
+## Sessões
 
-| # | Arquivo | Sessão |
-|---|---------|--------|
-| 1 | `sessao-1.md` | Setup do Claude Code para acelerar 100x a produtividade |
-| 2 | `sessao-2.md` | Agentes de IA Back-end, Front-end, QA e DevOps |
-| 3 | `sessao-3.md` | Kanban ao vivo para orquestração de Agentes |
-| 4 | `sessao-4.md` | App de Delivery do zero ao deploy |
+| # | Arquivo | Sessão | Conceitos |
+|---|---------|--------|-----------|
+| 1 | [`sessao-1.md`](./sessao-1.md) | Setup do Claude Code para acelerar 100x a produtividade | `CLAUDE.md` `Permissions` `Plan Mode` `Slash Commands` `Context` |
+| 2 | [`sessao-2.md`](./sessao-2.md) | Agentes de IA Back-end, Front-end, QA e DevOps | Os 12 conceitos |
+| 3 | [`sessao-3.md`](./sessao-3.md) | Kanban ao vivo para orquestração de Agentes | `Subagents` `MCP` `Slash Commands` `Context` `Compaction` |
+| 4 | [`sessao-4.md`](./sessao-4.md) | Mentoria ao vivo com Experts da DIO | Todos os 12 conceitos, conforme as dúvidas |
 
-> Os arquivos serão adicionados conforme cada live acontece.
+> Os arquivos começam com "em breve" e são preenchidos depois da live acontecer. As lives são exclusivas para assinantes do **DIO PRO**.
 
 ## Como os resumos são gerados
 
@@ -44,21 +44,26 @@ Tabela com 6 a 12 marcos no formato:
 | Tempo | Momento |
 | HH:MM | descrição curta |
 
-## Os 7 conceitos rotulados nesta live
-Para CADA um dos 7 conceitos abaixo, indique:
+## Os 12 conceitos rotulados nesta live
+Para CADA um dos 12 conceitos abaixo, indique:
 - Se aparece na live (sim ou não)
 - Em qual timestamp aparece
 - Como foi usado, em 1 ou 2 frases concretas
 Se NÃO aparecer, escreva apenas: "Não abordado nesta sessão."
 
-Os 7 conceitos são:
+Os 12 conceitos são:
 1. CLAUDE.md
-2. Plan Mode
-3. Slash Commands
-4. Skills
-5. MCP (Model Context Protocol)
-6. Context
-7. Compaction
+2. Permissions
+3. Plan Mode
+4. Checkpoints
+5. Skills
+6. Hooks
+7. MCP (Model Context Protocol)
+8. Plugins
+9. Context
+10. Slash Commands
+11. Compaction
+12. Subagents
 
 ## Principais aprendizados
 4 a 7 bullets acionáveis que alguém vendo a live pela primeira vez
@@ -79,8 +84,8 @@ REGRAS:
 - Evite travessões longos e textos genéricos de IA.
 ```
 
-## Sobre os 7 conceitos
+## Sobre os 12 conceitos
 
-Cada resumo rotula os 7 conceitos essenciais que estruturam toda a Week. A página oficial com eles está em:
+A página oficial com a descrição completa de cada conceito e o link da documentação está em:
 
 👉 https://digitalinnovationone.github.io/dio-pro-vitalicio-week-2026-agentes-ia

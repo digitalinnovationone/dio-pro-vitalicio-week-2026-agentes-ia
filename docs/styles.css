@@ -1,77 +1,56 @@
 /* ============================================================
-   7 Conceitos Essenciais do Claude Code · DIO PRO Vitalício Week 2026
+   12 Conceitos Essenciais do Claude Code · DIO PRO Vitalício Week 2026
    Sistema de design: Material Design 3 (dark scheme)
-   com paleta de marca DIO mapeada para color roles MD3
    ============================================================ */
 
-/* ---------- Tokens MD3 (dark scheme) ----------
-   Color roles seguindo a especificação MD3:
-   https://m3.material.io/styles/color/roles
-*/
 :root {
-  /* === Color: Primary (roxo DIO) === */
-  --md-sys-color-primary:              #C8B6FF; /* tone 80 */
-  --md-sys-color-on-primary:           #2C1B70; /* tone 20 */
-  --md-sys-color-primary-container:    #432C9A; /* tone 30 */
-  --md-sys-color-on-primary-container: #E8DEFF; /* tone 90 */
+  /* Color: Primary (roxo DIO) */
+  --md-sys-color-primary:              #C8B6FF;
+  --md-sys-color-on-primary:           #2C1B70;
+  --md-sys-color-primary-container:    #432C9A;
+  --md-sys-color-on-primary-container: #E8DEFF;
 
-  /* === Color: Secondary (azul DIO) === */
-  --md-sys-color-secondary:              #B3C9FF; /* tone 80 */
-  --md-sys-color-on-secondary:           #00316E; /* tone 20 */
-  --md-sys-color-secondary-container:    #1B4894; /* tone 30 */
-  --md-sys-color-on-secondary-container: #DBE3FF; /* tone 90 */
+  /* Color: Secondary (azul DIO) */
+  --md-sys-color-secondary:              #B3C9FF;
+  --md-sys-color-on-secondary:           #00316E;
+  --md-sys-color-secondary-container:    #1B4894;
+  --md-sys-color-on-secondary-container: #DBE3FF;
 
-  /* === Color: Tertiary (verde neon DIO) === */
-  --md-sys-color-tertiary:              #7FDBA1; /* tone 80 */
-  --md-sys-color-on-tertiary:           #00391A; /* tone 20 */
-  --md-sys-color-tertiary-container:    #00522A; /* tone 30 */
-  --md-sys-color-on-tertiary-container: #97F8B9; /* tone 90 */
+  /* Color: Tertiary (verde neon DIO) */
+  --md-sys-color-tertiary:              #7FDBA1;
+  --md-sys-color-on-tertiary:           #00391A;
+  --md-sys-color-tertiary-container:    #00522A;
+  --md-sys-color-on-tertiary-container: #97F8B9;
 
-  /* === Surface (neutral tones com leve tint roxo da primary) === */
-  --md-sys-color-surface:                  #131318; /* tone 6, fundo principal */
+  /* Surface */
+  --md-sys-color-surface:                  #131318;
   --md-sys-color-surface-dim:              #131318;
   --md-sys-color-surface-bright:           #3A383E;
   --md-sys-color-surface-container-lowest: #0D0D12;
-  --md-sys-color-surface-container-low:    #1B1B21; /* tone ~10 */
-  --md-sys-color-surface-container:        #1F1F26; /* tone ~12 */
-  --md-sys-color-surface-container-high:   #2A2932; /* tone ~17 */
-  --md-sys-color-surface-container-highest:#35343D; /* tone ~22 */
-  --md-sys-color-on-surface:               #E6E1E9; /* tone 90 */
-  --md-sys-color-on-surface-variant:       #C8C5D0; /* tone 80 */
-  --md-sys-color-outline:                  #938F99; /* tone 60 */
-  --md-sys-color-outline-variant:          #49454F; /* tone 30 */
-  --md-sys-color-inverse-surface:          #E6E1E9;
-  --md-sys-color-inverse-on-surface:       #1F1F26;
+  --md-sys-color-surface-container-low:    #1B1B21;
+  --md-sys-color-surface-container:        #1F1F26;
+  --md-sys-color-surface-container-high:   #2A2932;
+  --md-sys-color-surface-container-highest:#35343D;
+  --md-sys-color-on-surface:               #E6E1E9;
+  --md-sys-color-on-surface-variant:       #C8C5D0;
+  --md-sys-color-outline:                  #938F99;
+  --md-sys-color-outline-variant:          #49454F;
   --md-sys-color-scrim:                    #000000;
-  --md-sys-color-shadow:                   #000000;
 
-  /* === Tokens de estado (state layers MD3) ===
-     Aplicados como overlay com opacidade definida sobre a cor base */
+  /* State layers */
   --md-sys-state-hover-opacity:    0.08;
   --md-sys-state-focus-opacity:    0.12;
   --md-sys-state-pressed-opacity:  0.12;
-  --md-sys-state-dragged-opacity:  0.16;
 
-  /* === Elevation MD3 (5 níveis) === */
+  /* Elevation */
   --md-sys-elevation-0: none;
-  --md-sys-elevation-1:
-    0px 1px 2px 0px rgba(0,0,0,0.30),
-    0px 1px 3px 1px rgba(0,0,0,0.15);
-  --md-sys-elevation-2:
-    0px 1px 2px 0px rgba(0,0,0,0.30),
-    0px 2px 6px 2px rgba(0,0,0,0.15);
-  --md-sys-elevation-3:
-    0px 1px 3px 0px rgba(0,0,0,0.30),
-    0px 4px 8px 3px rgba(0,0,0,0.15);
-  --md-sys-elevation-4:
-    0px 2px 3px 0px rgba(0,0,0,0.30),
-    0px 6px 10px 4px rgba(0,0,0,0.15);
-  --md-sys-elevation-5:
-    0px 4px 4px 0px rgba(0,0,0,0.30),
-    0px 8px 12px 6px rgba(0,0,0,0.15);
+  --md-sys-elevation-1: 0px 1px 2px 0px rgba(0,0,0,0.30), 0px 1px 3px 1px rgba(0,0,0,0.15);
+  --md-sys-elevation-2: 0px 1px 2px 0px rgba(0,0,0,0.30), 0px 2px 6px 2px rgba(0,0,0,0.15);
+  --md-sys-elevation-3: 0px 1px 3px 0px rgba(0,0,0,0.30), 0px 4px 8px 3px rgba(0,0,0,0.15);
+  --md-sys-elevation-4: 0px 2px 3px 0px rgba(0,0,0,0.30), 0px 6px 10px 4px rgba(0,0,0,0.15);
+  --md-sys-elevation-5: 0px 4px 4px 0px rgba(0,0,0,0.30), 0px 8px 12px 6px rgba(0,0,0,0.15);
 
-  /* === Shape scale MD3 === */
-  --md-sys-shape-corner-none:         0;
+  /* Shape */
   --md-sys-shape-corner-extra-small:  4px;
   --md-sys-shape-corner-small:        8px;
   --md-sys-shape-corner-medium:       12px;
@@ -79,38 +58,25 @@
   --md-sys-shape-corner-extra-large:  28px;
   --md-sys-shape-corner-full:         9999px;
 
-  /* === Typography (MD3 type scale) ===
-     Family: Sora (display + body), JetBrains Mono (code) */
+  /* Typography */
   --md-sys-typescale-font-display: 'Sora', system-ui, sans-serif;
   --md-sys-typescale-font-body:    'Sora', system-ui, sans-serif;
   --md-sys-typescale-font-mono:    'JetBrains Mono', ui-monospace, monospace;
 
-  /* === Motion (MD3 easing) === */
+  /* Motion */
   --md-sys-motion-easing-standard:        cubic-bezier(0.2, 0, 0, 1);
-  --md-sys-motion-easing-emphasized:      cubic-bezier(0.2, 0, 0, 1);
   --md-sys-motion-easing-emphasized-decel:cubic-bezier(0.05, 0.7, 0.1, 1);
-  --md-sys-motion-easing-emphasized-accel:cubic-bezier(0.3, 0, 0.8, 0.15);
-  --md-sys-motion-duration-short1:  50ms;
-  --md-sys-motion-duration-short2:  100ms;
   --md-sys-motion-duration-short3:  150ms;
-  --md-sys-motion-duration-short4:  200ms;
-  --md-sys-motion-duration-medium1: 250ms;
   --md-sys-motion-duration-medium2: 300ms;
-  --md-sys-motion-duration-medium3: 350ms;
-  --md-sys-motion-duration-medium4: 400ms;
-  --md-sys-motion-duration-long1:   450ms;
   --md-sys-motion-duration-long2:   500ms;
-  --md-sys-motion-duration-long3:   550ms;
-  --md-sys-motion-duration-long4:   600ms;
 
-  /* === Aliases convenientes (usados pelo CSS abaixo) === */
+  /* Aliases */
   --bg:      var(--md-sys-color-surface);
   --surface: var(--md-sys-color-surface-container);
   --surface-high: var(--md-sys-color-surface-container-high);
   --on-surface: var(--md-sys-color-on-surface);
   --on-surface-variant: var(--md-sys-color-on-surface-variant);
   --outline: var(--md-sys-color-outline-variant);
-
   --primary:   var(--md-sys-color-primary);
   --secondary: var(--md-sys-color-secondary);
   --tertiary:  var(--md-sys-color-tertiary);
@@ -121,11 +87,10 @@
     var(--md-sys-color-secondary) 50%,
     var(--md-sys-color-tertiary) 100%);
 
-  /* Layout */
   --maxw: 1200px;
 }
 
-/* ---------- Reset ---------- */
+/* Reset */
 *, *::before, *::after { box-sizing: border-box; }
 * { margin: 0; padding: 0; }
 html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
@@ -154,7 +119,6 @@ code {
   border: 1px solid color-mix(in srgb, var(--primary) 24%, transparent);
 }
 
-/* ---------- Container ---------- */
 .container {
   width: 100%;
   max-width: var(--maxw);
@@ -162,7 +126,7 @@ code {
   padding-inline: clamp(20px, 4vw, 40px);
 }
 
-/* ---------- Background atmosférico (decorativo) ---------- */
+/* Background */
 .bg-layer {
   position: fixed;
   inset: 0;
@@ -208,7 +172,7 @@ code {
 @keyframes drift2 { to { transform: translate(-50px, 60px); } }
 @keyframes drift3 { to { transform: translate(40px, -50px); } }
 
-/* ---------- Top App Bar (MD3) ---------- */
+/* Header */
 .site-header {
   position: sticky;
   top: 0;
@@ -227,31 +191,20 @@ code {
 .brand {
   display: inline-flex;
   align-items: center;
-  gap: 10px;
   font-weight: 700;
   letter-spacing: -0.01em;
+  transition: opacity var(--md-sys-motion-duration-short3) var(--md-sys-motion-easing-standard);
 }
-.brand-mark {
-  position: relative;
-  width: 24px;
-  height: 24px;
-  display: inline-flex;
-  align-items: center;
-  gap: 3px;
-}
-.brand-mark__dot,
-.brand-mark__bar {
-  display: block;
-  background: var(--on-surface);
-  border-radius: 50%;
-}
-.brand-mark__dot { width: 7px; height: 22px; border-radius: 4px; }
-.brand-mark__bar { width: 16px; height: 16px; }
+.brand:hover { opacity: 0.8; }
 .brand-text {
-  font-size: 18px;
+  font-size: 17px;
   font-weight: 700;
   letter-spacing: -0.02em;
   text-transform: lowercase;
+  background: var(--grad-brand);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }
 .nav {
   display: flex;
@@ -280,7 +233,7 @@ code {
 .nav a:hover { color: var(--on-surface); }
 .nav a:hover::after { transform: scaleX(1); }
 
-/* ---------- Hero ---------- */
+/* Hero */
 .hero {
   padding-block: clamp(72px, 12vw, 140px) clamp(48px, 8vw, 90px);
   position: relative;
@@ -316,7 +269,6 @@ code {
   100% { box-shadow: 0 0 0 0 color-mix(in srgb, var(--tertiary) 0%, transparent); }
 }
 
-/* MD3 Display Large */
 .hero-title {
   font-family: var(--md-sys-typescale-font-display);
   font-size: clamp(2.4rem, 6vw, 4.2rem);
@@ -340,7 +292,6 @@ code {
   50%      { background-position: 100% 50%; }
 }
 
-/* MD3 Body Large */
 .hero-subtitle {
   font-size: clamp(1.05rem, 1.6vw, 1.18rem);
   line-height: 1.55;
@@ -357,7 +308,7 @@ code {
   animation: fadeUp var(--md-sys-motion-duration-long2) var(--md-sys-motion-easing-emphasized-decel) 240ms both;
 }
 
-/* ---------- Buttons MD3 ---------- */
+/* Buttons MD3 */
 .btn {
   position: relative;
   display: inline-flex;
@@ -380,7 +331,6 @@ code {
 .btn svg { width: 18px; height: 18px; transition: transform var(--md-sys-motion-duration-medium2) var(--md-sys-motion-easing-emphasized-decel); }
 .btn:hover svg { transform: translateX(3px); }
 
-/* State layer (MD3) */
 .btn::before {
   content: '';
   position: absolute;
@@ -394,7 +344,6 @@ code {
 .btn:focus-visible::before { opacity: var(--md-sys-state-focus-opacity); }
 .btn:active::before { opacity: var(--md-sys-state-pressed-opacity); }
 
-/* MD3 Filled button */
 .btn--filled {
   background: var(--primary);
   color: var(--md-sys-color-on-primary);
@@ -403,7 +352,6 @@ code {
 .btn--filled:hover { box-shadow: var(--md-sys-elevation-1); }
 .btn--filled::before { background: var(--md-sys-color-on-primary); }
 
-/* MD3 Outlined button */
 .btn--outlined {
   background: transparent;
   color: var(--primary);
@@ -411,7 +359,6 @@ code {
 }
 .btn--outlined:hover { border-color: var(--primary); }
 
-/* MD3 Text button */
 .btn--text {
   height: 36px;
   padding: 0 14px;
@@ -420,7 +367,6 @@ code {
 }
 .btn--text:hover { color: var(--primary); }
 
-/* MD3 Disabled state (para o link "em breve") */
 .btn--disabled {
   color: color-mix(in srgb, var(--on-surface) 38%, transparent);
   cursor: not-allowed;
@@ -428,7 +374,7 @@ code {
 }
 .btn--disabled svg { display: none; }
 
-/* ---------- Section header ---------- */
+/* Section header */
 .section-header {
   text-align: center;
   max-width: 720px;
@@ -447,7 +393,6 @@ code {
   border: 1px solid color-mix(in srgb, var(--primary) 24%, transparent);
   margin-bottom: 16px;
 }
-/* MD3 Headline Large */
 .section-title {
   font-size: clamp(1.8rem, 3.4vw, 2.4rem);
   font-weight: 700;
@@ -460,7 +405,7 @@ code {
   font-size: 1rem;
 }
 
-/* ---------- Features Grid ---------- */
+/* Features Grid (12 conceitos = 3 colunas × 4 linhas no desktop) */
 .features {
   padding-block: clamp(48px, 8vw, 96px);
 }
@@ -469,23 +414,23 @@ code {
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: clamp(16px, 2vw, 24px);
 }
-
-/* Em telas grandes: 3 colunas fixas e centraliza o 7º */
-@media (min-width: 980px) {
+@media (min-width: 1000px) {
   .feature-grid { grid-template-columns: repeat(3, 1fr); }
-  .feature-grid > .card:nth-child(7) { grid-column: 2 / 3; }
+}
+@media (min-width: 600px) and (max-width: 999px) {
+  .feature-grid { grid-template-columns: repeat(2, 1fr); }
 }
 
-/* ---------- Card MD3 (Filled Card variant) ---------- */
+/* Card MD3 */
 .card {
   position: relative;
   background: var(--surface);
   border: 1px solid var(--outline);
   border-radius: var(--md-sys-shape-corner-large);
-  padding: 26px 24px 24px;
+  padding: 24px 22px 22px;
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 14px;
   box-shadow: var(--md-sys-elevation-1);
   transition: transform var(--md-sys-motion-duration-medium2) var(--md-sys-motion-easing-emphasized-decel),
               box-shadow var(--md-sys-motion-duration-medium2) var(--md-sys-motion-easing-standard),
@@ -495,7 +440,6 @@ code {
   animation: cardIn var(--md-sys-motion-duration-long2) var(--md-sys-motion-easing-emphasized-decel) both;
   animation-delay: var(--delay, 0ms);
 }
-
 .card::before {
   content: '';
   position: absolute;
@@ -505,7 +449,6 @@ code {
   pointer-events: none;
   transition: opacity var(--md-sys-motion-duration-medium2) var(--md-sys-motion-easing-standard);
 }
-
 .card:hover {
   transform: translateY(-3px);
   box-shadow: var(--md-sys-elevation-3);
@@ -521,13 +464,13 @@ code {
   gap: 12px;
 }
 
-/* Badge — verde MD3 tertiary */
 .badge {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 36px;
+  min-width: 36px;
   height: 36px;
+  padding: 0 10px;
   border-radius: var(--md-sys-shape-corner-full);
   background: var(--tertiary);
   color: var(--md-sys-color-on-tertiary);
@@ -570,9 +513,8 @@ code {
   transform: rotate(-4deg) scale(1.05);
 }
 
-/* MD3 Title Large */
 .card-title {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   font-weight: 600;
   letter-spacing: -0.015em;
   color: var(--primary);
@@ -580,23 +522,22 @@ code {
 }
 .card-title__sub {
   display: block;
-  font-size: 0.78rem;
+  font-size: 0.74rem;
   font-weight: 500;
   letter-spacing: 0;
   color: var(--on-surface-variant);
   margin-top: 2px;
 }
 
-/* MD3 Body Medium */
 .card-desc {
   color: var(--on-surface-variant);
-  font-size: 0.95rem;
+  font-size: 0.93rem;
   line-height: 1.55;
   flex-grow: 1;
 }
 
 .card-tip {
-  font-size: 0.9rem;
+  font-size: 0.88rem;
   color: var(--on-surface-variant);
   padding-top: 12px;
   border-top: 1px dashed color-mix(in srgb, var(--outline) 60%, transparent);
@@ -607,8 +548,41 @@ code {
   font-weight: 600;
   margin-right: 4px;
 }
+.card-tip em { font-style: normal; color: var(--primary); font-family: var(--md-sys-typescale-font-mono); font-size: 0.92em; }
+
+/* Link para documentação oficial */
+.card-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.82rem;
+  font-weight: 500;
+  color: var(--secondary);
+  padding-top: 4px;
+  transition: color var(--md-sys-motion-duration-short3) var(--md-sys-motion-easing-standard),
+              gap var(--md-sys-motion-duration-short3) var(--md-sys-motion-easing-standard);
+}
+.card-link svg { width: 14px; height: 14px; transition: transform var(--md-sys-motion-duration-medium2) var(--md-sys-motion-easing-emphasized-decel); }
+.card-link:hover { color: var(--primary); gap: 8px; }
+.card-link:hover svg { transform: translate(2px, -2px); }
 
 .card--highlight { background: var(--md-sys-color-surface-container-low); }
+
+/* Nota da documentação geral */
+.docs-note {
+  margin-top: 32px;
+  text-align: center;
+  color: var(--on-surface-variant);
+  font-size: 0.92rem;
+}
+.docs-note a {
+  color: var(--secondary);
+  font-family: var(--md-sys-typescale-font-mono);
+  border-bottom: 1px solid transparent;
+  transition: color var(--md-sys-motion-duration-short3) var(--md-sys-motion-easing-standard),
+              border-color var(--md-sys-motion-duration-short3) var(--md-sys-motion-easing-standard);
+}
+.docs-note a:hover { color: var(--primary); border-bottom-color: currentColor; }
 
 @keyframes cardIn {
   from { opacity: 0; transform: translateY(20px); }
@@ -619,7 +593,7 @@ code {
   to   { opacity: 1; transform: translateY(0); }
 }
 
-/* ---------- Lives (timeline-style list) ---------- */
+/* Lives */
 .lives {
   padding-block: clamp(48px, 8vw, 96px);
 }
@@ -696,6 +670,50 @@ code {
   margin-bottom: 14px;
   line-height: 1.55;
 }
+
+/* Chips */
+.chip-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 14px;
+}
+.chip {
+  display: inline-flex;
+  align-items: center;
+  height: 28px;
+  padding: 0 12px;
+  border-radius: var(--md-sys-shape-corner-small);
+  background: color-mix(in srgb, var(--primary) 8%, transparent);
+  border: 1px solid color-mix(in srgb, var(--primary) 28%, transparent);
+  color: var(--primary);
+  font-family: var(--md-sys-typescale-font-mono);
+  font-size: 0.78rem;
+  font-weight: 500;
+  transition: background var(--md-sys-motion-duration-short3) var(--md-sys-motion-easing-standard),
+              border-color var(--md-sys-motion-duration-short3) var(--md-sys-motion-easing-standard);
+}
+.live-item:hover .chip {
+  background: color-mix(in srgb, var(--primary) 14%, transparent);
+  border-color: color-mix(in srgb, var(--primary) 40%, transparent);
+}
+.chip--muted {
+  background: transparent;
+  border-color: var(--outline);
+  color: var(--on-surface-variant);
+  font-style: italic;
+}
+.chip--all {
+  background: color-mix(in srgb, var(--tertiary) 12%, transparent);
+  border-color: color-mix(in srgb, var(--tertiary) 36%, transparent);
+  color: var(--tertiary);
+  font-weight: 600;
+}
+.live-item:hover .chip--all {
+  background: color-mix(in srgb, var(--tertiary) 20%, transparent);
+  border-color: color-mix(in srgb, var(--tertiary) 50%, transparent);
+}
+
 .live-actions {
   display: flex;
   flex-wrap: wrap;
@@ -703,7 +721,25 @@ code {
   margin-inline: -14px;
 }
 
-/* ---------- About ---------- */
+.lives-note {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 32px;
+  padding: 12px 20px;
+  background: color-mix(in srgb, var(--tertiary) 8%, transparent);
+  border: 1px solid color-mix(in srgb, var(--tertiary) 22%, transparent);
+  border-radius: var(--md-sys-shape-corner-full);
+  color: var(--on-surface-variant);
+  font-size: 0.9rem;
+  max-width: max-content;
+  margin-inline: auto;
+}
+.lives-note svg { width: 16px; height: 16px; color: var(--tertiary); flex-shrink: 0; }
+.lives-note strong { color: var(--tertiary); font-weight: 600; }
+
+/* About */
 .about {
   padding-block: clamp(40px, 7vw, 80px);
 }
@@ -761,7 +797,7 @@ code {
   letter-spacing: 0.02em;
 }
 
-/* ---------- Footer ---------- */
+/* Footer */
 .site-footer {
   margin-top: clamp(40px, 7vw, 80px);
   border-top: 1px solid var(--outline);
@@ -777,12 +813,14 @@ code {
   gap: 16px;
 }
 .footer-brand {
-  display: inline-flex;
-  align-items: center;
-  gap: 10px;
   font-size: 14px;
   color: var(--on-surface-variant);
-  font-weight: 600;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  background: var(--grad-brand);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }
 .footer-note {
   font-size: 13px;
@@ -793,7 +831,6 @@ code {
 }
 .footer-note strong { color: var(--on-surface); font-weight: 600; }
 
-/* MD3 FAB-like back-to-top */
 .back-top {
   width: 48px;
   height: 48px;
@@ -827,7 +864,7 @@ code {
 .back-top:hover::before { opacity: var(--md-sys-state-hover-opacity); }
 .back-top:active::before { opacity: var(--md-sys-state-pressed-opacity); }
 
-/* ---------- Reveal on scroll (progressive enhancement) ---------- */
+/* Reveal on scroll */
 .js .reveal {
   opacity: 0;
   transform: translateY(24px);
@@ -836,21 +873,20 @@ code {
 }
 .js .reveal.is-visible { opacity: 1; transform: translateY(0); }
 
-/* ---------- Focus styles ---------- */
+/* Focus */
 :focus-visible {
   outline: 3px solid var(--primary);
   outline-offset: 2px;
   border-radius: 6px;
 }
 
-/* ---------- Responsivo ---------- */
+/* Responsivo */
 @media (max-width: 880px) {
   .about-inner { grid-template-columns: 1fr; }
   .about-stats { max-width: 480px; }
 }
 @media (max-width: 720px) {
   .nav { gap: 18px; font-size: 13.5px; }
-  .feature-grid { grid-template-columns: 1fr; }
   .live-item { grid-template-columns: 1fr; gap: 12px; }
   .live-marker { width: 48px; height: 48px; }
   .live-num { font-size: 1.25rem; }
@@ -864,7 +900,7 @@ code {
   .stat:last-child { grid-column: 1 / -1; }
 }
 
-/* ---------- Accessibility ---------- */
+/* Accessibility */
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after {
     animation-duration: 0.01ms !important;

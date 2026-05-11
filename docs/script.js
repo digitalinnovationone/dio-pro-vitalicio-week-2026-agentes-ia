@@ -1,5 +1,5 @@
 /* =========================================================
-   7 Conceitos Essenciais do Claude Code · DIO
+   12 Conceitos Essenciais do Claude Code · DIO
    JS vanilla: reveal on scroll, back-to-top, nav suave
    ========================================================= */
 

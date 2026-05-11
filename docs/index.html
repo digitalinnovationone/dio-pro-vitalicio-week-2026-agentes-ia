@@ -4,15 +4,14 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="theme-color" content="#131318" />
-  <meta name="description" content="Os 7 conceitos essenciais do Claude Code para começar com produtividade desde o primeiro dia. Material oficial da DIO PRO Vitalício Week 2026." />
-  <title>7 Conceitos Essenciais do Claude Code · DIO PRO Vitalício Week 2026</title>
+  <meta name="description" content="Os 12 conceitos essenciais do Claude Code para começar com produtividade desde o primeiro dia. Material oficial da DIO PRO Vitalício Week 2026." />
+  <title>12 Conceitos Essenciais do Claude Code · DIO PRO Vitalício Week 2026</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <!-- Background atmosférico -->
   <div class="bg-layer" aria-hidden="true">
     <div class="bg-grid"></div>
     <div class="bg-blob bg-blob--primary"></div>
@@ -20,15 +19,10 @@
     <div class="bg-blob bg-blob--tertiary"></div>
   </div>
 
-  <!-- Top App Bar (MD3) -->
   <header class="site-header">
     <div class="container header-inner">
-      <a class="brand" href="#top" aria-label="DIO, página inicial">
-        <span class="brand-mark" aria-hidden="true">
-          <span class="brand-mark__dot"></span>
-          <span class="brand-mark__bar"></span>
-        </span>
-        <span class="brand-text">dio</span>
+      <a class="brand" href="#top" aria-label="dio.me">
+        <span class="brand-text">dio.me</span>
       </a>
       <nav class="nav" aria-label="Navegação principal">
         <a href="#conceitos">Conceitos</a>
@@ -39,7 +33,6 @@
   </header>
 
   <main id="top">
-    <!-- Hero -->
     <section class="hero">
       <div class="container hero-inner">
         <div class="eyebrow">
@@ -47,15 +40,15 @@
           DIO PRO Vitalício Week 2026 · Agentes de IA
         </div>
         <h1 class="hero-title">
-          7 Conceitos Essenciais do
+          12 Conceitos Essenciais do
           <span class="hero-title__accent">Claude Code</span>
         </h1>
         <p class="hero-subtitle">
-          Para começar com produtividade desde o primeiro dia. Uma curadoria objetiva,
-          em português, dos comandos e ideias que mais economizam tempo de quem está
-          aprendendo a trabalhar com agentes de IA.
+          Para começar com produtividade desde o primeiro dia. Material oficial
+          das lives exclusivas para assinantes do DIO PRO, com uma curadoria
+          objetiva, em português, dos comandos e ideias que mais economizam tempo
+          de quem está aprendendo a trabalhar com agentes de IA.
         </p>
-
         <div class="hero-meta">
           <a href="#conceitos" class="btn btn--filled">
             Explorar conceitos
@@ -69,19 +62,17 @@
       </div>
     </section>
 
-    <!-- Conceitos -->
     <section id="conceitos" class="features">
       <div class="container">
         <div class="section-header">
           <span class="section-tag">Conceitos</span>
-          <h2 class="section-title">Os 7 fundamentos para sua primeira semana</h2>
+          <h2 class="section-title">Os 12 fundamentos do Claude Code</h2>
           <p class="section-sub">
-            Cada card traz a ideia, uma descrição direta e uma dica prática para você aplicar agora mesmo.
+            Cada card traz o conceito, uma descrição que cabe em uma live, uma dica prática e um link para a documentação oficial.
           </p>
         </div>
 
         <ul class="feature-grid" role="list">
-          <!-- 1 -->
           <li class="card" style="--delay: 0ms">
             <div class="card-top">
               <span class="badge">1</span>
@@ -95,15 +86,40 @@
             </div>
             <h3 class="card-title">CLAUDE.md</h3>
             <p class="card-desc">
-              Arquivo de memória do projeto que o Claude lê em toda sessão para entender o contexto global.
+              Arquivo de memória do projeto que o Claude lê no início de toda sessão. Concentra arquitetura, convenções e tudo que o agente precisa saber para se comportar como alguém do time.
             </p>
-            <p class="card-tip"><span>Dica:</span> registre stack, convenções de código e comandos frequentes.</p>
+            <p class="card-tip"><span>Dica:</span> rode <code>/init</code> dentro do projeto e deixe o próprio Claude criar a primeira versão.</p>
+            <a class="card-link" href="https://code.claude.com/docs/en/memory" target="_blank" rel="noopener">
+              Documentação oficial
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8"/></svg>
+            </a>
           </li>
 
-          <!-- 2 -->
-          <li class="card" style="--delay: 80ms">
+          <li class="card" style="--delay: 50ms">
             <div class="card-top">
               <span class="badge">2</span>
+              <span class="card-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="5" y="11" width="14" height="9" rx="2"/>
+                  <path d="M8 11V7a4 4 0 0 1 8 0v4"/>
+                  <circle cx="12" cy="15.5" r="1"/>
+                </svg>
+              </span>
+            </div>
+            <h3 class="card-title">Permissions</h3>
+            <p class="card-desc">
+              Controle do que cada agente pode fazer no seu ambiente. Você libera ou bloqueia ferramentas específicas e mantém ações sensíveis sob revisão humana antes de executar.
+            </p>
+            <p class="card-tip"><span>Dica:</span> use <code>Shift+Tab</code> para alternar entre os modos <em>default</em>, <em>auto-accept</em> e <em>plan</em>.</p>
+            <a class="card-link" href="https://code.claude.com/docs/en/iam" target="_blank" rel="noopener">
+              Documentação oficial
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8"/></svg>
+            </a>
+          </li>
+
+          <li class="card" style="--delay: 100ms">
+            <div class="card-top">
+              <span class="badge">3</span>
               <span class="card-icon" aria-hidden="true">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
                   <rect x="3" y="4" width="6" height="6" rx="1.5"/>
@@ -115,33 +131,38 @@
             </div>
             <h3 class="card-title">Plan Mode</h3>
             <p class="card-desc">
-              Modo que mostra o plano detalhado antes de o Claude executar qualquer ação no sistema de arquivos.
+              Modo em que o Claude monta um plano detalhado antes de mexer em qualquer arquivo. Você revisa, ajusta ou rejeita o plano e só então a execução começa.
             </p>
             <p class="card-tip"><span>Dica:</span> use sempre que a tarefa envolver múltiplos arquivos ou comandos sensíveis.</p>
+            <a class="card-link" href="https://code.claude.com/docs/en/plan-mode" target="_blank" rel="noopener">
+              Documentação oficial
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8"/></svg>
+            </a>
           </li>
 
-          <!-- 3 -->
-          <li class="card" style="--delay: 160ms">
+          <li class="card" style="--delay: 150ms">
             <div class="card-top">
-              <span class="badge">3</span>
+              <span class="badge">4</span>
               <span class="card-icon" aria-hidden="true">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
-                  <rect x="3" y="4" width="18" height="16" rx="2"/>
-                  <path d="M7 9l3 3-3 3M13 15h4"/>
+                  <path d="M3 12h4l3-7 4 14 3-7h4"/>
                 </svg>
               </span>
             </div>
-            <h3 class="card-title">Slash Commands</h3>
+            <h3 class="card-title">Checkpoints</h3>
             <p class="card-desc">
-              Atalhos para acionar fluxos de trabalho específicos com um único comando, como <code>/review</code>.
+              Salvamento automático do estado do código antes de cada mudança. Se o agente fizer besteira ou você quiser experimentar uma abordagem diferente, dá para voltar no tempo em segundos.
             </p>
-            <p class="card-tip"><span>Dica:</span> salve seus templates recorrentes em <code>.claude/commands/</code>.</p>
+            <p class="card-tip"><span>Dica:</span> aperte <code>Esc</code> duas vezes ou rode <code>/rewind</code> para voltar a um estado anterior.</p>
+            <a class="card-link" href="https://code.claude.com/docs/en/checkpointing" target="_blank" rel="noopener">
+              Documentação oficial
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8"/></svg>
+            </a>
           </li>
 
-          <!-- 4 -->
-          <li class="card" style="--delay: 240ms">
+          <li class="card" style="--delay: 200ms">
             <div class="card-top">
-              <span class="badge">4</span>
+              <span class="badge">5</span>
               <span class="card-icon" aria-hidden="true">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
                   <rect x="3" y="4" width="18" height="16" rx="2"/>
@@ -151,15 +172,39 @@
             </div>
             <h3 class="card-title">Skills</h3>
             <p class="card-desc">
-              Instruções reutilizáveis que o Claude segue automaticamente para padronizar ações de desenvolvimento.
+              Pacotes de instrução que o Claude carrega automaticamente quando o contexto bate. Diferente do <code>CLAUDE.md</code>, só ocupam espaço quando são realmente usados.
             </p>
-            <p class="card-tip"><span>Dica:</span> armazene em <code>.claude/skills/</code> para padronizar tarefas repetitivas.</p>
+            <p class="card-tip"><span>Dica:</span> guarde em <code>.claude/skills/</code> para padronizar tarefas repetitivas do time.</p>
+            <a class="card-link" href="https://code.claude.com/docs/en/skills" target="_blank" rel="noopener">
+              Documentação oficial
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8"/></svg>
+            </a>
           </li>
 
-          <!-- 5 -->
-          <li class="card" style="--delay: 320ms">
+          <li class="card" style="--delay: 250ms">
             <div class="card-top">
-              <span class="badge">5</span>
+              <span class="badge">6</span>
+              <span class="card-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M13 3v8a3 3 0 0 1-3 3H7"/>
+                  <path d="M4 11l3 3-3 3"/>
+                </svg>
+              </span>
+            </div>
+            <h3 class="card-title">Hooks</h3>
+            <p class="card-desc">
+              Scripts que disparam automaticamente em momentos específicos da sessão, como antes de uma ferramenta rodar ou depois de uma edição. Servem para impor regras que o modelo não pode esquecer.
+            </p>
+            <p class="card-tip"><span>Dica:</span> use <code>PreToolUse</code> para bloquear comandos perigosos antes de eles executarem.</p>
+            <a class="card-link" href="https://code.claude.com/docs/en/hooks" target="_blank" rel="noopener">
+              Documentação oficial
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8"/></svg>
+            </a>
+          </li>
+
+          <li class="card" style="--delay: 300ms">
+            <div class="card-top">
+              <span class="badge">7</span>
               <span class="card-icon" aria-hidden="true">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
                   <circle cx="12" cy="12" r="2.2"/>
@@ -173,15 +218,40 @@
             </div>
             <h3 class="card-title">MCP <span class="card-title__sub">(Model Context Protocol)</span></h3>
             <p class="card-desc">
-              Protocolo de padrão aberto que conecta o Claude a ferramentas externas, APIs e bancos de dados.
+              Protocolo aberto que conecta o Claude a ferramentas externas, APIs e bancos de dados. É o que permite o agente ler do Jira, do Postgres, do GitHub e por aí vai.
             </p>
-            <p class="card-tip"><span>Dica:</span> comece integrando uma ferramenta que você já usa no dia a dia.</p>
+            <p class="card-tip"><span>Dica:</span> comece integrando uma ferramenta que você já usa todo dia.</p>
+            <a class="card-link" href="https://code.claude.com/docs/en/mcp" target="_blank" rel="noopener">
+              Documentação oficial
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8"/></svg>
+            </a>
           </li>
 
-          <!-- 6 -->
+          <li class="card" style="--delay: 350ms">
+            <div class="card-top">
+              <span class="badge">8</span>
+              <span class="card-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M9 3v4M15 3v4M9 17v4M15 17v4"/>
+                  <rect x="4" y="7" width="16" height="10" rx="2"/>
+                  <path d="M8 12h8"/>
+                </svg>
+              </span>
+            </div>
+            <h3 class="card-title">Plugins</h3>
+            <p class="card-desc">
+              Extensões prontas que combinam Skills, Subagents, comandos e Hooks num pacote único. Permitem adicionar novas capacidades ao Claude sem precisar escrever cada peça do zero.
+            </p>
+            <p class="card-tip"><span>Dica:</span> use plugins de terceiros para integrações comuns antes de criar Skills próprias.</p>
+            <a class="card-link" href="https://code.claude.com/docs/en/plugins" target="_blank" rel="noopener">
+              Documentação oficial
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8"/></svg>
+            </a>
+          </li>
+
           <li class="card" style="--delay: 400ms">
             <div class="card-top">
-              <span class="badge">6</span>
+              <span class="badge">9</span>
               <span class="card-icon" aria-hidden="true">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
                   <path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7S2 12 2 12z"/>
@@ -191,15 +261,39 @@
             </div>
             <h3 class="card-title">Context</h3>
             <p class="card-desc">
-              Gestão ativa do que o Claude está enxergando agora, incluindo arquivos selecionados, histórico da sessão e regras.
+              Tudo o que o Claude está enxergando agora, ou seja, arquivos carregados, histórico da conversa, regras ativas. Gerenciar isso é o que separa uma sessão lenta de uma sessão produtiva.
             </p>
-            <p class="card-tip"><span>Dica:</span> mantenha o contexto enxuto, removendo o que não é mais relevante.</p>
+            <p class="card-tip"><span>Dica:</span> rode <code>/context</code> para inspecionar e tire da janela o que não é mais útil.</p>
+            <a class="card-link" href="https://code.claude.com/docs/en/context-management" target="_blank" rel="noopener">
+              Documentação oficial
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8"/></svg>
+            </a>
           </li>
 
-          <!-- 7 -->
-          <li class="card card--highlight" style="--delay: 480ms">
+          <li class="card" style="--delay: 450ms">
             <div class="card-top">
-              <span class="badge">7</span>
+              <span class="badge">10</span>
+              <span class="card-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="3" y="4" width="18" height="16" rx="2"/>
+                  <path d="M7 9l3 3-3 3M13 15h4"/>
+                </svg>
+              </span>
+            </div>
+            <h3 class="card-title">Slash Commands</h3>
+            <p class="card-desc">
+              Atalhos que disparam fluxos com um único comando, como <code>/review</code> ou <code>/test</code>. Os nativos já cobrem muita coisa e você pode criar quantos quiser.
+            </p>
+            <p class="card-tip"><span>Dica:</span> salve seus templates recorrentes em <code>.claude/commands/</code> e versione com o projeto.</p>
+            <a class="card-link" href="https://code.claude.com/docs/en/slash-commands" target="_blank" rel="noopener">
+              Documentação oficial
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8"/></svg>
+            </a>
+          </li>
+
+          <li class="card" style="--delay: 500ms">
+            <div class="card-top">
+              <span class="badge">11</span>
               <span class="card-icon" aria-hidden="true">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
                   <path d="M4 8V5a1 1 0 0 1 1-1h3"/>
@@ -212,30 +306,59 @@
             </div>
             <h3 class="card-title">Compaction</h3>
             <p class="card-desc">
-              Compressão inteligente de conversas longas para economizar tokens sem perder informações essenciais.
+              Compressão inteligente da conversa para liberar tokens sem perder o essencial. Pode ser disparada manualmente ou acontecer sozinha quando o contexto enche.
             </p>
-            <p class="card-tip"><span>Dica:</span> acione em sessões longas para manter o desempenho e o foco da IA.</p>
+            <p class="card-tip"><span>Dica:</span> rode <code>/compact</code> antes de começar uma nova fase em sessões longas.</p>
+            <a class="card-link" href="https://code.claude.com/docs/en/context-management" target="_blank" rel="noopener">
+              Documentação oficial
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8"/></svg>
+            </a>
+          </li>
+
+          <li class="card card--highlight" style="--delay: 550ms">
+            <div class="card-top">
+              <span class="badge">12</span>
+              <span class="card-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="6" r="2.4"/>
+                  <circle cx="5.5" cy="17" r="2.4"/>
+                  <circle cx="18.5" cy="17" r="2.4"/>
+                  <path d="M12 8.4v3.6M12 12L6.5 15.2M12 12l5.5 3.2"/>
+                </svg>
+              </span>
+            </div>
+            <h3 class="card-title">Subagents</h3>
+            <p class="card-desc">
+              Agentes especialistas que o Claude principal pode chamar. Cada um tem contexto próprio, prompt próprio e ferramentas próprias, e pode rodar em paralelo no mesmo projeto.
+            </p>
+            <p class="card-tip"><span>Dica:</span> defina papéis em <code>.claude/agents/</code> e use <code>/agents</code> para gerenciar.</p>
+            <a class="card-link" href="https://code.claude.com/docs/en/sub-agents" target="_blank" rel="noopener">
+              Documentação oficial
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8"/></svg>
+            </a>
           </li>
         </ul>
+
+        <p class="docs-note">
+          Documentação completa do Claude Code em
+          <a href="https://code.claude.com/docs/" target="_blank" rel="noopener">code.claude.com/docs</a>.
+        </p>
       </div>
     </section>
 
-    <!-- Lives -->
     <section id="lives" class="lives">
       <div class="container">
         <div class="section-header">
           <span class="section-tag">Lives</span>
           <h2 class="section-title">As 4 sessões da Week</h2>
           <p class="section-sub">
-            Quatro lives gratuitas onde os 7 conceitos aparecem em ação, na ordem em que você vai precisar deles na prática.
+            Quatro lives exclusivas para assinantes do DIO PRO, onde os 12 conceitos aparecem em ação, na ordem em que você vai precisar deles na prática.
           </p>
         </div>
 
         <ol class="lives-list" role="list">
           <li class="live-item">
-            <div class="live-marker">
-              <span class="live-num">1</span>
-            </div>
+            <div class="live-marker"><span class="live-num">1</span></div>
             <div class="live-body">
               <span class="live-tag">Sessão 1 · Fundamentos</span>
               <h3 class="live-title">
@@ -244,40 +367,48 @@
               <p class="live-desc">
                 Do zero ao primeiro fluxo produtivo. Instalação, configuração de <code>CLAUDE.md</code>, primeiras Skills e Slash Commands.
               </p>
+              <ul class="chip-list" role="list" aria-label="Conceitos">
+                <li class="chip">CLAUDE.md</li>
+                <li class="chip">Permissions</li>
+                <li class="chip">Plan Mode</li>
+                <li class="chip">Slash Commands</li>
+                <li class="chip">Context</li>
+              </ul>
               <div class="live-actions">
                 <a class="btn btn--text" href="https://web.dio.me/lives/setup-do-claude-code-para-acelerar-100x-a-produtividade-no-desenvolvimento" target="_blank" rel="noopener">
                   Assistir na DIO
                   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8"/></svg>
                 </a>
+                <span class="btn btn--text btn--disabled" aria-disabled="true">Resumo em breve</span>
               </div>
             </div>
           </li>
 
           <li class="live-item">
-            <div class="live-marker">
-              <span class="live-num">2</span>
-            </div>
+            <div class="live-marker"><span class="live-num">2</span></div>
             <div class="live-body">
               <span class="live-tag">Sessão 2 · Especialização</span>
               <h3 class="live-title">
                 Construindo Agentes de IA Back-end, Front-end, QA e DevOps com Claude Code
               </h3>
               <p class="live-desc">
-                Como modelar um time multidisciplinar de agentes. Cada um com sua especialidade, suas Skills e seu contexto isolado.
+                Como modelar um time multidisciplinar de agentes, com apresentação do repositório oficial da Week e passagem teórica pelos 12 conceitos. Cada agente ganha sua especialidade, suas Skills e seu contexto isolado.
               </p>
+              <ul class="chip-list" role="list" aria-label="Conceitos">
+                <li class="chip chip--all">Os 12 conceitos</li>
+              </ul>
               <div class="live-actions">
                 <a class="btn btn--text" href="https://web.dio.me/lives/construindo-os-agentes-de-inteligencia-artificial-back-end-front-end-qa-e-devops-com-claude-code" target="_blank" rel="noopener">
                   Assistir na DIO
                   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8"/></svg>
                 </a>
+                <span class="btn btn--text btn--disabled" aria-disabled="true">Resumo em breve</span>
               </div>
             </div>
           </li>
 
           <li class="live-item">
-            <div class="live-marker">
-              <span class="live-num">3</span>
-            </div>
+            <div class="live-marker"><span class="live-num">3</span></div>
             <div class="live-body">
               <span class="live-tag">Sessão 3 · Orquestração</span>
               <h3 class="live-title">
@@ -286,57 +417,69 @@
               <p class="live-desc">
                 Como coordenar múltiplos agentes em paralelo usando um Kanban como fonte única de verdade do trabalho.
               </p>
+              <ul class="chip-list" role="list" aria-label="Conceitos">
+                <li class="chip">Subagents</li>
+                <li class="chip">MCP</li>
+                <li class="chip">Slash Commands</li>
+                <li class="chip">Context</li>
+                <li class="chip">Compaction</li>
+              </ul>
               <div class="live-actions">
                 <a class="btn btn--text" href="https://web.dio.me/lives/criacao-do-kanban-ao-vivo-para-orquestracao-do-seu-time-de-agentes-de-ai" target="_blank" rel="noopener">
                   Assistir na DIO
                   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8"/></svg>
                 </a>
+                <span class="btn btn--text btn--disabled" aria-disabled="true">Resumo em breve</span>
               </div>
             </div>
           </li>
 
           <li class="live-item">
-            <div class="live-marker">
-              <span class="live-num">4</span>
-            </div>
+            <div class="live-marker"><span class="live-num">4</span></div>
             <div class="live-body">
-              <span class="live-tag">Sessão 4 · Mão na massa</span>
+              <span class="live-tag">Sessão 4 · Mentoria</span>
               <h3 class="live-title">
-                Seu time de Agentes de IA desenvolvendo um App de Delivery do zero ao deploy
+                Sessão de Mentoria ao vivo com Experts da DIO sobre Agentes de IA
               </h3>
               <p class="live-desc">
-                A sessão final juntando tudo. Um app de delivery construído por um time de agentes especializados, do esqueleto inicial até o deploy.
+                Espaço aberto de perguntas e respostas com Experts da DIO para destravar dúvidas sobre Agentes de IA e fechar a Week colocando tudo em prática.
               </p>
+              <ul class="chip-list" role="list" aria-label="Conceitos">
+                <li class="chip chip--muted">Todos os 12 conceitos, conforme as dúvidas</li>
+              </ul>
               <div class="live-actions">
-                <span class="btn btn--text btn--disabled" aria-disabled="true">
-                  Link em breve
-                </span>
+                <span class="btn btn--text btn--disabled" aria-disabled="true">Link em breve</span>
+                <span class="btn btn--text btn--disabled" aria-disabled="true">Resumo em breve</span>
               </div>
             </div>
           </li>
         </ol>
+
+        <p class="lives-note">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="11" width="14" height="9" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg>
+          As 4 lives são exclusivas para assinantes do <strong>DIO PRO</strong>.
+        </p>
       </div>
     </section>
 
-    <!-- Sobre -->
     <section id="sobre" class="about">
       <div class="container about-inner">
         <div class="about-block">
           <span class="section-tag">Sobre</span>
           <h2 class="about-title">DIO PRO Vitalício Week 2026</h2>
           <p class="about-text">
-            Uma semana de lives gratuitas da DIO sobre engenharia de agentes, ferramentas modernas
-            e fluxos de trabalho com IA. Esta página é o material oficial dos 7 conceitos essenciais
+            Uma semana de lives exclusivas da DIO sobre engenharia de agentes, ferramentas modernas
+            e fluxos de trabalho com IA. Esta página é o material oficial dos 12 conceitos essenciais
             que aparecem em toda a Week.
           </p>
         </div>
         <div class="about-stats" role="list">
           <div class="stat" role="listitem">
             <span class="stat-value">4</span>
-            <span class="stat-label">Lives gratuitas</span>
+            <span class="stat-label">Lives exclusivas</span>
           </div>
           <div class="stat" role="listitem">
-            <span class="stat-value">7</span>
+            <span class="stat-value">12</span>
             <span class="stat-label">Conceitos essenciais</span>
           </div>
           <div class="stat" role="listitem">
@@ -348,16 +491,9 @@
     </section>
   </main>
 
-  <!-- Footer -->
   <footer class="site-footer">
     <div class="container footer-inner">
-      <div class="footer-brand">
-        <span class="brand-mark" aria-hidden="true">
-          <span class="brand-mark__dot"></span>
-          <span class="brand-mark__bar"></span>
-        </span>
-        <span>dio.me</span>
-      </div>
+      <span class="footer-brand">dio.me</span>
       <p class="footer-note">
         Material oficial da <strong>DIO PRO Vitalício Week 2026</strong> · Agentes de IA.
       </p>

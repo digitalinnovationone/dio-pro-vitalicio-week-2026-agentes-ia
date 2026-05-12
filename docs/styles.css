@@ -208,7 +208,8 @@ code {
 }
 .nav {
   display: flex;
-  gap: clamp(16px, 3vw, 32px);
+  align-items: center;
+  gap: clamp(16px, 3vw, 28px);
   font-size: 14px;
   color: var(--on-surface-variant);
   font-weight: 500;
@@ -218,7 +219,7 @@ code {
   padding: 6px 2px;
   transition: color var(--md-sys-motion-duration-short3) var(--md-sys-motion-easing-standard);
 }
-.nav a::after {
+.nav a:not(.nav-icon)::after {
   content: '';
   position: absolute;
   left: 0; right: 0;
@@ -231,7 +232,28 @@ code {
   border-radius: 2px;
 }
 .nav a:hover { color: var(--on-surface); }
-.nav a:hover::after { transform: scaleX(1); }
+.nav a:not(.nav-icon):hover::after { transform: scaleX(1); }
+
+/* Ícone do GitHub no header */
+.nav-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: var(--md-sys-shape-corner-full);
+  color: var(--on-surface-variant);
+  margin-left: 4px;
+  transition: color var(--md-sys-motion-duration-short3) var(--md-sys-motion-easing-standard),
+              background var(--md-sys-motion-duration-short3) var(--md-sys-motion-easing-standard),
+              transform var(--md-sys-motion-duration-short3) var(--md-sys-motion-easing-emphasized-decel);
+}
+.nav-icon svg { width: 18px; height: 18px; }
+.nav-icon:hover {
+  color: var(--primary);
+  background: color-mix(in srgb, var(--primary) 12%, transparent);
+  transform: translateY(-1px);
+}
 
 /* Hero */
 .hero {
@@ -405,7 +427,7 @@ code {
   font-size: 1rem;
 }
 
-/* Features Grid (12 conceitos = 3 colunas × 4 linhas no desktop) */
+/* Features Grid */
 .features {
   padding-block: clamp(48px, 8vw, 96px);
 }
@@ -550,7 +572,6 @@ code {
 }
 .card-tip em { font-style: normal; color: var(--primary); font-family: var(--md-sys-typescale-font-mono); font-size: 0.92em; }
 
-/* Link para documentação oficial */
 .card-link {
   display: inline-flex;
   align-items: center;
@@ -568,7 +589,6 @@ code {
 
 .card--highlight { background: var(--md-sys-color-surface-container-low); }
 
-/* Nota da documentação geral */
 .docs-note {
   margin-top: 32px;
   text-align: center;
@@ -703,16 +723,6 @@ code {
   color: var(--on-surface-variant);
   font-style: italic;
 }
-.chip--all {
-  background: color-mix(in srgb, var(--tertiary) 12%, transparent);
-  border-color: color-mix(in srgb, var(--tertiary) 36%, transparent);
-  color: var(--tertiary);
-  font-weight: 600;
-}
-.live-item:hover .chip--all {
-  background: color-mix(in srgb, var(--tertiary) 20%, transparent);
-  border-color: color-mix(in srgb, var(--tertiary) 50%, transparent);
-}
 
 .live-actions {
   display: flex;
@@ -814,7 +824,6 @@ code {
 }
 .footer-brand {
   font-size: 14px;
-  color: var(--on-surface-variant);
   font-weight: 700;
   letter-spacing: -0.01em;
   background: var(--grad-brand);
@@ -830,6 +839,16 @@ code {
   min-width: 220px;
 }
 .footer-note strong { color: var(--on-surface); font-weight: 600; }
+.footer-note a {
+  color: var(--secondary);
+  border-bottom: 1px solid transparent;
+  transition: color var(--md-sys-motion-duration-short3) var(--md-sys-motion-easing-standard),
+              border-color var(--md-sys-motion-duration-short3) var(--md-sys-motion-easing-standard);
+}
+.footer-note a:hover {
+  color: var(--primary);
+  border-bottom-color: currentColor;
+}
 
 .back-top {
   width: 48px;
@@ -864,7 +883,7 @@ code {
 .back-top:hover::before { opacity: var(--md-sys-state-hover-opacity); }
 .back-top:active::before { opacity: var(--md-sys-state-pressed-opacity); }
 
-/* Reveal on scroll */
+/* Reveal */
 .js .reveal {
   opacity: 0;
   transform: translateY(24px);
@@ -886,14 +905,14 @@ code {
   .about-stats { max-width: 480px; }
 }
 @media (max-width: 720px) {
-  .nav { gap: 18px; font-size: 13.5px; }
+  .nav { gap: 14px; font-size: 13.5px; }
   .live-item { grid-template-columns: 1fr; gap: 12px; }
   .live-marker { width: 48px; height: 48px; }
   .live-num { font-size: 1.25rem; }
   .footer-inner { flex-direction: column; text-align: center; }
 }
 @media (max-width: 480px) {
-  .nav { display: none; }
+  .nav a:not(.nav-icon) { display: none; }
   .hero { padding-top: 64px; }
   .hero-meta .btn { width: 100%; }
   .about-stats { grid-template-columns: 1fr 1fr; }

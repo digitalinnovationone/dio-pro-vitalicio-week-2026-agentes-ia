@@ -6,12 +6,12 @@ Esta pasta tem um arquivo por live da **DIO PRO Vitalício Week 2026**. Cada arq
 
 | # | Arquivo | Sessão | Conceitos |
 |---|---------|--------|-----------|
-| 1 | [`sessao-1.md`](./sessao-1.md) | Setup do Claude Code para acelerar 100x a produtividade | `CLAUDE.md` `Permissions` `Plan Mode` `Slash Commands` `Context` |
+| 1 | [`sessao-1.md`](./sessao-1.md) | Setup do Claude Code para acelerar 100x a produtividade | `CLAUDE.md` `Permissions` `Plan Mode` `Context` `Compaction` |
 | 2 | [`sessao-2.md`](./sessao-2.md) | Agentes de IA Back-end, Front-end, QA e DevOps | Os 12 conceitos |
-| 3 | [`sessao-3.md`](./sessao-3.md) | Kanban ao vivo para orquestração de Agentes | `Subagents` `MCP` `Slash Commands` `Context` `Compaction` |
+| 3 | [`sessao-3.md`](./sessao-3.md) | Kanban ao vivo para orquestração de Agentes | `CLAUDE.md` `Permissions` `Plan Mode` `Skills` `Context` `Slash Commands` `Compaction` `Subagents` |
 | 4 | [`sessao-4.md`](./sessao-4.md) | Mentoria ao vivo com Experts da DIO | Todos os 12 conceitos, conforme as dúvidas |
 
-> Os arquivos começam com "em breve" e são preenchidos depois da live acontecer. As lives são exclusivas para assinantes do **DIO PRO**.
+> Cada arquivo já existe com uma nota dizendo que o resumo está em produção. Eles serão atualizados depois de cada live. As lives são exclusivas para assinantes do **DIO PRO**.
 
 ## Como os resumos são gerados
 
@@ -86,6 +86,10 @@ REGRAS:
 
 ## Sobre os 12 conceitos
 
-A página oficial com a descrição completa de cada conceito e o link da documentação está em:
+Cada conceito tem uma entrada no glossário oficial do Claude Code, que traz uma definição curta e links para a documentação completa. Use isso de referência quando estiver preenchendo os resumos:
+
+👉 https://code.claude.com/docs/en/glossary
+
+A página oficial da Week, com descrição de cada conceito em português e dicas práticas, está em:
 
 👉 https://digitalinnovationone.github.io/dio-pro-vitalicio-week-2026-agentes-ia

@@ -2,14 +2,19 @@
 
 Material exclusivo da **DIO PRO Vitalício Week**, uma semana de lives sobre como construir e orquestrar agentes de IA com Claude Code, exclusiva para assinantes do DIO PRO. Este repositório guarda os recursos de apoio das 4 lives e a página oficial com os 12 conceitos essenciais que serão usados ao longo da semana.
 
-## As 4 lives da Week
+> [!TIP]
+> **Mandaí, o app de delivery construído ao longo da Week**
+>
+> Todo o código que sai das lives é construído de forma incremental no repositório [`digitalinnovationone/mandai`](https://github.com/digitalinnovationone/mandai). Acompanhar o projeto Mandaí em paralelo é a melhor forma de ver os 12 conceitos em ação dentro de uma aplicação real, do zero ao deploy.
+
+## As 4 Lives da Week
 
 | # | Sessão | Resumo | Live |
 |---|--------|--------|------|
-| 1 | Setup do Claude Code para acelerar 100x a produtividade no desenvolvimento | [Acessar](./lives/sessao-1.md) | [Assistir](https://web.dio.me/lives/setup-do-claude-code-para-acelerar-100x-a-produtividade-no-desenvolvimento) |
+| 1 | Setup do Claude Code para Acelerar 100x a Produtividade no Desenvolvimento | [Acessar](./lives/sessao-1.md) | [Assistir](https://web.dio.me/lives/setup-do-claude-code-para-acelerar-100x-a-produtividade-no-desenvolvimento) |
 | 2 | Construindo Agentes de IA Back-end, Front-end, QA e DevOps com Claude Code | [Acessar](./lives/sessao-2.md) | [Assistir](https://web.dio.me/lives/construindo-os-agentes-de-inteligencia-artificial-back-end-front-end-qa-e-devops-com-claude-code) |
-| 3 | Criação do Kanban ao vivo para orquestração do seu time de Agentes de IA | [Acessar](./lives/sessao-3.md) | [Assistir](https://web.dio.me/lives/criacao-do-kanban-ao-vivo-para-orquestracao-do-seu-time-de-agentes-de-ai) |
-| 4 | Sessão de Mentoria ao vivo com Experts da DIO sobre Agentes de IA | [Acessar](./lives/sessao-4.md) | *em breve* |
+| 3 | Criação do Kanban para Orquestração do Seu Time de Agentes de IA | [Acessar](./lives/sessao-3.md) | [Assistir](https://web.dio.me/lives/criacao-do-kanban-ao-vivo-para-orquestracao-do-seu-time-de-agentes-de-ai) |
+| 4 | Sessão de Mentoria com Experts da DIO sobre Agentes de IA | [Acessar](./lives/sessao-4.md) | *em breve* |
 
 > As lives são exclusivas para assinantes do **DIO PRO**. A Sessão 2 apresenta os 12 conceitos de forma conceitual e mostra como este repositório está organizado.
 

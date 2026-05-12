@@ -1,4 +1,4 @@
-# Sessão 1: Setup do Claude Code para acelerar 100x a produtividade no desenvolvimento
+# Sessão 1: Setup do Claude Code para Acelerar 100x a Produtividade no Desenvolvimento
 
 > Link da live: https://web.dio.me/lives/setup-do-claude-code-para-acelerar-100x-a-produtividade-no-desenvolvimento
 >
@@ -14,7 +14,7 @@ O processo completo, incluindo o prompt usado, está documentado no [README da p
 
 Enquanto isso, você pode:
 
-- [Assistir à live ao vivo na DIO](https://web.dio.me/lives/setup-do-claude-code-para-acelerar-100x-a-produtividade-no-desenvolvimento) (exclusivo para assinantes do DIO PRO)
+- [Assistir à live na DIO](https://web.dio.me/lives/setup-do-claude-code-para-acelerar-100x-a-produtividade-no-desenvolvimento) (exclusivo para assinantes do DIO PRO)
 - Conferir a [página oficial com os 12 conceitos](https://digitalinnovationone.github.io/dio-pro-vitalicio-week-2026-agentes-ia)
 - Voltar para o [índice das sessões](./README.md)
 

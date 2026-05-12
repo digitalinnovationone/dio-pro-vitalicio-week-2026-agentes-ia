@@ -16,7 +16,7 @@ O processo completo, incluindo o prompt usado, está documentado no [README da p
 
 Enquanto isso, você pode:
 
-- [Assistir à live ao vivo na DIO](https://web.dio.me/lives/construindo-os-agentes-de-inteligencia-artificial-back-end-front-end-qa-e-devops-com-claude-code) (exclusivo para assinantes do DIO PRO)
+- [Assistir à live na DIO](https://web.dio.me/lives/construindo-os-agentes-de-inteligencia-artificial-back-end-front-end-qa-e-devops-com-claude-code) (exclusivo para assinantes do DIO PRO)
 - Conferir a [página oficial com os 12 conceitos](https://digitalinnovationone.github.io/dio-pro-vitalicio-week-2026-agentes-ia)
 - Voltar para o [índice das sessões](./README.md)
 

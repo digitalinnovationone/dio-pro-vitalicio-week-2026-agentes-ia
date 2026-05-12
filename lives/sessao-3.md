@@ -1,4 +1,4 @@
-# Sessão 3: Criação do Kanban ao vivo para orquestração do seu time de Agentes de IA
+# Sessão 3: Criação do Kanban para Orquestração do Seu Time de Agentes de IA
 
 > Link da live: https://web.dio.me/lives/criacao-do-kanban-ao-vivo-para-orquestracao-do-seu-time-de-agentes-de-ai
 >
@@ -14,7 +14,7 @@ O processo completo, incluindo o prompt usado, está documentado no [README da p
 
 Enquanto isso, você pode:
 
-- [Assistir à live ao vivo na DIO](https://web.dio.me/lives/criacao-do-kanban-ao-vivo-para-orquestracao-do-seu-time-de-agentes-de-ai) (exclusivo para assinantes do DIO PRO)
+- [Assistir à live na DIO](https://web.dio.me/lives/criacao-do-kanban-ao-vivo-para-orquestracao-do-seu-time-de-agentes-de-ai) (exclusivo para assinantes do DIO PRO)
 - Conferir a [página oficial com os 12 conceitos](https://digitalinnovationone.github.io/dio-pro-vitalicio-week-2026-agentes-ia)
 - Voltar para o [índice das sessões](./README.md)
 

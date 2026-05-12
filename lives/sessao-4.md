@@ -1,4 +1,4 @@
-# Sessão 4: Sessão de Mentoria ao vivo com Experts da DIO sobre Agentes de Inteligência Artificial
+# Sessão 4: Sessão de Mentoria com Experts da DIO sobre Agentes de Inteligência Artificial
 
 > Link da live: *em breve*
 >

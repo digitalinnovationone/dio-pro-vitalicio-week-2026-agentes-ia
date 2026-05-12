@@ -8,7 +8,7 @@ Esta pasta tem um arquivo por live da **DIO PRO Vitalício Week 2026**. Cada arq
 |---|---------|--------|-----------|
 | 1 | [`sessao-1.md`](./sessao-1.md) | Setup do Claude Code para acelerar 100x a produtividade | `CLAUDE.md` `Permissions` `Plan Mode` `Context` `Compaction` |
 | 2 | [`sessao-2.md`](./sessao-2.md) | Agentes de IA Back-end, Front-end, QA e DevOps | Os 12 conceitos |
-| 3 | [`sessao-3.md`](./sessao-3.md) | Kanban ao vivo para orquestração de Agentes | `CLAUDE.md` `Permissions` `Plan Mode` `Skills` `Context` `Slash Commands` `Compaction` `Subagents` |
+| 3 | [`sessao-3.md`](./sessao-3.md) | Kanban ao vivo para orquestração de Agentes | `CLAUDE.md` `Permissions` `Plan Mode` `Skills` `Context` `Commands` `Compaction` `Subagents` |
 | 4 | [`sessao-4.md`](./sessao-4.md) | Mentoria ao vivo com Experts da DIO | Todos os 12 conceitos, conforme as dúvidas |
 
 > Cada arquivo já existe com uma nota dizendo que o resumo está em produção. Eles serão atualizados depois de cada live. As lives são exclusivas para assinantes do **DIO PRO**.
@@ -61,7 +61,7 @@ Os 12 conceitos são:
 7. MCP (Model Context Protocol)
 8. Plugins
 9. Context
-10. Slash Commands
+10. Commands
 11. Compaction
 12. Subagents
 

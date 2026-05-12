@@ -2,7 +2,7 @@
 
 > Link da live: https://web.dio.me/lives/criacao-do-kanban-ao-vivo-para-orquestracao-do-seu-time-de-agentes-de-ai
 >
-> **Conceitos abordados:** `CLAUDE.md` `Permissions` `Plan Mode` `Skills` `Context` `Slash Commands` `Compaction` `Subagents`
+> **Conceitos abordados:** `CLAUDE.md` `Permissions` `Plan Mode` `Skills` `Context` `Commands` `Compaction` `Subagents`
 
 ---
 

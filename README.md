@@ -7,8 +7,8 @@ Material exclusivo da **DIO PRO Vitalício Week**, uma semana de lives sobre com
 | # | Sessão | Conceitos | Resumo | Live |
 |---|--------|-----------|--------|------|
 | 1 | Setup do Claude Code para acelerar 100x a produtividade no desenvolvimento | `CLAUDE.md` `Permissions` `Plan Mode` `Context` `Compaction` | [Acessar](./lives/sessao-1.md) | [Assistir](https://web.dio.me/lives/setup-do-claude-code-para-acelerar-100x-a-produtividade-no-desenvolvimento) |
-| 2 | Construindo Agentes de IA Back-end, Front-end, QA e DevOps com Claude Code | `CLAUDE.md` `Permissions` `Plan Mode` `Checkpoints` `Skills` `Hooks` `MCP` `Plugins` `Context` `Slash Commands` `Compaction` `Subagents` | [Acessar](./lives/sessao-2.md) | [Assistir](https://web.dio.me/lives/construindo-os-agentes-de-inteligencia-artificial-back-end-front-end-qa-e-devops-com-claude-code) |
-| 3 | Criação do Kanban ao vivo para orquestração do seu time de Agentes de IA | `CLAUDE.md` `Permissions` `Plan Mode` `Skills` `Context` `Slash Commands` `Compaction` `Subagents` | [Acessar](./lives/sessao-3.md) | [Assistir](https://web.dio.me/lives/criacao-do-kanban-ao-vivo-para-orquestracao-do-seu-time-de-agentes-de-ai) |
+| 2 | Construindo Agentes de IA Back-end, Front-end, QA e DevOps com Claude Code | `CLAUDE.md` `Permissions` `Plan Mode` `Checkpoints` `Skills` `Hooks` `MCP` `Plugins` `Context` `Commands` `Compaction` `Subagents` | [Acessar](./lives/sessao-2.md) | [Assistir](https://web.dio.me/lives/construindo-os-agentes-de-inteligencia-artificial-back-end-front-end-qa-e-devops-com-claude-code) |
+| 3 | Criação do Kanban ao vivo para orquestração do seu time de Agentes de IA | `CLAUDE.md` `Permissions` `Plan Mode` `Skills` `Context` `Commands` `Compaction` `Subagents` | [Acessar](./lives/sessao-3.md) | [Assistir](https://web.dio.me/lives/criacao-do-kanban-ao-vivo-para-orquestracao-do-seu-time-de-agentes-de-ai) |
 | 4 | Sessão de Mentoria ao vivo com Experts da DIO sobre Agentes de IA | N/A | [Acessar](./lives/sessao-4.md) | *em breve* |
 
 > As lives são exclusivas para assinantes do **DIO PRO**. A Sessão 2 passa teoricamente pelos 12 conceitos e apresenta este repositório.
@@ -30,7 +30,7 @@ Os 12 conceitos, na ordem em que costumam aparecer:
 7. **MCP**: protocolo aberto para conectar ferramentas externas
 8. **Plugins**: extensões que empacotam Skills, Subagents, comandos e Hooks
 9. **Context**: gestão do que está na janela de contexto atual
-10. **Slash Commands**: atalhos para fluxos recorrentes
+10. **Commands**: atalhos para fluxos recorrentes
 11. **Compaction**: compressão de conversas longas
 12. **Subagents**: especialistas paralelos com contexto próprio
 

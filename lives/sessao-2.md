@@ -2,7 +2,7 @@
 
 > Link da live: https://web.dio.me/lives/construindo-os-agentes-de-inteligencia-artificial-back-end-front-end-qa-e-devops-com-claude-code
 >
-> **Conceitos abordados:** os 12 conceitos essenciais (`CLAUDE.md` `Permissions` `Plan Mode` `Checkpoints` `Skills` `Hooks` `MCP` `Plugins` `Context` `Slash Commands` `Compaction` `Subagents`)
+> **Conceitos abordados:** os 12 conceitos essenciais (`CLAUDE.md` `Permissions` `Plan Mode` `Checkpoints` `Skills` `Hooks` `MCP` `Plugins` `Context` `Commands` `Compaction` `Subagents`)
 
 ---
 

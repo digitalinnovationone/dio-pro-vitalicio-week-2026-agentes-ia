@@ -20,46 +20,58 @@ Esta pasta tem um arquivo por live da **DIO PRO Vitalício Week 2026**. Cada arq
 ### Prompt usado
 
 ```text
-Você vai receber a transcrição de uma live da DIO PRO Vitalício Week 2026
-sobre Claude Code e agentes de IA. Gere um resumo em português brasileiro,
-seguindo a estrutura abaixo.
+Você vai receber a transcrição de uma live da DIO PRO Vitalício Week sobre Claude Code e agentes de IA.
 
-# Sessão N: <título da live>
+Gere um resumo em português brasileiro, seguindo a estrutura abaixo.
 
-> Link da live: <URL>
+# [NOME DA LIVE AQUI]
+
+> Link da live: [LINK DA LIVE NA DIO AQUI]
 
 ## Resumo Executivo
+
 2 a 3 parágrafos com os pontos centrais da live. Voz ativa, linguagem direta.
 
 ## Linha do Tempo
+
 Tabela com 6 a 12 marcos da live:
 
-| Tempo | Momento |
-| HH:MM | descrição curta do que acontece |
+| Tempo    | Momento                                  |
+|----------|------------------------------------------|
+| HH:MM:SS | descrição curta do que acontece          |
 
-## Conceitos Apresentados
-Liste APENAS os conceitos do Claude Code que aparecem na live. Para cada um,
-informe o timestamp em que aparece e descreva, em 1 ou 2 frases, como foi
-usado na prática.
+## Conceitos Explorados
 
-Os conceitos possíveis são: CLAUDE.md, Permissions, Plan Mode, Checkpoints,
-Skills, Hooks, MCP, Plugins, Context, Commands, Compaction e Subagents.
+Liste APENAS os conceitos do Claude Code que aparecem na live.
+
+Para cada um, informe o timestamp em que aparece e descreva, em 1 ou 2 frases, como foi usado na prática.
+
+Os conceitos possíveis são, usando como tags/code:
+
+- `CLAUDE.md`
+- `Permissions`
+- `Plan Mode`
+- `Checkpoints`
+- `Skills`
+- `Hooks`
+- `MCP`
+- `Plugins`
+- `Context`
+- `Commands`
+- `Compaction`
+- `Subagents`
+
 Se um conceito não for abordado, simplesmente não inclua na lista.
 
 ## Principais Aprendizados
+
 4 a 6 bullets com aprendizados acionáveis que o aluno deve levar da live.
 
-## Links e Recursos
-Liste todas as URLs, ferramentas, bibliotecas, documentações e repositórios
-citados durante a live.
+## Regras
 
-## Próximos Passos
-2 a 4 ações concretas que o aluno pode fazer logo após assistir.
-
-REGRAS:
-- Não invente conteúdo. Se algo não está na transcrição, não inclua.
+- Não invente conteúdo, mas complemente conceitos quando isso melhorar a didática.
 - Linguagem clara e direta, em português brasileiro.
-- Sem travessões longos ou textos genéricos de IA.
+- Sem travessões ou outros jargões de IA Generativa, o texto deve soar natural.
 ```
 
 ## Sobre os 12 conceitos

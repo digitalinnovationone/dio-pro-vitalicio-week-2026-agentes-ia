@@ -1,0 +1,7259 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:05.400
+Antes de conhecer a DIU, eu sempre tive uma dificuldade nesse primeiro degrau, sabe?
+
+00:00:05.400 --> 00:00:12.800
+Subir esse primeiro degrau da programação, começar a entender como que as coisas se comunicam dentro da programação em si, né?
+
+00:00:12.800 --> 00:00:18.400
+Eu sentia muita dificuldade em encontrar cursos bons e rápidos, com aquela duração bem rápida que eu precisava.
+
+00:00:18.400 --> 00:00:24.200
+Tinha bastante dificuldade em localizar conteúdo atualizado e bem organizado,
+
+00:00:24.200 --> 00:00:30.200
+pra que a gente pudesse começar numa parte mais básica e fosse avançando até realmente ficar um expert no assunto.
+
+00:00:30.200 --> 00:00:37.599
+Eu costumava ter muita dificuldade de encontrar materiais que disposasse de uma didática de fácil compreensão para iniciantes da área.
+
+00:00:37.599 --> 00:00:44.000
+Com pessoas na prática me ensinando, mostrando situações reais, foi um tira daquele medo.
+
+00:00:44.000 --> 00:00:46.599
+E eu percebi que eu tinha um pouco de medo, né?
+
+00:00:46.599 --> 00:00:53.400
+Que é uma plataforma rica de conteúdo, de material que envolva não somente as áreas relacionadas ao desenvolvimento,
+
+00:00:53.400 --> 00:00:58.400
+como as áreas relacionadas à inteligência artificial, data science, entre outras.
+
+00:00:58.400 --> 00:01:03.599
+A gente já sabe que a DIU, o plano básico, que é de graça, já oferece inúmeras vantagens.
+
+00:01:03.599 --> 00:01:07.400
+Se já oferece inúmeras vantagens, por que a gente deveria assinar o plano próprio?
+
+00:01:07.400 --> 00:01:11.400
+Se você quer estudar de front-end e back-end, você consegue.
+
+00:01:11.400 --> 00:01:15.199
+Se você quer arrumar o seu portfólio, é totalmente válido.
+
+00:01:15.199 --> 00:01:17.000
+O que você quiser, tá ali.
+
+00:01:17.000 --> 00:01:21.400
+Eu tinha acesso a somente um bootcamp por vez, com o plano free.
+
+00:01:21.400 --> 00:01:24.199
+Com o plano pro, eu tenho acesso a quatro.
+
+00:01:24.199 --> 00:01:28.000
+Estou fazendo esses quatro bootcamps ao mesmo tempo.
+
+00:01:28.000 --> 00:01:31.400
+Desde o meu primeiro bootcamp, após a realização desse primeiro bootcamp,
+
+00:01:31.400 --> 00:01:37.800
+várias oportunidades surgiram, desde entrevistas de emprego, conhecer novos profissionais.
+
+00:01:37.800 --> 00:01:41.400
+E é uma plataforma que, no começo, eu achava que só pegava para a galera iniciante,
+
+00:01:41.400 --> 00:01:46.199
+mas tem muito problema porque já está na área, as acelerações, está pleno de sênios.
+
+00:01:46.199 --> 00:01:51.800
+Hoje eu sou estagiário barra aprendiz numa empresa de software aqui em Goiânia.
+
+00:01:51.800 --> 00:01:57.199
+E, com certeza, a DIU me ajudou a conquistar essa vaga porque eu fiz uns projetos dentro do bootcamp
+
+00:01:57.199 --> 00:02:00.800
+que foram essenciais na hora de mostrar para o pessoal dessa empresa.
+
+00:02:00.800 --> 00:02:07.199
+E, graças a toda essa informação, hoje eu trabalho como TA numa boa empresa aqui em São Paulo.
+
+00:02:07.199 --> 00:02:11.000
+Esse serviço foi uma das maiores empresas de rastreamento no Brasil.
+
+00:02:11.000 --> 00:02:19.000
+A tecnologia e, especificamente, por conta de cursos com certificação da DIU em desenvolvimento Android e Kotlin,
+
+00:02:19.000 --> 00:02:21.399
+que eu consegui meu primeiro trabalho.
+
+00:02:21.399 --> 00:02:30.199
+Após a DIU Pro, só tive experiências positivas, participações de bootcamps, processos seletivos.
+
+00:02:30.199 --> 00:02:33.199
+Então, a DIU Pro, ela está arrasando.
+
+00:02:33.199 --> 00:02:35.800
+Vamos para a frente e liga a logotipa.
+
+00:02:41.000 --> 00:02:56.000
+Fala, galera. Muito boa noite. Sejam todos bem-vindos e bem-vindas a mais uma live.
+
+00:02:56.000 --> 00:03:04.000
+Hoje, construindo agentes de inteligência artificial, nós vamos trabalhar nos nossos agentes de back-end, front-end, QA, DevOps.
+
+00:03:04.000 --> 00:03:07.000
+E vamos explorar ainda mais o Cloud Code, né, Vart?
+
+00:03:07.000 --> 00:03:10.000
+Como vocês já fizeram na primeira live.
+
+00:03:10.000 --> 00:03:15.000
+O Oswaldo e o Felipão codaram com vocês a primeira sessão, né, galera?
+
+00:03:15.000 --> 00:03:18.000
+A gente teve um feedback incrível de todo mundo.
+
+00:03:18.000 --> 00:03:21.000
+E, obviamente, a gente vai avançar ainda mais.
+
+00:03:21.000 --> 00:03:25.000
+Hoje vão ter alguns momentos incríveis que a gente vai poder compartilhar com vocês.
+
+00:03:25.000 --> 00:03:31.000
+Além de alguns materiais complementares, alguns bônus que a gente já tinha conversado antes.
+
+00:03:31.000 --> 00:03:36.000
+Nós vamos estar disponibilizando e conversando com vocês ao longo da live, beleza, galera?
+
+00:03:36.000 --> 00:03:40.000
+Manda aí de onde você está falando no chat. Já vi que tem um pessoal mandando boa noite aí.
+
+00:03:40.000 --> 00:03:44.000
+A galera está entrando. E, mais uma vez, obrigado pela presença de todos.
+
+00:03:44.000 --> 00:03:47.000
+E boa noite, Oswaldo. Tamo junto, mano.
+
+00:03:47.000 --> 00:03:50.000
+Fala, Venilton. Fala, comunidade. Tudo bem?
+
+00:03:50.000 --> 00:03:55.000
+Boa noite para todo mundo aí, para todas e todos que estão chegando com a gente nessa live.
+
+00:03:55.000 --> 00:04:00.000
+Mais uma vez, né, Venilton? Deixa eu começar aqui me apresentando.
+
+00:04:00.000 --> 00:04:06.000
+Porque o Venilton, o Filipão são pessoas bastante conhecidas dentro da comunidade, né?
+
+00:04:06.000 --> 00:04:10.000
+Mas eu estou começando, Venilton, um pouco dessa jornada aí.
+
+00:04:10.000 --> 00:04:14.000
+Pessoal, eu sou o Oswaldo Neto, também conhecido como Varte.
+
+00:04:14.000 --> 00:04:16.000
+Então, a partir de agora, eu sou o Varte.
+
+00:04:16.000 --> 00:04:21.000
+Sou aqui de Araraquara e sou o CTO aqui na GIO.
+
+00:04:21.000 --> 00:04:26.000
+E, Venilton, eu uso o Cloud Code todos os dias, né?
+
+00:04:26.000 --> 00:04:29.000
+Assim como o nosso time aqui de desenvolvimento.
+
+00:04:29.000 --> 00:04:35.000
+E eu também estou vendo agora os outros times da GIO também se aventurando ali no Cloud Code, né?
+
+00:04:35.000 --> 00:04:39.000
+Todo mundo começa com o Cloud, mas eu estou vendo muita gente chegando em mim.
+
+00:04:39.000 --> 00:04:40.000
+Oswaldo, como que eu faço isso?
+
+00:04:40.000 --> 00:04:43.000
+Estou desenvolvendo isso aqui no Cloud Code.
+
+00:04:43.000 --> 00:04:50.000
+Então, por isso que a gente está trazendo também um pouco dessa temática nesse mês.
+
+00:04:50.000 --> 00:04:55.000
+Para todo mundo aí que é assinante pró, está tendo esse benefício
+
+00:04:55.000 --> 00:04:59.000
+de ter essa ideia, esse passo a passo, um pouco do que a gente fez na live anterior.
+
+00:04:59.000 --> 00:05:06.000
+E hoje, eu pretendo trazer um pouco de temas intermediários, talvez até um pouco mais avançados aqui
+
+00:05:06.000 --> 00:05:12.000
+para a gente poder expandir aquilo, Venilton, que a gente viu na live anterior.
+
+00:05:12.000 --> 00:05:17.000
+Inclusive, quem não conseguiu ver a live anterior, acho que vale a pena comentar, né, Venilton?
+
+00:05:17.000 --> 00:05:20.000
+Cara, muito bem colocado, pessoal.
+
+00:05:20.000 --> 00:05:26.000
+Lá na parte de mentorias na plataforma da GIO, eu vou até compartilhar com vocês aqui
+
+00:05:26.000 --> 00:05:28.000
+para ninguém perder, né?
+
+00:05:28.000 --> 00:05:34.000
+Para a galera que eventualmente perdeu aí uma das lives ou quer rever ali o conteúdo,
+
+00:05:34.000 --> 00:05:36.000
+vocês podem estar acessando, né?
+
+00:05:36.000 --> 00:05:39.000
+Então, eu vou compartilhar aqui com vocês.
+
+00:05:39.000 --> 00:05:42.000
+Ó, é bem simples, galera.
+
+00:05:42.000 --> 00:05:46.000
+É só entrar aqui, ó, na plataforma da GIO.
+
+00:05:47.000 --> 00:05:51.000
+Então, aqui vocês podem vir na parte de cursos aqui, né, ó.
+
+00:05:52.000 --> 00:05:54.000
+E filtrar por mentorias, né?
+
+00:05:54.000 --> 00:06:00.000
+Então, isso já vai fazer com que as sessões aqui, ó, exclusivas da galera que é de Upro
+
+00:06:00.000 --> 00:06:04.000
+já estejam em evidência aqui como as últimas três lives, né?
+
+00:06:04.000 --> 00:06:08.000
+Inclusive, a live do futuro aí, vamos dizer assim, né, que é a sessão três.
+
+00:06:08.000 --> 00:06:10.000
+Então, todas elas vão estar listadas aqui, tá, pessoal?
+
+00:06:10.000 --> 00:06:13.000
+Então, é só acessar aqui.
+
+00:06:13.000 --> 00:06:16.000
+Então, quem não teve a oportunidade de participar da sessão um aqui, né,
+
+00:06:16.000 --> 00:06:20.000
+que foi o setup do Cloud aí, acessa lá, já está tudo disponível.
+
+00:06:20.000 --> 00:06:23.000
+A gente já está com quase duas mil visualizações lá dentro da plataforma.
+
+00:06:23.000 --> 00:06:25.000
+Então, muita gente acessando.
+
+00:06:25.000 --> 00:06:29.000
+E hoje a gente vai falar também um pouquinho do que rolou.
+
+00:06:29.000 --> 00:06:31.000
+Vai ter aí um recapizinho, né, Vart?
+
+00:06:31.000 --> 00:06:36.000
+A gente também preparou um resuminho dessa live dentro dos materiais bônus
+
+00:06:36.000 --> 00:06:39.000
+que a gente vai disponibilizar para vocês.
+
+00:06:39.000 --> 00:06:42.000
+Então, quem perdeu, fica por aqui, né?
+
+00:06:42.000 --> 00:06:47.000
+Acompanha a live de hoje e depois não deixe de vir aqui filtrar mentorias
+
+00:06:47.000 --> 00:06:52.000
+para poder ter acesso aqui aos conteúdos que eventualmente vocês não puderam assistir
+
+00:06:52.000 --> 00:06:55.000
+ao vivo aqui com a gente, mas eles vão estar todos lá disponíveis
+
+00:06:55.000 --> 00:06:57.000
+para a galera que é de Upro, beleza?
+
+00:06:57.000 --> 00:06:59.000
+Com certeza, né, Venuto?
+
+00:06:59.000 --> 00:07:02.000
+Eu estou vendo aqui sempre, assim, na comunidade da Gil,
+
+00:07:02.000 --> 00:07:04.000
+ela é no Brasil inteiro, né?
+
+00:07:04.000 --> 00:07:07.000
+Então, tem gente de BH, Vinícius aí de BH.
+
+00:07:07.000 --> 00:07:10.000
+O Herman aqui, ó, da Bahia.
+
+00:07:10.000 --> 00:07:13.000
+São João do Meriti, Rio de Janeiro.
+
+00:07:13.000 --> 00:07:15.000
+Paulínia, o Everton.
+
+00:07:15.000 --> 00:07:19.000
+Então, sempre tem pessoal, assim, de todo lugar
+
+00:07:19.000 --> 00:07:24.000
+querendo estar com a gente aqui para poder aprender um pouquinho mais nessa noite.
+
+00:07:25.000 --> 00:07:27.000
+Boa. É isso aí, galera.
+
+00:07:27.000 --> 00:07:30.000
+E, assim, uma coisa bacana, né, dos agentes de A,
+
+00:07:30.000 --> 00:07:33.000
+como o próprio Vart acabou de comentar, né,
+
+00:07:33.000 --> 00:07:37.000
+são tecnologias que acabam democratizando bastante
+
+00:07:37.000 --> 00:07:40.000
+essa parte da tecnologia que, muitas vezes, é complexo
+
+00:07:40.000 --> 00:07:43.000
+para times que não são de desenvolvimento, né, Vart?
+
+00:07:43.000 --> 00:07:45.000
+Então, o Vart comentou do time de educação,
+
+00:07:45.000 --> 00:07:47.000
+o time de marketing, a galera que, às vezes,
+
+00:07:47.000 --> 00:07:50.000
+não tem tanta familiaridade com tecnologia
+
+00:07:50.000 --> 00:07:54.000
+acaba também enxergando possibilidades de criar soluções,
+
+00:07:54.000 --> 00:07:56.000
+de realmente estruturar os seus próprios agentes,
+
+00:07:56.000 --> 00:08:02.000
+porque é algo tangível até para quem não é especialista em tecnologia, né?
+
+00:08:02.000 --> 00:08:04.000
+Então, assiste lá a live anterior.
+
+00:08:04.000 --> 00:08:07.000
+O Oswaldo e o Filipão mostram certinho ali
+
+00:08:07.000 --> 00:08:11.000
+a parte das configurações, como colocar o seu Cloud Code aí para jogo.
+
+00:08:11.000 --> 00:08:13.000
+Explicam uma série de coisas, né?
+
+00:08:13.000 --> 00:08:15.000
+Então, vale muito a pena.
+
+00:08:15.000 --> 00:08:19.000
+Mas hoje aqui a gente vai ter um foco avançando nessa jornada, né?
+
+00:08:19.000 --> 00:08:21.000
+O nosso objetivo aqui é desenvolver um produto
+
+00:08:21.000 --> 00:08:23.000
+ao longo de três lives apenas, né?
+
+00:08:23.000 --> 00:08:25.000
+Então, vão ser três lives para criar um produto.
+
+00:08:25.000 --> 00:08:28.000
+Depois a gente vai ter uma outra live com foco aí
+
+00:08:28.000 --> 00:08:30.000
+num bate-papo para a gente poder trocar uma ideia,
+
+00:08:30.000 --> 00:08:32.000
+tirar dúvidas e tal.
+
+00:08:32.000 --> 00:08:35.000
+Então, vai ser super legal poder contar com a presença de vocês aí.
+
+00:08:35.000 --> 00:08:38.000
+Então, bora para mais uma aí, Vart.
+
+00:08:38.000 --> 00:08:42.000
+É isso aí, Vinilton. E hoje vamos tentar já deixar assim claro
+
+00:08:42.000 --> 00:08:45.000
+o que a gente vai ver nessa mentoria hoje, tá?
+
+00:08:45.000 --> 00:08:48.000
+Então, na mentoria passada, como o Vinilton comentou,
+
+00:08:48.000 --> 00:08:52.000
+a gente viu os primeiros passos com o Cloud Code, tá?
+
+00:08:52.000 --> 00:08:55.000
+Como instalar, quais são os conceitos fundamentais dele.
+
+00:08:55.000 --> 00:08:57.000
+Hoje a gente vai dar um passo a mais.
+
+00:08:57.000 --> 00:09:00.000
+Vamos tentar criar um sistema do zero aqui,
+
+00:09:00.000 --> 00:09:02.000
+um pouco mais elaborado.
+
+00:09:02.000 --> 00:09:04.000
+Então, nós vamos começar, Vinilton,
+
+00:09:04.000 --> 00:09:06.000
+falando um pouco sobre o Cloud Design.
+
+00:09:06.000 --> 00:09:08.000
+Você já ouviu falar do Cloud Design?
+
+00:09:08.000 --> 00:09:11.000
+Cara, eu vim falar por você aí
+
+00:09:11.000 --> 00:09:14.000
+nas últimas vezes que a gente comentou.
+
+00:09:14.000 --> 00:09:17.000
+Eu vi que você comentou um pouquinho na primeira live, né?
+
+00:09:17.000 --> 00:09:20.000
+Mostrou ali um pouquinho de como você tinha desenhado ali as telas.
+
+00:09:20.000 --> 00:09:23.000
+Bem por cima, mas assim,
+
+00:09:23.000 --> 00:09:26.000
+deu para ver que tem um potencial incrível assim, né, cara?
+
+00:09:26.000 --> 00:09:30.000
+Para a prototipação e criação ali de telas
+
+00:09:30.000 --> 00:09:33.000
+de uma maneira mega profissional, né, cara?
+
+00:09:33.000 --> 00:09:35.000
+Eu achei um negócio muito absurdo a qualidade
+
+00:09:35.000 --> 00:09:37.000
+de conquistar as telas ali.
+
+00:09:37.000 --> 00:09:38.000
+Exatamente.
+
+00:09:38.000 --> 00:09:41.000
+O foco, Vinilton, não é a gente entrar muito no detalhe do Cloud Design.
+
+00:09:41.000 --> 00:09:45.000
+Talvez valha até a gente ter uma mentoria exclusiva disso, né?
+
+00:09:45.000 --> 00:09:47.000
+Talvez nos próximos meses.
+
+00:09:47.000 --> 00:09:50.000
+Mas a gente vai ver o básico mesmo ali do Cloud Design
+
+00:09:50.000 --> 00:09:52.000
+para a gente poder sair do zero
+
+00:09:52.000 --> 00:09:55.000
+com um protótipo, vamos dizer assim, de alta fidelidade.
+
+00:09:56.000 --> 00:09:59.000
+Que é o primeiro passo normalmente que um time de desenvolvimento
+
+00:09:59.000 --> 00:10:01.000
+tem ali, é ter um protótipo.
+
+00:10:01.000 --> 00:10:03.000
+O que a gente vai construir?
+
+00:10:03.000 --> 00:10:07.000
+Depois, nós vamos ver três formas diferentes, Vinilton,
+
+00:10:07.000 --> 00:10:09.000
+hoje, de criar agentes, tá?
+
+00:10:09.000 --> 00:10:11.000
+Porque o Cloud Code tem isso, né?
+
+00:10:11.000 --> 00:10:14.000
+Ele tem várias formas de você criar agentes.
+
+00:10:14.000 --> 00:10:17.000
+E cada uma serve normalmente para um propósito,
+
+00:10:17.000 --> 00:10:19.000
+resolve um tipo de problema.
+
+00:10:19.000 --> 00:10:22.000
+Então hoje a gente vai ver três diferentes, tá?
+
+00:10:22.000 --> 00:10:24.000
+E uma delas é a mais incrível,
+
+00:10:24.000 --> 00:10:27.000
+que é realmente a gente colocar um time inteiro
+
+00:10:27.000 --> 00:10:29.000
+para trabalhar sozinho, tá?
+
+00:10:29.000 --> 00:10:32.000
+Para poder desenvolver uma funcionalidade.
+
+00:10:32.000 --> 00:10:35.000
+Boa, boa. Vamos para cima.
+
+00:10:36.000 --> 00:10:37.000
+Bom demais.
+
+00:10:37.000 --> 00:10:39.000
+Então vamos lá, vamos começar, pessoal?
+
+00:10:39.000 --> 00:10:42.000
+Se tiver qualquer dúvida aqui, fiquem à vontade.
+
+00:10:42.000 --> 00:10:43.000
+Coloca aqui no chat.
+
+00:10:43.000 --> 00:10:45.000
+Eu vi que o pessoal aqui continua colocando
+
+00:10:45.000 --> 00:10:48.000
+onde é, Divinópolis, Cuiabá, Rio de Janeiro,
+
+00:10:48.000 --> 00:10:49.000
+bastante gente do Rio de Janeiro.
+
+00:10:49.000 --> 00:10:51.000
+No Brasil inteiro, bastante gente do Rio de Janeiro.
+
+00:10:51.000 --> 00:10:53.000
+Tá frio aí no Rio? Acho que não, né?
+
+00:10:53.000 --> 00:10:56.000
+Aqui no interior de São Paulo tá frio.
+
+00:10:56.000 --> 00:10:57.000
+No interior tá frio, galera.
+
+00:10:57.000 --> 00:11:01.000
+A gente tá com camiseta aqui só para fazer uma média,
+
+00:11:01.000 --> 00:11:03.000
+mas tá friozinho.
+
+00:11:03.000 --> 00:11:04.000
+É isso aí.
+
+00:11:04.000 --> 00:11:06.000
+Então vamos lá, Vinilton.
+
+00:11:06.000 --> 00:11:08.000
+Vinilton, vou começar aqui.
+
+00:11:08.000 --> 00:11:12.000
+Vamos colocar a minha tela, se você puder compartilhar.
+
+00:11:12.000 --> 00:11:14.000
+Eu vou tirar vocês aqui de lado,
+
+00:11:14.000 --> 00:11:17.000
+eu vou conversar com vocês aqui do lado, tá bom?
+
+00:11:17.000 --> 00:11:18.000
+Legal.
+
+00:11:18.000 --> 00:11:20.000
+Então, como eu falei para vocês, pessoal,
+
+00:11:20.000 --> 00:11:23.000
+sempre que a gente começa um produto,
+
+00:11:23.000 --> 00:11:26.000
+vamos desenvolver um produto,
+
+00:11:26.000 --> 00:11:29.000
+você participa daquelas agendas, né?
+
+00:11:29.000 --> 00:11:31.000
+Com o time de negócio, com o stakeholder,
+
+00:11:31.000 --> 00:11:34.000
+com quem realmente tá patrocinando ali
+
+00:11:34.000 --> 00:11:37.000
+normalmente o desenvolvimento do produto.
+
+00:11:37.000 --> 00:11:41.000
+E dessas agendas, é normal sair alguns documentos, né?
+
+00:11:41.000 --> 00:11:43.000
+Uma lista, por exemplo, de requisitos
+
+00:11:43.000 --> 00:11:45.000
+que normalmente sai,
+
+00:11:45.000 --> 00:11:47.000
+quais os principais requisitos o produto tem,
+
+00:11:47.000 --> 00:11:49.000
+que problema ele resolve.
+
+00:11:49.000 --> 00:11:51.000
+A gente acaba discutindo bastante isso também.
+
+00:11:51.000 --> 00:11:54.000
+E uma das coisas que eu gosto de fazer
+
+00:11:54.000 --> 00:11:57.000
+quando eu tô pensando ali junto com o time de negócio,
+
+00:11:57.000 --> 00:11:59.000
+para tentar desenvolver uma solução,
+
+00:11:59.000 --> 00:12:02.000
+é fazer um protótipo, um airframe,
+
+00:12:02.000 --> 00:12:03.000
+de baixa fidelidade, né?
+
+00:12:03.000 --> 00:12:06.000
+Com apenas os blocos de construção ali.
+
+00:12:06.000 --> 00:12:07.000
+Por quê?
+
+00:12:07.000 --> 00:12:09.000
+Porque dessa forma a gente tangibiliza,
+
+00:12:09.000 --> 00:12:11.000
+todo mundo tá vendo a mesma coisa,
+
+00:12:11.000 --> 00:12:13.000
+todo mundo começa a falar o mesmo idioma
+
+00:12:13.000 --> 00:12:16.000
+quando tá construindo.
+
+00:12:16.000 --> 00:12:18.000
+E foi assim que a gente começou a construir o Mandaí, tá?
+
+00:12:18.000 --> 00:12:21.000
+Então, o Mandaí, ele é um app, é um aplicativo,
+
+00:12:21.000 --> 00:12:23.000
+vamos dizer, um site, tá?
+
+00:12:23.000 --> 00:12:24.000
+De delivery.
+
+00:12:24.000 --> 00:12:26.000
+Hoje no Brasil a gente tem alguns aí, né?
+
+00:12:26.000 --> 00:12:28.000
+Tem o Vermelhinho, que é bastante famoso,
+
+00:12:28.000 --> 00:12:30.000
+inclusive é parceiro nosso aqui do DIO,
+
+00:12:30.000 --> 00:12:33.000
+já fez programas de Bootcamp aqui com a gente.
+
+00:12:33.000 --> 00:12:36.000
+E tem também outros, né?
+
+00:12:36.000 --> 00:12:39.000
+Então, assim, a gente pensando nesse projeto,
+
+00:12:39.000 --> 00:12:41.000
+o que a gente vai desenvolver?
+
+00:12:41.000 --> 00:12:44.000
+Pessoal, vamos desenvolver um produto de delivery,
+
+00:12:44.000 --> 00:12:47.000
+porque é uma coisa bastante comum e bastante atrativa, assim, né?
+
+00:12:47.000 --> 00:12:49.000
+As pessoas querem saber, realmente,
+
+00:12:49.000 --> 00:12:51.000
+como é que funciona um app de delivery, tá?
+
+00:12:51.000 --> 00:12:53.000
+Então, vamos lá, a gente começou,
+
+00:12:53.000 --> 00:12:55.000
+olha como começou esse projeto, Vinil,
+
+00:12:55.000 --> 00:12:58.000
+ele começou assim, ó, a gente começou construindo,
+
+00:12:58.000 --> 00:13:00.000
+como que seriam essas telas, né?
+
+00:13:00.000 --> 00:13:02.000
+Então, vamos lá, vamos criar o Mandaí,
+
+00:13:02.000 --> 00:13:05.000
+vai ter uma home, o que tem que ter nessa home?
+
+00:13:05.000 --> 00:13:07.000
+Vamos colocar um menu lá em cima,
+
+00:13:07.000 --> 00:13:11.000
+vamos colocar uma parte ali pra gente colocar o endereço,
+
+00:13:11.000 --> 00:13:15.000
+também a sacola de itens ou o carrinho de compras,
+
+00:13:15.000 --> 00:13:18.000
+como você gostaria de chamar.
+
+00:13:18.000 --> 00:13:20.000
+Cara, isso é muito louco, né, cara?
+
+00:13:20.000 --> 00:13:23.000
+Porque, assim, você não precisa ser um especialista em design
+
+00:13:23.000 --> 00:13:27.000
+pra expor ali, né, pra esse tipo de ferramenta,
+
+00:13:27.000 --> 00:13:29.000
+qual é o seu desejo, né?
+
+00:13:29.000 --> 00:13:31.000
+Então, basicamente, o que você fez foi desenhar, né,
+
+00:13:31.000 --> 00:13:34.000
+ao seu modo, o que você imaginaria que,
+
+00:13:34.000 --> 00:13:36.000
+inicialmente, seria o produto, né?
+
+00:13:36.000 --> 00:13:38.000
+Exatamente, Vinil.
+
+00:13:38.000 --> 00:13:40.000
+Isso é importante numa dinâmica, né,
+
+00:13:40.000 --> 00:13:42.000
+como a gente fez aqui na DIO,
+
+00:13:42.000 --> 00:13:44.000
+juntamos pra poder falar sobre o produto.
+
+00:13:44.000 --> 00:13:46.000
+Então, a gente foi desenhando na hora ali.
+
+00:13:46.000 --> 00:13:49.000
+E aqui, ó, Vinil, olha que interessante,
+
+00:13:49.000 --> 00:13:52.000
+essa ferramenta aqui, o Skole Draw,
+
+00:13:52.000 --> 00:13:55.000
+ele é bastante conhecido aí do pessoal tech,
+
+00:13:55.000 --> 00:13:59.000
+tem alguns, eu vejo alguns influencers que eu acompanho
+
+00:13:59.000 --> 00:14:03.000
+usam bastante pra poder desenhar diagramas de arquitetura,
+
+00:14:03.000 --> 00:14:06.000
+e eu utilizei ele mesmo pra poder desenhar,
+
+00:14:06.000 --> 00:14:08.000
+mas, assim, você pode utilizar qualquer coisa,
+
+00:14:08.000 --> 00:14:11.000
+você pode utilizar o Miro, por exemplo,
+
+00:14:11.000 --> 00:14:13.000
+tem outras ferramentas também
+
+00:14:13.000 --> 00:14:16.000
+que permite você fazer esses desenhos, vamos dizer assim,
+
+00:14:16.000 --> 00:14:19.000
+mais rabiscos, né, mais grosseiros, assim,
+
+00:14:19.000 --> 00:14:21.000
+que eu acho que é isso que é importante
+
+00:14:21.000 --> 00:14:23.000
+quando você tá pensando na ideia.
+
+00:14:23.000 --> 00:14:25.000
+Você não precisa entrar no detalhe do design, sabe?
+
+00:14:25.000 --> 00:14:27.000
+Mas é esse design mais alto nível mesmo.
+
+00:14:27.000 --> 00:14:29.000
+Perfeito, cara.
+
+00:14:29.000 --> 00:14:31.000
+Podia ser até um papel de pão, né, Marti?
+
+00:14:31.000 --> 00:14:34.000
+Normalmente, pode ser até um papel de pão, né?
+
+00:14:34.000 --> 00:14:36.000
+Normalmente, quando a gente tá numa sala,
+
+00:14:36.000 --> 00:14:39.000
+todo mundo fisicamente, a gente até desenha
+
+00:14:39.000 --> 00:14:41.000
+na própria lousa, né?
+
+00:14:41.000 --> 00:14:44.000
+Então, Venilton, olha, eu fui desenhando aqui com o time,
+
+00:14:44.000 --> 00:14:47.000
+a gente desenhou essa aqui, a home, tá?
+
+00:14:47.000 --> 00:14:50.000
+Então, a gente pensou lá em ter
+
+00:14:50.000 --> 00:14:53.000
+as categorias de alimentos aqui em cima,
+
+00:14:53.000 --> 00:14:56.000
+e depois também alguns destaques de alguns restaurantes,
+
+00:14:56.000 --> 00:14:59.000
+além do que é muito comum em sites desse tipo, né,
+
+00:14:59.000 --> 00:15:04.000
+um header, ou seja, o que fica lá em cima, né, o cabeçalho,
+
+00:15:04.000 --> 00:15:06.000
+e o que a gente chama de footer, né,
+
+00:15:06.000 --> 00:15:09.000
+que é o que fica na parte lá de baixo, tá?
+
+00:15:09.000 --> 00:15:11.000
+E a gente foi pensando em algumas variações
+
+00:15:11.000 --> 00:15:13.000
+e também num fluxo de tela, então,
+
+00:15:13.000 --> 00:15:17.000
+veio lá, como que vai ser a parte do restaurante, né,
+
+00:15:17.000 --> 00:15:19.000
+que vai listar os restaurantes,
+
+00:15:19.000 --> 00:15:21.000
+então a gente pensou numa tela aqui
+
+00:15:21.000 --> 00:15:24.000
+pra listar os restaurantes com alguns filtros,
+
+00:15:24.000 --> 00:15:26.000
+vamos pensar então no cardápio,
+
+00:15:26.000 --> 00:15:28.000
+como é que vai ser o cardápio do restaurante,
+
+00:15:28.000 --> 00:15:31.000
+vamos dar destaque aqui pra banner do restaurante,
+
+00:15:31.000 --> 00:15:33.000
+vamos dizer se ele tá aberto ou não,
+
+00:15:33.000 --> 00:15:36.000
+a gente foi pensando em alguns elementos aqui,
+
+00:15:36.000 --> 00:15:38.000
+aqui, por exemplo, Vinilton,
+
+00:15:38.000 --> 00:15:41.000
+eu tô adicionando um pedido,
+
+00:15:41.000 --> 00:15:45.000
+eu tô adicionando um produto no meu carrinho, tá?
+
+00:15:45.000 --> 00:15:48.000
+Então a gente pensou em, ó, deixa em overlay,
+
+00:15:48.000 --> 00:15:51.000
+deixa a parte de baixo ali um pouco mais escondida,
+
+00:15:51.000 --> 00:15:52.000
+um pomadinho em cima.
+
+00:15:52.000 --> 00:15:55.000
+O legal dessas ferramentas, igual o Scroll e Draw, né,
+
+00:15:55.000 --> 00:15:57.000
+é que ela já te dá os componentes
+
+00:15:57.000 --> 00:16:00.000
+pra você poder criar esse tipo de tela
+
+00:16:00.000 --> 00:16:02.000
+de uma maneira bem mais simples, né,
+
+00:16:02.000 --> 00:16:04.000
+do que se você fosse desenhar tudo na mão, né?
+
+00:16:04.000 --> 00:16:07.000
+Então você já tem ali uma forma de colocar o overlay,
+
+00:16:07.000 --> 00:16:09.000
+você já tem ali um componentezinho pra imagem,
+
+00:16:09.000 --> 00:16:10.000
+um botãozinho,
+
+00:16:10.000 --> 00:16:14.000
+e aí ele traz nessa pegada um pouco mais de rascunho, né?
+
+00:16:14.000 --> 00:16:19.000
+Mas a intenção é realmente trazer uma ideia de design, né, galera?
+
+00:16:19.000 --> 00:16:21.000
+Acho que é isso que é o mais importante,
+
+00:16:21.000 --> 00:16:25.000
+você conseguir representar o design da sua aplicação, né, Vart?
+
+00:16:25.000 --> 00:16:27.000
+Exatamente, exatamente, Vinilton.
+
+00:16:27.000 --> 00:16:30.000
+Então a gente pensou ali em todas as telas, tá?
+
+00:16:30.000 --> 00:16:32.000
+E aí, Vinilton, uma vez que isso aqui tava pronto,
+
+00:16:32.000 --> 00:16:36.000
+a gente gerou uma imagem dessa tela aqui,
+
+00:16:36.000 --> 00:16:38.000
+e a gente foi pro Cloud Design.
+
+00:16:38.000 --> 00:16:40.000
+E aí acho que é importante falar um pouquinho sobre o Cloud Design, né?
+
+00:16:40.000 --> 00:16:44.000
+Pra quem não conhece, a Antropic faz pouco tempo,
+
+00:16:44.000 --> 00:16:46.000
+ela lançou o Cloud Design, tá?
+
+00:16:46.000 --> 00:16:48.000
+Então é uma funcionalidade,
+
+00:16:48.000 --> 00:16:51.000
+eu não sei se ela tá disponível pra todo mundo ainda,
+
+00:16:51.000 --> 00:16:55.000
+porque teve até um período que ela tava restrita pra algumas pessoas.
+
+00:16:55.000 --> 00:16:57.000
+Como a gente tem o plano Team aqui,
+
+00:16:57.000 --> 00:17:00.000
+que é muito equivalente ao plano Pro do Cloud,
+
+00:17:00.000 --> 00:17:03.000
+então a gente tem acesso a essa ferramenta, tá?
+
+00:17:03.000 --> 00:17:05.000
+Então, você também não consegue, Vinilton,
+
+00:17:05.000 --> 00:17:08.000
+acessar ela direto pelo Cloud,
+
+00:17:08.000 --> 00:17:11.000
+aquela versão instalável mesmo, tá?
+
+00:17:11.000 --> 00:17:13.000
+Do desktop mesmo.
+
+00:17:13.000 --> 00:17:16.000
+Você precisa acessar ela direto do...
+
+00:17:16.000 --> 00:17:19.000
+Vou até mostrar como que eu faço pra acessar aqui.
+
+00:17:19.000 --> 00:17:22.000
+Eu entro lá no meu Cloud AI,
+
+00:17:22.000 --> 00:17:26.000
+na web mesmo, e aí vai ter aqui do lado, ó, Vinilton,
+
+00:17:26.000 --> 00:17:28.000
+um pequeno ícone aqui, ó.
+
+00:17:28.000 --> 00:17:29.000
+O Cloud Design.
+
+00:17:29.000 --> 00:17:31.000
+Tem um menuzinho aí de design, legal.
+
+00:17:31.000 --> 00:17:32.000
+Exatamente, ó.
+
+00:17:32.000 --> 00:17:34.000
+Então, quando eu clico aqui no Cloud Design,
+
+00:17:34.000 --> 00:17:36.000
+você abre o Cloud Design, tá?
+
+00:17:36.000 --> 00:17:38.000
+E aí, uma vez que você abriu o Cloud Design,
+
+00:17:38.000 --> 00:17:41.000
+você tem várias possibilidades aqui.
+
+00:17:41.000 --> 00:17:43.000
+Como eu falei, isso aqui é tema, com certeza,
+
+00:17:43.000 --> 00:17:46.000
+de uma mentoria só disso aqui, tá?
+
+00:17:46.000 --> 00:17:48.000
+Então, o que eu posso fazer no Cloud Design?
+
+00:17:48.000 --> 00:17:51.000
+Eu posso criar um Airframe de baixa fidelidade,
+
+00:17:51.000 --> 00:17:53.000
+igual eu criei lá no Scroll e Draw.
+
+00:17:53.000 --> 00:17:56.000
+Eu posso também criar um Airframe
+
+00:17:56.000 --> 00:17:58.000
+de alta fidelidade, Vinilton,
+
+00:17:58.000 --> 00:18:00.000
+e aí nós vamos ver aqui, a alta fidelidade
+
+00:18:00.000 --> 00:18:02.000
+já é um Airframe praticamente pronto
+
+00:18:02.000 --> 00:18:05.000
+pra você pegar e desenvolver o software em cima dele.
+
+00:18:05.000 --> 00:18:08.000
+Mas você tem outras opções também.
+
+00:18:08.000 --> 00:18:10.000
+Você pode criar uma apresentação.
+
+00:18:10.000 --> 00:18:12.000
+Sabe aquelas apresentações que às vezes
+
+00:18:12.000 --> 00:18:16.000
+você precisa fazer pro teu líder do seu time,
+
+00:18:16.000 --> 00:18:18.000
+ou até uma palestra?
+
+00:18:18.000 --> 00:18:20.000
+Cara, ele faz um design bem legal.
+
+00:18:20.000 --> 00:18:24.000
+Então, o Cloud Design é bem poderoso nesse aspecto, tá?
+
+00:18:24.000 --> 00:18:28.000
+E como que eu comecei aqui?
+
+00:18:28.000 --> 00:18:32.000
+O Cloud Design tem, antes de você criar um layout,
+
+00:18:32.000 --> 00:18:36.000
+o ideal, Vinilton, é você fazer um design system.
+
+00:18:36.000 --> 00:18:38.000
+Você sabe o que é um design system?
+
+00:18:38.000 --> 00:18:42.000
+Cara, eu já ouvi falar, principalmente em algumas acelerações
+
+00:18:42.000 --> 00:18:46.000
+que rolaram há um tempo atrás pra galera do Global,
+
+00:18:46.000 --> 00:18:49.000
+e o que a gente ficou sabendo é que realmente
+
+00:18:49.000 --> 00:18:52.000
+essa parte do design system é muito cobrada na gringa.
+
+00:18:52.000 --> 00:18:56.000
+Empresas do exterior pedem muito isso em entrevistas técnicas.
+
+00:18:56.000 --> 00:18:59.000
+E era uma demanda do pessoal do Global lá,
+
+00:18:59.000 --> 00:19:01.000
+que estava buscando oportunidades em outros países.
+
+00:19:01.000 --> 00:19:05.000
+Mas é basicamente você tentar pensar
+
+00:19:05.000 --> 00:19:07.000
+sobre o projeto do seu sistema
+
+00:19:07.000 --> 00:19:10.000
+da maneira mais profunda possível
+
+00:19:10.000 --> 00:19:12.000
+pra você começar a tomar essas decisões
+
+00:19:12.000 --> 00:19:14.000
+antes mesmo de codar.
+
+00:19:14.000 --> 00:19:16.000
+É algo nesse sentido, Art?
+
+00:19:16.000 --> 00:19:20.000
+Isso, design system é um catálogo
+
+00:19:20.000 --> 00:19:25.000
+de várias diretrizes de design da sua aplicação.
+
+00:19:25.000 --> 00:19:27.000
+Então, lá vai ter a tipografia, por exemplo,
+
+00:19:27.000 --> 00:19:29.000
+esse aqui é o design system
+
+00:19:29.000 --> 00:19:33.000
+que eu desenvolvi pra esse projeto, tá?
+
+00:19:33.000 --> 00:19:34.000
+Que é o Mandaí.
+
+00:19:34.000 --> 00:19:38.000
+Então, tudo isso aqui, pessoal, foi gerado automaticamente.
+
+00:19:38.000 --> 00:19:42.000
+Eu só entrei aqui e coloquei o prompt do que eu queria, tá?
+
+00:19:42.000 --> 00:19:44.000
+Expliquei o que era o nosso projeto,
+
+00:19:44.000 --> 00:19:46.000
+que era um projeto pra uma mentoria.
+
+00:19:46.000 --> 00:19:48.000
+Até no começo aqui, eu acho que eu tenho
+
+00:19:48.000 --> 00:19:51.000
+um pouco dessa conversa aqui minha com ele, tá?
+
+00:19:51.000 --> 00:19:54.000
+E aí ele cria todo um catálogo aqui
+
+00:19:54.000 --> 00:19:57.000
+de componentes, de estilos.
+
+00:19:57.000 --> 00:19:58.000
+Então, a gente vai abrindo aqui, viu?
+
+00:19:58.000 --> 00:20:00.000
+A gente vai vendo, por exemplo.
+
+00:20:00.000 --> 00:20:04.000
+É como se ele definisse todos os guidelines visuais
+
+00:20:04.000 --> 00:20:07.000
+mesmo da sua aplicação, no final das contas.
+
+00:20:07.000 --> 00:20:10.000
+Todo o design, a parte de UI, UX.
+
+00:20:10.000 --> 00:20:11.000
+Exatamente, exatamente.
+
+00:20:11.000 --> 00:20:13.000
+A parte de fonte, tudo, né, cara?
+
+00:20:14.000 --> 00:20:18.000
+O pessoal comentou que é o ML do design aqui, né?
+
+00:20:18.000 --> 00:20:20.000
+Mais ou menos isso mesmo.
+
+00:20:20.000 --> 00:20:22.000
+É o ML do design, né?
+
+00:20:22.000 --> 00:20:24.000
+Então, tem toda a tipografia, as cores.
+
+00:20:24.000 --> 00:20:26.000
+Paleta de cores, né, cara?
+
+00:20:26.000 --> 00:20:29.000
+Paleta de cores, a semântica aqui.
+
+00:20:29.000 --> 00:20:33.000
+Por exemplo, as cores principais do nosso site.
+
+00:20:33.000 --> 00:20:35.000
+Espaçamento, olha.
+
+00:20:35.000 --> 00:20:38.000
+Você vê que ele tem toda a parte de espaçamento, sombreamento.
+
+00:20:38.000 --> 00:20:40.000
+Então, ele tem muita coisa.
+
+00:20:41.000 --> 00:20:42.000
+Caramba, cara.
+
+00:20:44.000 --> 00:20:45.000
+Exatamente.
+
+00:20:45.000 --> 00:20:48.000
+E aqui a gente já começa a ver os primeiros elementos, ó.
+
+00:20:48.000 --> 00:20:50.000
+Realmente de um aplicativo, né?
+
+00:20:50.000 --> 00:20:55.000
+Então, os cards, como que ele vai ser apresentado, assim por diante, né?
+
+00:20:55.000 --> 00:20:57.000
+Botões de input.
+
+00:20:57.000 --> 00:21:00.000
+E ele começa até a te dar algumas composições
+
+00:21:00.000 --> 00:21:03.000
+desse design system junto, tá?
+
+00:21:03.000 --> 00:21:04.000
+É, cara.
+
+00:21:04.000 --> 00:21:08.000
+E esse tema, né, Oswaldo, ele não é tão conhecido
+
+00:21:08.000 --> 00:21:10.000
+nem pela galera de desenvolvimento, né?
+
+00:21:10.000 --> 00:21:14.000
+Geralmente o pessoal vai lá, usa algum bootstrap da vida
+
+00:21:14.000 --> 00:21:16.000
+ou um material design, né?
+
+00:21:16.000 --> 00:21:19.000
+Que traz já essa parte de design, né?
+
+00:21:19.000 --> 00:21:22.000
+De guidelines de design já consolidado.
+
+00:21:22.000 --> 00:21:25.000
+E aí a galera acaba usando os componentes e os padrões lá
+
+00:21:25.000 --> 00:21:28.000
+sem se preocupar muito com as possibilidades
+
+00:21:28.000 --> 00:21:30.000
+de criar o seu próprio design system, né?
+
+00:21:30.000 --> 00:21:32.000
+O design system da sua própria aplicação.
+
+00:21:32.000 --> 00:21:34.000
+Porque, cara, na moral, isso é um negócio
+
+00:21:34.000 --> 00:21:36.000
+que dava muito trabalho há um tempo atrás, né?
+
+00:21:36.000 --> 00:21:39.000
+Tinha times especializados nisso, né, cara?
+
+00:21:39.000 --> 00:21:40.000
+E ainda dá, né?
+
+00:21:40.000 --> 00:21:44.000
+Se você for fazer ele do zero, vamos dizer assim,
+
+00:21:44.000 --> 00:21:47.000
+você precisa de um profissional, por exemplo,
+
+00:21:47.000 --> 00:21:52.000
+que ele é formado e tem uma boa experiência em UX e UI designer.
+
+00:21:52.000 --> 00:21:55.000
+Ele também tem que trabalhar junto com desenvolvedores front-end
+
+00:21:55.000 --> 00:21:58.000
+pra você conseguir chegar realmente num produto.
+
+00:21:58.000 --> 00:22:01.000
+Isso acaba sendo um produto dentro das empresas, tá, Venilton?
+
+00:22:01.000 --> 00:22:02.000
+Que depois é replicado.
+
+00:22:02.000 --> 00:22:04.000
+Todos os produtos se baseiam nisso.
+
+00:22:04.000 --> 00:22:06.000
+Então, tem vários design systems famosos aí
+
+00:22:06.000 --> 00:22:09.000
+da Apple, do Google, da Microsoft, enfim.
+
+00:22:09.000 --> 00:22:12.000
+E o Cloud Design permite.
+
+00:22:12.000 --> 00:22:14.000
+Então, essa foi a primeira coisa que eu fiz, tá?
+
+00:22:14.000 --> 00:22:18.000
+Foi criar o design system aqui desse nosso produto aqui
+
+00:22:18.000 --> 00:22:20.000
+que eu mando aí, tá?
+
+00:22:20.000 --> 00:22:21.000
+Muito bom, cara, isso é real.
+
+00:22:21.000 --> 00:22:24.000
+Depois que eu criei, Venilton, o que eu fiz?
+
+00:22:24.000 --> 00:22:25.000
+Eu vim aqui, tá?
+
+00:22:25.000 --> 00:22:27.000
+E eu iniciei um projeto novo.
+
+00:22:27.000 --> 00:22:28.000
+Então, é bem simples, assim.
+
+00:22:28.000 --> 00:22:30.000
+Você vem aqui e fala, olha, vamos iniciar um projeto.
+
+00:22:30.000 --> 00:22:34.000
+Você vê que aqui embaixo ele tem duas opções.
+
+00:22:34.000 --> 00:22:35.000
+Ou eu vou pro wireframe.
+
+00:22:35.000 --> 00:22:37.000
+Só que o que eu já tinha feito?
+
+00:22:37.000 --> 00:22:40.000
+Lembra que lá no Skolly Draw eu já tinha feito wireframe?
+
+00:22:40.000 --> 00:22:43.000
+Então, eu falei, vou pular essa etapa, né?
+
+00:22:43.000 --> 00:22:45.000
+Vou direto pro high fidelity.
+
+00:22:45.000 --> 00:22:49.000
+Ou seja, é o protótipo de alta fidelidade, tá?
+
+00:22:49.000 --> 00:22:53.000
+E você vê que eu selecionei aqui o design system.
+
+00:22:53.000 --> 00:22:56.000
+Então, eu passei já pra ele quais as diretrizes aqui
+
+00:22:56.000 --> 00:22:59.000
+que ele deveria utilizar, tá?
+
+00:22:59.000 --> 00:23:00.000
+Perfeito.
+
+00:23:00.000 --> 00:23:02.000
+Basicamente é isso, tá?
+
+00:23:02.000 --> 00:23:05.000
+E aí, eu vou abrir aqui já o projeto.
+
+00:23:05.000 --> 00:23:08.000
+E aí, eu vou comentar um pouquinho do...
+
+00:23:08.000 --> 00:23:11.000
+Como que eu conversei com ele, assim,
+
+00:23:11.000 --> 00:23:14.000
+pra chegar no resultado que nós chegamos.
+
+00:23:14.000 --> 00:23:15.000
+Então, tá aqui, ó.
+
+00:23:15.000 --> 00:23:17.000
+Ah, os seus projetos ficam todos aqui, tá, Venilton?
+
+00:23:17.000 --> 00:23:19.000
+Então, no final também, a gente...
+
+00:23:19.000 --> 00:23:21.000
+Ele vai mantendo aqui o design system.
+
+00:23:21.000 --> 00:23:22.000
+Isso é bacana também.
+
+00:23:22.000 --> 00:23:25.000
+Se você quiser manter dentro do cloud, você pode manter.
+
+00:23:25.000 --> 00:23:27.000
+E depois, se você precisar criar uma tela nova,
+
+00:23:27.000 --> 00:23:29.000
+alguma coisa assim, você pode vir aqui
+
+00:23:29.000 --> 00:23:31.000
+e falar com ele via prompt.
+
+00:23:31.000 --> 00:23:34.000
+É, ele já categoriza bonitinho lá, né?
+
+00:23:34.000 --> 00:23:37.000
+O que é um system design, o que é só um design.
+
+00:23:37.000 --> 00:23:40.000
+Enfim, ele já deixa bonitinho ali na tela inicial.
+
+00:23:40.000 --> 00:23:41.000
+Exatamente.
+
+00:23:41.000 --> 00:23:45.000
+Agora, Venilton, isso aqui é impressionante, assim, olha.
+
+00:23:45.000 --> 00:23:47.000
+Olha o nível...
+
+00:23:47.000 --> 00:23:50.000
+Tá pronto o bagulho.
+
+00:23:50.000 --> 00:23:52.000
+Que isso, cara?
+
+00:23:52.000 --> 00:23:55.000
+Isso tudo foi ele que gerou a partir do system design
+
+00:23:55.000 --> 00:23:57.000
+que você definiu.
+
+00:23:57.000 --> 00:23:59.000
+Daquele scolidraw.
+
+00:23:59.000 --> 00:24:01.000
+A partir daquele scolidraw, Venilton.
+
+00:24:01.000 --> 00:24:05.000
+Ele conseguiu pegar a essência do que eu queria, né?
+
+00:24:05.000 --> 00:24:06.000
+Eu vou até te mostrar aqui.
+
+00:24:06.000 --> 00:24:09.000
+É legal porque aqui fica todo histórico no chat.
+
+00:24:09.000 --> 00:24:12.000
+Mas, ó, eu coloquei basicamente isso aqui pra ele.
+
+00:24:12.000 --> 00:24:14.000
+Não sei se vocês vão conseguir ver.
+
+00:24:14.000 --> 00:24:17.000
+Olha, eu gostaria de criar um design de alta fidelidade
+
+00:24:17.000 --> 00:24:19.000
+das telas com base na imagem anexo.
+
+00:24:19.000 --> 00:24:21.000
+Lembra que eu mostrei lá?
+
+00:24:21.000 --> 00:24:24.000
+Aí você mandou seu scolidraw ali, né?
+
+00:24:24.000 --> 00:24:25.000
+Tá com uma anexa aqui embaixo.
+
+00:24:25.000 --> 00:24:27.000
+Aqui, ó. Tá aqui embaixo, ó, Venilton.
+
+00:24:27.000 --> 00:24:29.000
+O objetivo é refinar o design das telas
+
+00:24:29.000 --> 00:24:31.000
+antes de fazer o handoff.
+
+00:24:31.000 --> 00:24:33.000
+Depois eu vou explicar o que é o handoff, tá?
+
+00:24:33.000 --> 00:24:34.000
+É...
+
+00:24:34.000 --> 00:24:36.000
+Para o Cloud Code fazer o desenvolvimento.
+
+00:24:36.000 --> 00:24:38.000
+Me ajude com a escolha das cores, tal, tal, tal.
+
+00:24:38.000 --> 00:24:40.000
+Enfim, tá tudo aqui.
+
+00:24:40.000 --> 00:24:42.000
+Uma das coisas que depois que eu coloquei
+
+00:24:42.000 --> 00:24:44.000
+esse primeiro prompt aqui,
+
+00:24:44.000 --> 00:24:47.000
+ele fez várias perguntas pra mim, tá?
+
+00:24:47.000 --> 00:24:49.000
+Então, isso é normal.
+
+00:24:49.000 --> 00:24:52.000
+Ele vai fazendo várias perguntas que eu fui respondendo aqui, ó.
+
+00:24:52.000 --> 00:24:54.000
+Você vê que ele tem aqui uma série de...
+
+00:24:54.000 --> 00:24:56.000
+Ele falou que estava com um problema
+
+00:24:56.000 --> 00:24:58.000
+pra poder analisar,
+
+00:24:58.000 --> 00:25:00.000
+mas depois ele conseguiu, tá?
+
+00:25:00.000 --> 00:25:03.000
+E aí aqui, ó, é uma série de coisas que ele me perguntou
+
+00:25:03.000 --> 00:25:04.000
+e eu fui respondendo.
+
+00:25:04.000 --> 00:25:05.000
+E é importante isso.
+
+00:25:05.000 --> 00:25:08.000
+Você vai dando direcionamento pra ele ali, tá?
+
+00:25:08.000 --> 00:25:12.000
+E aí, o resultado final
+
+00:25:12.000 --> 00:25:13.000
+é isso aqui, ó.
+
+00:25:13.000 --> 00:25:16.000
+Alguém falou aí, perfeito, tá?
+
+00:25:16.000 --> 00:25:20.000
+Foi a mesma impressão que eu tive, tá?
+
+00:25:20.000 --> 00:25:22.000
+Então, ó, vou dar uma navegada aqui
+
+00:25:22.000 --> 00:25:25.000
+pra vocês verem o nível de detalhe, tá?
+
+00:25:25.000 --> 00:25:27.000
+E tem uma animação, se vocês olharem, né?
+
+00:25:27.000 --> 00:25:29.000
+Já tem uma animação.
+
+00:25:29.000 --> 00:25:30.000
+Olha só, aqui.
+
+00:25:30.000 --> 00:25:33.000
+Lembra que eu tinha colocado as categorias
+
+00:25:33.000 --> 00:25:36.000
+e embaixo, né, os restaurantes.
+
+00:25:36.000 --> 00:25:37.000
+O que ele fez?
+
+00:25:37.000 --> 00:25:40.000
+Ele colocou no meio aqui uns elementos.
+
+00:25:40.000 --> 00:25:43.000
+Você lembra que eu tinha colocado o cupom lá em cima?
+
+00:25:43.000 --> 00:25:46.000
+Ele trouxe o cupom aqui pra baixo, tá?
+
+00:25:46.000 --> 00:25:48.000
+Então, qual que é a vantagem aqui?
+
+00:25:48.000 --> 00:25:50.000
+Quando a gente fala de inteligência artificial,
+
+00:25:50.000 --> 00:25:52.000
+falando de modelos como o Antropic,
+
+00:25:52.000 --> 00:25:55.000
+e aqui, Vinilton, nós estamos falando do
+
+00:25:55.000 --> 00:25:57.000
+modelo mais poderoso do Antropic,
+
+00:25:57.000 --> 00:25:59.000
+que é o SONET 4.7.
+
+00:25:59.000 --> 00:26:04.000
+Que é o modelo que o Cloud Design usa por trás, né?
+
+00:26:04.000 --> 00:26:06.000
+Então, ele já tem todos os padrões
+
+00:26:06.000 --> 00:26:08.000
+de design, de usabilidade, enfim.
+
+00:26:08.000 --> 00:26:10.000
+E ele consegue propor
+
+00:26:10.000 --> 00:26:13.000
+tudo o que você precisa aqui, tá?
+
+00:26:13.000 --> 00:26:14.000
+Muito bom.
+
+00:26:14.000 --> 00:26:16.000
+Ô, Vart, só dar um feedback aqui pra galera.
+
+00:26:16.000 --> 00:26:19.000
+O Rafa mandou uma mensagem aqui,
+
+00:26:19.000 --> 00:26:21.000
+perguntando se a gente pode disponibilizar essa conversa.
+
+00:26:21.000 --> 00:26:24.000
+Depois, Rafa, a gente vai mostrar um dos bônus
+
+00:26:24.000 --> 00:26:26.000
+que a gente vai disponibilizar pra vocês hoje,
+
+00:26:26.000 --> 00:26:28.000
+que vão ter ali os 12 conceitos ali,
+
+00:26:28.000 --> 00:26:30.000
+essenciais pra vocês dominarem o Cloud Code.
+
+00:26:30.000 --> 00:26:32.000
+A gente criou um repositório,
+
+00:26:32.000 --> 00:26:34.000
+organizou vários conteúdos ali.
+
+00:26:34.000 --> 00:26:37.000
+E além desses conteúdos
+
+00:26:37.000 --> 00:26:39.000
+sobre os conceitos do Cloud Code,
+
+00:26:39.000 --> 00:26:41.000
+a gente vai disponibilizar também um resumo
+
+00:26:41.000 --> 00:26:42.000
+de todas as lives.
+
+00:26:42.000 --> 00:26:44.000
+E nesse resumo, da live de hoje,
+
+00:26:44.000 --> 00:26:46.000
+que vocês estão assistindo agora, aqui ao vivo,
+
+00:26:46.000 --> 00:26:50.000
+eu incluo lá o snippet do prompt
+
+00:26:50.000 --> 00:26:52.000
+que o Oswaldo utilizou.
+
+00:26:52.000 --> 00:26:54.000
+E também um printzinho ali do scroll e draw.
+
+00:26:54.000 --> 00:26:56.000
+A imagem do scroll e draw
+
+00:26:56.000 --> 00:26:58.000
+pra vocês terem esse histórico aí
+
+00:26:58.000 --> 00:27:00.000
+do que que era e o que que virou.
+
+00:27:00.000 --> 00:27:01.000
+Vai ser legal.
+
+00:27:01.000 --> 00:27:03.000
+Aí a gente adiciona lá.
+
+00:27:03.000 --> 00:27:06.000
+Depois, tem um momento da live de hoje
+
+00:27:06.000 --> 00:27:08.000
+que a gente vai parar pra demonstrar,
+
+00:27:08.000 --> 00:27:10.000
+mostrar um pouquinho desse repositório aqui pra vocês.
+
+00:27:10.000 --> 00:27:13.000
+Que é um repositório bacana pra estudos, principalmente.
+
+00:27:13.000 --> 00:27:16.000
+Enquanto os agentes estiverem trabalhando ali,
+
+00:27:16.000 --> 00:27:17.000
+fazendo o trampo deles,
+
+00:27:17.000 --> 00:27:19.000
+a gente vai mostrar pra vocês.
+
+00:27:19.000 --> 00:27:21.000
+Então, fiquem ligados aí que
+
+00:27:21.000 --> 00:27:23.000
+o resumo dessas lives a gente também está usando
+
+00:27:23.000 --> 00:27:25.000
+inteligência artificial pra poder refinar,
+
+00:27:25.000 --> 00:27:27.000
+deixar bonitinho ali num repositório.
+
+00:27:27.000 --> 00:27:30.000
+Tudo bem mastigadinho e organizado pra vocês.
+
+00:27:31.000 --> 00:27:32.000
+É isso aí.
+
+00:27:32.000 --> 00:27:35.000
+E acompanha também nas redes sociais.
+
+00:27:35.000 --> 00:27:37.000
+Acompanha também na parte de artigos.
+
+00:27:37.000 --> 00:27:39.000
+A gente está publicando alguns artigos,
+
+00:27:39.000 --> 00:27:42.000
+falando um pouco sobre esse projeto que eu mando aí.
+
+00:27:42.000 --> 00:27:44.000
+Hoje teve o artigo do Felipão, né, cara?
+
+00:27:44.000 --> 00:27:46.000
+Depois a gente pode mostrar.
+
+00:27:46.000 --> 00:27:48.000
+Eu mostro pra galera depois.
+
+00:27:48.000 --> 00:27:49.000
+Exatamente.
+
+00:27:49.000 --> 00:27:51.000
+Vamos só passar então sobre as telas aqui,
+
+00:27:51.000 --> 00:27:52.000
+que eu já quero ir pro código.
+
+00:27:52.000 --> 00:27:55.000
+Já quero mostrar pra vocês como que a gente vai desenvolver
+
+00:27:55.000 --> 00:27:56.000
+esse sistema aqui.
+
+00:27:56.000 --> 00:27:58.000
+Será que vai ficar assim mesmo?
+
+00:27:58.000 --> 00:28:00.000
+É isso que a gente vai ver.
+
+00:28:00.000 --> 00:28:02.000
+Essa aqui é a página da padaria.
+
+00:28:02.000 --> 00:28:04.000
+No caso do restaurante.
+
+00:28:04.000 --> 00:28:06.000
+No caso aqui é a padaria do Zé.
+
+00:28:06.000 --> 00:28:07.000
+Mas você vê, Vinilton,
+
+00:28:07.000 --> 00:28:09.000
+todas as telas são muito bem feitas.
+
+00:28:09.000 --> 00:28:11.000
+Usabilidade muito boa.
+
+00:28:12.000 --> 00:28:16.000
+Aqui é onde eu vou adicionar um item do cardápio.
+
+00:28:16.000 --> 00:28:18.000
+Eu também desenhei a sacola.
+
+00:28:18.000 --> 00:28:21.000
+Eu decidi chamar de sacola pra ficar um pouco mais informal.
+
+00:28:22.000 --> 00:28:24.000
+E um detalhe importante.
+
+00:28:24.000 --> 00:28:26.000
+Como é um primeiro projeto, eu falei
+
+00:28:26.000 --> 00:28:29.000
+eu vou tentar tirar algumas complexidades
+
+00:28:29.000 --> 00:28:32.000
+que às vezes tem em projetos como esse.
+
+00:28:32.000 --> 00:28:34.000
+Como, por exemplo, a parte de login,
+
+00:28:34.000 --> 00:28:38.000
+autenticação, também pagamento.
+
+00:28:38.000 --> 00:28:40.000
+Então vocês vão ver depois na prática
+
+00:28:40.000 --> 00:28:42.000
+que é um projeto que você vai lá,
+
+00:28:42.000 --> 00:28:44.000
+você faz o seu pedido, você bota o seu nome
+
+00:28:44.000 --> 00:28:46.000
+e ele gera um código que você apresenta
+
+00:28:46.000 --> 00:28:49.000
+lá no restaurante.
+
+00:28:49.000 --> 00:28:51.000
+Pra você fazer uma retirada.
+
+00:28:51.000 --> 00:28:53.000
+Mas, claro, isso aqui pode evoluir
+
+00:28:53.000 --> 00:28:55.000
+pra um produto bem elaborado, pessoal.
+
+00:28:55.000 --> 00:28:58.000
+Então isso aqui é só o começo mesmo.
+
+00:28:58.000 --> 00:29:02.000
+A gente só tá pôndo o pé ali na água.
+
+00:29:02.000 --> 00:29:04.000
+Só tá começando aqui.
+
+00:29:04.000 --> 00:29:06.000
+Então é isso, Vinilton.
+
+00:29:06.000 --> 00:29:08.000
+Muito bem. O layout ficou muito bom.
+
+00:29:08.000 --> 00:29:11.000
+Depois que ele desenvolveu essas telas aqui
+
+00:29:11.000 --> 00:29:14.000
+ele fez, eu também acabei desenvolvendo aqui
+
+00:29:14.000 --> 00:29:17.000
+alguns estados que às vezes a gente não pensa.
+
+00:29:17.000 --> 00:29:19.000
+São estados de exceção.
+
+00:29:19.000 --> 00:29:22.000
+Então, o que acontece se tiver
+
+00:29:22.000 --> 00:29:25.000
+fora do horário de funcionamento do restaurante?
+
+00:29:25.000 --> 00:29:28.000
+Então eu também desenvolvi esses componentes.
+
+00:29:28.000 --> 00:29:31.000
+O que acontece se não tiver um produto disponível?
+
+00:29:31.000 --> 00:29:33.000
+Então ele trouxe a opção de indisponível aqui.
+
+00:29:33.000 --> 00:29:35.000
+E por que isso é importante, Vinilton?
+
+00:29:35.000 --> 00:29:38.000
+Como a gente vai colocar um time de agentes
+
+00:29:38.000 --> 00:29:40.000
+com autonomia pra poder fazer?
+
+00:29:40.000 --> 00:29:44.000
+Se eu não coloco esses tipos de detalhes
+
+00:29:44.000 --> 00:29:46.000
+o time vai fazer de alguma forma ou de outra.
+
+00:29:46.000 --> 00:29:48.000
+E vai tomar a decisão deles.
+
+00:29:48.000 --> 00:29:50.000
+Ele vai subentender alguma coisa.
+
+00:29:50.000 --> 00:29:52.000
+Então eu acho que quanto mais detalhes
+
+00:29:52.000 --> 00:29:54.000
+e especificações você tiver
+
+00:29:54.000 --> 00:29:56.000
+menos eles vão decidir por si mesmos
+
+00:29:56.000 --> 00:29:59.000
+e mais com base na sua especificação, no seu design.
+
+00:29:59.000 --> 00:30:01.000
+Exatamente, exatamente.
+
+00:30:01.000 --> 00:30:04.000
+E aí, Vinilton, depois que você consegue
+
+00:30:04.000 --> 00:30:08.000
+construir aqui o teu protótipo de alta fidelidade
+
+00:30:08.000 --> 00:30:10.000
+as telas ficaram bonitas.
+
+00:30:10.000 --> 00:30:12.000
+Ficaram mesmo, Renata. Ficou muito legal aqui.
+
+00:30:12.000 --> 00:30:15.000
+A gente também ficou bastante surpreso com o resultado.
+
+00:30:15.000 --> 00:30:18.000
+Então depois que você faz tudo o que você precisa
+
+00:30:18.000 --> 00:30:21.000
+o que você precisa fazer?
+
+00:30:21.000 --> 00:30:24.000
+Você faz uma coisa chamada handoff.
+
+00:30:24.000 --> 00:30:28.000
+Que é basicamente, você vem aqui pro Cloud Code
+
+00:30:28.000 --> 00:30:30.000
+desculpa, pro Cloud Design
+
+00:30:30.000 --> 00:30:32.000
+eu pedi pra ele
+
+00:30:32.000 --> 00:30:34.000
+vamos elaborar o handoff
+
+00:30:34.000 --> 00:30:39.000
+e aí ele vai gerar um arquivo .zip com tudo.
+
+00:30:39.000 --> 00:30:41.000
+Tudo, tudo, tudo.
+
+00:30:41.000 --> 00:30:44.000
+Tudo que a gente vai precisar pra poder desenvolver esse projeto.
+
+00:30:44.000 --> 00:30:48.000
+O handoff é como se você estivesse falando
+
+00:30:48.000 --> 00:30:50.000
+que você finalizou o que você tinha pra fazer
+
+00:30:50.000 --> 00:30:52.000
+e que você já tem um pacote ali
+
+00:30:52.000 --> 00:30:54.000
+que você tá satisfeito, né?
+
+00:30:54.000 --> 00:30:56.000
+Exatamente, exatamente.
+
+00:30:56.000 --> 00:30:58.000
+E por que isso é importante?
+
+00:30:58.000 --> 00:31:00.000
+Porque como a gente tá falando do Cloud Design
+
+00:31:00.000 --> 00:31:02.000
+e a gente vai desenvolver esse produto
+
+00:31:02.000 --> 00:31:06.000
+no Cloud Code, esses produtos conversam muito bem.
+
+00:31:06.000 --> 00:31:09.000
+Então ele já espera, o Cloud Code já espera
+
+00:31:09.000 --> 00:31:11.000
+esse handoff pra ele começar a desenvolver.
+
+00:31:11.000 --> 00:31:13.000
+A melhor sinergia possível, né, cara?
+
+00:31:13.000 --> 00:31:15.000
+A melhor sinergia possível, porque são
+
+00:31:15.000 --> 00:31:17.000
+ferramentas irmãs ali, vamos dizer, né?
+
+00:31:17.000 --> 00:31:19.000
+Ferramentas irmãs.
+
+00:31:19.000 --> 00:31:21.000
+E eu não fiz o teste ainda, eu quero fazer, Vinil.
+
+00:31:21.000 --> 00:31:23.000
+Tô pegando esse mesmo handoff
+
+00:31:23.000 --> 00:31:25.000
+e passando pro Codex, tá?
+
+00:31:25.000 --> 00:31:28.000
+Que é a mesma ferramenta do
+
+00:31:28.000 --> 00:31:30.000
+da OpenAI.
+
+00:31:30.000 --> 00:31:32.000
+E talvez até pra outras pra ver
+
+00:31:32.000 --> 00:31:34.000
+como que ele lida com isso, tá?
+
+00:31:34.000 --> 00:31:36.000
+Eu acho que eles vão lidar bem também, tá?
+
+00:31:36.000 --> 00:31:38.000
+Porque a maioria das coisas que eu vi
+
+00:31:38.000 --> 00:31:40.000
+que tem dentro desse pacote
+
+00:31:40.000 --> 00:31:42.000
+são padronizadas, tá bom?
+
+00:31:42.000 --> 00:31:44.000
+Sim.
+
+00:31:44.000 --> 00:31:46.000
+Vinil, seguinte. Fizemos o handoff.
+
+00:31:46.000 --> 00:31:48.000
+O que eu fiz a partir daí?
+
+00:31:48.000 --> 00:31:50.000
+Eu criei um arquivo, tá?
+
+00:31:50.000 --> 00:31:52.000
+Criei um diretório.
+
+00:31:52.000 --> 00:31:54.000
+Esse diretório aqui que você tá vendo aqui.
+
+00:31:54.000 --> 00:31:56.000
+Ó, agora o que eu fiz aqui, pessoal?
+
+00:31:56.000 --> 00:31:58.000
+Eu abri o meu visual
+
+00:31:58.000 --> 00:32:00.000
+o meu VS Code.
+
+00:32:00.000 --> 00:32:02.000
+Tá? Então, normal
+
+00:32:02.000 --> 00:32:04.000
+simplesmente abri o VS Code lá
+
+00:32:04.000 --> 00:32:06.000
+peguei o arquivo do handoff
+
+00:32:06.000 --> 00:32:08.000
+e joguei aqui dentro.
+
+00:32:08.000 --> 00:32:10.000
+Então, esse é o que vocês vão ter que fazer
+
+00:32:10.000 --> 00:32:12.000
+aí se vocês quiserem replicar
+
+00:32:12.000 --> 00:32:14.000
+esse projeto. E aí, dentro desse
+
+00:32:14.000 --> 00:32:16.000
+arquivo do handoff, você vai ver
+
+00:32:16.000 --> 00:32:18.000
+que ele vai ter vários
+
+00:32:18.000 --> 00:32:20.000
+arquivos aqui. Tem um readme que explica
+
+00:32:20.000 --> 00:32:22.000
+a estrutura
+
+00:32:22.000 --> 00:32:24.000
+completa aqui
+
+00:32:24.000 --> 00:32:26.000
+desse protótipo.
+
+00:32:26.000 --> 00:32:28.000
+A gente tem uma versão HTML aqui
+
+00:32:28.000 --> 00:32:30.000
+que é justamente aquela versão que a gente estava
+
+00:32:30.000 --> 00:32:32.000
+navegando, vendo as telas.
+
+00:32:32.000 --> 00:32:34.000
+Eu tenho assets todos separados
+
+00:32:34.000 --> 00:32:36.000
+aqui. Eu tenho cada uma
+
+00:32:36.000 --> 00:32:38.000
+das telas, Vinil, também.
+
+00:32:38.000 --> 00:32:40.000
+Você vê que o que o Cloud Design
+
+00:32:40.000 --> 00:32:42.000
+faz? Ele já cria já pra
+
+00:32:42.000 --> 00:32:44.000
+gente os componentes ali
+
+00:32:44.000 --> 00:32:46.000
+React, né?
+
+00:32:46.000 --> 00:32:48.000
+Cara, que loucura, velho. Muito bom.
+
+00:32:48.000 --> 00:32:50.000
+Inacreditável, pô.
+
+00:32:50.000 --> 00:32:52.000
+A estrutura do projeto
+
+00:32:52.000 --> 00:32:54.000
+já está basicamente, semanticamente
+
+00:32:54.000 --> 00:32:56.000
+organizada, né? Então, assim,
+
+00:32:56.000 --> 00:32:58.000
+por mais que você eventualmente vá
+
+00:32:58.000 --> 00:33:00.000
+mudar, às vezes, uma
+
+00:33:00.000 --> 00:33:02.000
+tecnológica, tudo está aí, né?
+
+00:33:02.000 --> 00:33:04.000
+Então, seriam apenas adaptações
+
+00:33:04.000 --> 00:33:06.000
+ali do ponto de vista arquitetural
+
+00:33:06.000 --> 00:33:08.000
+ou de framework, enfim.
+
+00:33:08.000 --> 00:33:10.000
+Mas as informações já estão aí, né?
+
+00:33:10.000 --> 00:33:12.000
+Isso, mas todos esses
+
+00:33:12.000 --> 00:33:14.000
+arquivos aqui, Vinil, eu não vou usar
+
+00:33:14.000 --> 00:33:16.000
+eles no meu projeto, tá?
+
+00:33:16.000 --> 00:33:18.000
+Eles não vão ser arquivos que vão ser
+
+00:33:18.000 --> 00:33:20.000
+diretamente citados
+
+00:33:20.000 --> 00:33:22.000
+como uma referência.
+
+00:33:22.000 --> 00:33:24.000
+Na verdade, o que a gente vai
+
+00:33:24.000 --> 00:33:26.000
+fazer? O Cloud Code vai
+
+00:33:26.000 --> 00:33:28.000
+ler tudo isso aqui e a partir
+
+00:33:28.000 --> 00:33:30.000
+de toda essa informação que ele lê
+
+00:33:30.000 --> 00:33:32.000
+aqui, ele vai botar na janela de contexto
+
+00:33:32.000 --> 00:33:34.000
+a gente falou sobre janela de
+
+00:33:34.000 --> 00:33:36.000
+contexto na live anterior,
+
+00:33:36.000 --> 00:33:38.000
+né? Quando a gente está falando
+
+00:33:38.000 --> 00:33:40.000
+do SONET, então, a gente está falando ali
+
+00:33:40.000 --> 00:33:42.000
+de uma janela de contexto de um
+
+00:33:42.000 --> 00:33:44.000
+milhão de tokens, né? Então, ele consegue
+
+00:33:44.000 --> 00:33:46.000
+lidar com muita informação,
+
+00:33:46.000 --> 00:33:48.000
+tá? Então, ele vai colocar tudo na janela
+
+00:33:48.000 --> 00:33:50.000
+de contexto para poder desenvolver
+
+00:33:50.000 --> 00:33:52.000
+a aplicação, tá?
+
+00:33:52.000 --> 00:33:54.000
+Boa.
+
+00:33:54.000 --> 00:33:56.000
+Beleza. Vamos lá, próximo passo.
+
+00:33:56.000 --> 00:33:58.000
+Tem alguma pergunta aí
+
+00:33:58.000 --> 00:34:00.000
+sobre o Cloud Design?
+
+00:34:00.000 --> 00:34:02.000
+Tem uma pergunta aqui do Marcel
+
+00:34:02.000 --> 00:34:04.000
+que ele perguntou se ele está disponível na versão
+
+00:34:04.000 --> 00:34:06.000
+free também ou apenas na versão paga
+
+00:34:06.000 --> 00:34:08.000
+do Cloud.
+
+00:34:08.000 --> 00:34:10.000
+Mas pode falar aí, cara.
+
+00:34:10.000 --> 00:34:12.000
+Eu acho que não, tá?
+
+00:34:12.000 --> 00:34:14.000
+Eu acho que o Cloud Design
+
+00:34:14.000 --> 00:34:16.000
+ele é a partir da versão
+
+00:34:16.000 --> 00:34:18.000
+Pro e ele
+
+00:34:18.000 --> 00:34:20.000
+também pode não estar disponível
+
+00:34:20.000 --> 00:34:22.000
+para todo mundo, tá? Porque eu sei
+
+00:34:22.000 --> 00:34:24.000
+que eles estavam começando a testar
+
+00:34:24.000 --> 00:34:26.000
+esse produto. Isso.
+
+00:34:26.000 --> 00:34:28.000
+É isso mesmo, Wart. Eu conferi aqui na documentação
+
+00:34:28.000 --> 00:34:30.000
+oficial do pessoal da Cloud
+
+00:34:30.000 --> 00:34:32.000
+e está disponível
+
+00:34:32.000 --> 00:34:34.000
+a partir do plano Pro para
+
+00:34:34.000 --> 00:34:36.000
+explorações rápidas e
+
+00:34:36.000 --> 00:34:38.000
+uso único ali, mas no
+
+00:34:38.000 --> 00:34:40.000
+Max ali ele se torna mais
+
+00:34:40.000 --> 00:34:42.000
+regular, tem também o plano
+
+00:34:42.000 --> 00:34:44.000
+Enterprise ali, né? Que é um pouco maior e
+
+00:34:44.000 --> 00:34:46.000
+mais, mas vou até mandar
+
+00:34:46.000 --> 00:34:48.000
+o link para a galera aí para dar uma olhada
+
+00:34:48.000 --> 00:34:50.000
+na questão dos
+
+00:34:50.000 --> 00:34:52.000
+preços e tals.
+
+00:34:52.000 --> 00:34:54.000
+Mas a galera que
+
+00:34:54.000 --> 00:34:56.000
+assina o
+
+00:34:56.000 --> 00:34:58.000
+Cloud Pro
+
+00:34:58.000 --> 00:35:00.000
+já tem acesso a esse tipo de ferramenta
+
+00:35:00.000 --> 00:35:02.000
+já dá para arranhar
+
+00:35:02.000 --> 00:35:04.000
+algumas coisas aí, já é interessante usar.
+
+00:35:04.000 --> 00:35:06.000
+Exatamente. Alguém falou também
+
+00:35:06.000 --> 00:35:08.000
+você já usa essa funcionalidade do Figma?
+
+00:35:08.000 --> 00:35:10.000
+Boa.
+
+00:35:10.000 --> 00:35:12.000
+Vamos lá. O Figma
+
+00:35:12.000 --> 00:35:14.000
+tem isso também, tá? Então o Figma
+
+00:35:14.000 --> 00:35:16.000
+ele está também, o Figma é uma
+
+00:35:16.000 --> 00:35:18.000
+ferramenta justamente para isso, né?
+
+00:35:18.000 --> 00:35:20.000
+Para você criar os protótipos,
+
+00:35:20.000 --> 00:35:22.000
+criar o seu design system.
+
+00:35:22.000 --> 00:35:24.000
+É despontada aí a
+
+00:35:24.000 --> 00:35:26.000
+ferramenta mais utilizada, junto
+
+00:35:26.000 --> 00:35:28.000
+com a suite da Adobe e
+
+00:35:28.000 --> 00:35:30.000
+o Figma está correndo atrás
+
+00:35:30.000 --> 00:35:32.000
+também, tá? Então assim, ele já tem uma
+
+00:35:32.000 --> 00:35:34.000
+funcionalidade muito interessante também
+
+00:35:34.000 --> 00:35:36.000
+que você consegue, muito parecida aqui com
+
+00:35:36.000 --> 00:35:38.000
+o Cloud Design, que você consegue através
+
+00:35:38.000 --> 00:35:40.000
+de inteligência artificial montar
+
+00:35:40.000 --> 00:35:42.000
+o seu design system, montar as suas telas.
+
+00:35:42.000 --> 00:35:44.000
+A gente vai ver cada vez mais as ferramentas
+
+00:35:44.000 --> 00:35:46.000
+suportando esse tipo de...
+
+00:35:46.000 --> 00:35:48.000
+Olha lá, aqui eu uso bastante
+
+00:35:48.000 --> 00:35:50.000
+já dele, é isso aí. Então o
+
+00:35:50.000 --> 00:35:52.000
+Figma aí também, quem quiser conhecer o Figma
+
+00:35:52.000 --> 00:35:54.000
+dá uma olhada lá, porque também é bastante
+
+00:35:54.000 --> 00:35:56.000
+poderoso, tá?
+
+00:35:56.000 --> 00:35:58.000
+Exato. É, eu acho que uma coisa interessante
+
+00:35:58.000 --> 00:36:00.000
+que está rolando agora é que
+
+00:36:00.000 --> 00:36:02.000
+boa parte do pessoal
+
+00:36:02.000 --> 00:36:04.000
+desses provedores de solução
+
+00:36:04.000 --> 00:36:06.000
+estão tendo que incluir inteligência artificial
+
+00:36:06.000 --> 00:36:08.000
+dentro do processo para tornar
+
+00:36:08.000 --> 00:36:10.000
+esse processo
+
+00:36:10.000 --> 00:36:12.000
+criativo mais acelerado,
+
+00:36:12.000 --> 00:36:14.000
+mais voltado ali
+
+00:36:14.000 --> 00:36:16.000
+com os benefícios da inteligência artificial.
+
+00:36:16.000 --> 00:36:18.000
+Então o Figma já está oferecendo solução,
+
+00:36:18.000 --> 00:36:20.000
+a gente viu que o Cloud tem
+
+00:36:20.000 --> 00:36:22.000
+aqui, o Cloud Code, o Cloud Design.
+
+00:36:22.000 --> 00:36:24.000
+Então assim, a galera
+
+00:36:24.000 --> 00:36:26.000
+que está na vanguarda aí, que está
+
+00:36:26.000 --> 00:36:28.000
+na frente das suas determinadas
+
+00:36:28.000 --> 00:36:30.000
+áreas de
+
+00:36:30.000 --> 00:36:32.000
+atuação, tem que
+
+00:36:32.000 --> 00:36:34.000
+começar a oferecer solução
+
+00:36:34.000 --> 00:36:36.000
+para realmente não perder mercado.
+
+00:36:36.000 --> 00:36:38.000
+Então está sendo bacana, porque está surgindo
+
+00:36:38.000 --> 00:36:40.000
+muita coisa legal, né?
+
+00:36:40.000 --> 00:36:42.000
+Exatamente. Vinilton,
+
+00:36:42.000 --> 00:36:44.000
+beleza, a gente já tem o nosso design,
+
+00:36:44.000 --> 00:36:46.000
+a gente já tem o nosso handoff
+
+00:36:46.000 --> 00:36:48.000
+do design, e esse é o primeiro passo
+
+00:36:48.000 --> 00:36:50.000
+para você que quer desenvolver
+
+00:36:50.000 --> 00:36:52.000
+uma solução usando o Cloud
+
+00:36:52.000 --> 00:36:54.000
+Code, tá?
+
+00:36:54.000 --> 00:36:56.000
+O que mais a gente precisa?
+
+00:36:56.000 --> 00:36:58.000
+Aí entra uma coisa
+
+00:36:58.000 --> 00:37:00.000
+bastante interessante, assim, Vênus.
+
+00:37:00.000 --> 00:37:02.000
+A gente sabe que a IA
+
+00:37:02.000 --> 00:37:04.000
+está avançando muito, né? E o nosso
+
+00:37:04.000 --> 00:37:06.000
+papel como profissionais de tecnologia,
+
+00:37:06.000 --> 00:37:08.000
+desenvolvedores, também está mudando.
+
+00:37:08.000 --> 00:37:10.000
+Então quando a gente coloca
+
+00:37:10.000 --> 00:37:12.000
+a IA no nosso dia a dia,
+
+00:37:12.000 --> 00:37:14.000
+é para a gente poder ser mais
+
+00:37:14.000 --> 00:37:16.000
+produtivo, né? A gente está falando na DIO
+
+00:37:16.000 --> 00:37:18.000
+que a gente é capaz de
+
+00:37:18.000 --> 00:37:20.000
+ser 100 vezes mais produtivos com
+
+00:37:20.000 --> 00:37:22.000
+inteligência artificial. Mas isso não
+
+00:37:22.000 --> 00:37:24.000
+tira o fato de que a gente
+
+00:37:24.000 --> 00:37:26.000
+precisa estar no controle.
+
+00:37:26.000 --> 00:37:28.000
+A gente precisa...
+
+00:37:28.000 --> 00:37:30.000
+Eu falo assim,
+
+00:37:30.000 --> 00:37:32.000
+Vinilton, que a IA potencializa.
+
+00:37:32.000 --> 00:37:34.000
+Então se você é um profissional ruim,
+
+00:37:34.000 --> 00:37:36.000
+que não estuda, que não se aperfeiçoa,
+
+00:37:36.000 --> 00:37:38.000
+ela vai
+
+00:37:38.000 --> 00:37:40.000
+potencializar isso em você.
+
+00:37:40.000 --> 00:37:42.000
+Se você é um profissional
+
+00:37:42.000 --> 00:37:44.000
+dedicado, sempre estudando,
+
+00:37:44.000 --> 00:37:46.000
+arquitetura, design de software, enfim,
+
+00:37:46.000 --> 00:37:48.000
+ela vai te potencializar nesse
+
+00:37:48.000 --> 00:37:50.000
+sentido também. Então eu estou falando
+
+00:37:50.000 --> 00:37:52.000
+isso, Vinilton, porque uma das coisas
+
+00:37:52.000 --> 00:37:54.000
+que é necessário
+
+00:37:54.000 --> 00:37:56.000
+quando você está pensando em desenvolver uma
+
+00:37:56.000 --> 00:37:58.000
+solução, é você
+
+00:37:58.000 --> 00:38:00.000
+tomar a frente de algumas
+
+00:38:00.000 --> 00:38:02.000
+questões técnicas, né?
+
+00:38:02.000 --> 00:38:04.000
+E foi exatamente o que a gente fez
+
+00:38:04.000 --> 00:38:06.000
+aqui como
+
+00:38:06.000 --> 00:38:08.000
+segundo passo no desenvolvimento desse produto.
+
+00:38:08.000 --> 00:38:10.000
+Então o que nós fizemos?
+
+00:38:10.000 --> 00:38:12.000
+Nós juntamos o time e a gente
+
+00:38:12.000 --> 00:38:14.000
+discutiu a arquitetura.
+
+00:38:14.000 --> 00:38:16.000
+Claro, é o meu time,
+
+00:38:16.000 --> 00:38:18.000
+é a gente usando a IA
+
+00:38:18.000 --> 00:38:20.000
+também para poder puxar
+
+00:38:20.000 --> 00:38:22.000
+uma referência rápida ali,
+
+00:38:22.000 --> 00:38:24.000
+mas a gente saiu de uma reunião, Vinilton,
+
+00:38:24.000 --> 00:38:26.000
+com uma definição clara de quais
+
+00:38:26.000 --> 00:38:28.000
+seriam os principais
+
+00:38:28.000 --> 00:38:30.000
+componentes
+
+00:38:30.000 --> 00:38:32.000
+da arquitetura. Então,
+
+00:38:32.000 --> 00:38:34.000
+você vê que
+
+00:38:34.000 --> 00:38:36.000
+a gente colocou lá, por exemplo,
+
+00:38:36.000 --> 00:38:38.000
+front-end, a gente tomou a decisão, vamos usar
+
+00:38:38.000 --> 00:38:40.000
+TypeScript, por que TypeScript?
+
+00:38:40.000 --> 00:38:42.000
+Olha, é tipado,
+
+00:38:42.000 --> 00:38:44.000
+o Cloud Code funciona um pouco
+
+00:38:44.000 --> 00:38:46.000
+melhor com ele, vamos usar Next,
+
+00:38:46.000 --> 00:38:48.000
+no back-end a gente pensou
+
+00:38:48.000 --> 00:38:50.000
+em
+
+00:38:50.000 --> 00:38:52.000
+utilizar ali o
+
+00:38:52.000 --> 00:38:54.000
+TypeScript também com o
+
+00:38:54.000 --> 00:38:56.000
+Fastify, e vamos tentar
+
+00:38:56.000 --> 00:38:58.000
+criar aqui uma arquitetura
+
+00:38:58.000 --> 00:39:00.000
+baseada em DDD,
+
+00:39:00.000 --> 00:39:02.000
+a gente acabou nem usando tanto o DDD aqui,
+
+00:39:02.000 --> 00:39:04.000
+mas sim usou o conceito de
+
+00:39:04.000 --> 00:39:06.000
+Clean Architecture, tá?
+
+00:39:06.000 --> 00:39:08.000
+Então esses são conceitos que a gente ao longo do tempo
+
+00:39:08.000 --> 00:39:10.000
+foi aperfeiçoando.
+
+00:39:12.000 --> 00:39:14.000
+Também decidimos usar
+
+00:39:14.000 --> 00:39:16.000
+um RM para fazer a comunicação
+
+00:39:16.000 --> 00:39:18.000
+e usar o Postgres ali.
+
+00:39:18.000 --> 00:39:20.000
+Pra simplificar,
+
+00:39:20.000 --> 00:39:22.000
+vamos colocar tudo num repositório só,
+
+00:39:22.000 --> 00:39:24.000
+eu sei que muita gente torce o nariz em relação a isso,
+
+00:39:24.000 --> 00:39:26.000
+mas o que a gente vai fazer aqui é isso,
+
+00:39:26.000 --> 00:39:28.000
+então dentro desse repositório vai ter
+
+00:39:28.000 --> 00:39:30.000
+um diretório apps,
+
+00:39:30.000 --> 00:39:32.000
+lá dentro vai ter o web e o API,
+
+00:39:32.000 --> 00:39:34.000
+e a gente
+
+00:39:34.000 --> 00:39:36.000
+também definiu aqui algumas coisas fundamentais,
+
+00:39:36.000 --> 00:39:38.000
+a estrutura do
+
+00:39:38.000 --> 00:39:40.000
+projeto, tá? Então
+
+00:39:40.000 --> 00:39:42.000
+tá algumas coisas definidas aqui, como por exemplo,
+
+00:39:42.000 --> 00:39:44.000
+a gente vai criar um diretório docs,
+
+00:39:44.000 --> 00:39:46.000
+e o que a gente vai colocar dentro de
+
+00:39:46.000 --> 00:39:48.000
+cada diretório desse.
+
+00:39:48.000 --> 00:39:50.000
+E aí, o Benito, antigamente,
+
+00:39:50.000 --> 00:39:52.000
+você lembra, né? A gente, por mais que a gente entrava
+
+00:39:52.000 --> 00:39:54.000
+em algumas reuniões de refinamento técnico,
+
+00:39:54.000 --> 00:39:56.000
+decidia tudo isso aqui,
+
+00:39:56.000 --> 00:39:58.000
+documentar era sempre muito difícil, né?
+
+00:39:58.000 --> 00:40:00.000
+Custoso demais, né, cara?
+
+00:40:00.000 --> 00:40:02.000
+Custoso demais, né?
+
+00:40:02.000 --> 00:40:04.000
+E aí acho que teve duas coisas que ajudou muito
+
+00:40:04.000 --> 00:40:06.000
+a gente nos últimos tempos, que foi
+
+00:40:06.000 --> 00:40:08.000
+primeiro, a inteligência
+
+00:40:08.000 --> 00:40:10.000
+artificial, e segundo,
+
+00:40:10.000 --> 00:40:12.000
+os markdowns, né? Então assim, a gente consegue
+
+00:40:12.000 --> 00:40:14.000
+criar bons documentos muito rápidos,
+
+00:40:14.000 --> 00:40:16.000
+que vão ser
+
+00:40:16.000 --> 00:40:18.000
+importantíssimos na hora que a gente for
+
+00:40:18.000 --> 00:40:20.000
+desenvolver o código, tá?
+
+00:40:20.000 --> 00:40:22.000
+As rotas estão todas aqui,
+
+00:40:22.000 --> 00:40:24.000
+a estrutura do
+
+00:40:24.000 --> 00:40:26.000
+meu projeto também
+
+00:40:26.000 --> 00:40:28.000
+tá aqui. Oswaldo,
+
+00:40:28.000 --> 00:40:30.000
+eu preciso realmente definir
+
+00:40:30.000 --> 00:40:32.000
+tudo isso?
+
+00:40:32.000 --> 00:40:34.000
+Depende, tá? Se você
+
+00:40:34.000 --> 00:40:36.000
+não souber, você não
+
+00:40:36.000 --> 00:40:38.000
+conseguir definir isso aqui,
+
+00:40:38.000 --> 00:40:40.000
+você pode, de repente, deixar
+
+00:40:40.000 --> 00:40:42.000
+tudo isso a cargo aqui do
+
+00:40:42.000 --> 00:40:44.000
+CloudFloat para lidar com você.
+
+00:40:44.000 --> 00:40:46.000
+É, eu acho que depende muito do perfil,
+
+00:40:46.000 --> 00:40:48.000
+né, Wart, de cada um, né? Por exemplo,
+
+00:40:48.000 --> 00:40:50.000
+se você tá querendo aprender mais
+
+00:40:50.000 --> 00:40:52.000
+sobre arquitetura, ou você não tem ainda
+
+00:40:52.000 --> 00:40:54.000
+as skills para fazer esse tipo de definição,
+
+00:40:54.000 --> 00:40:56.000
+você pode pedir para a inteligência
+
+00:40:56.000 --> 00:40:58.000
+artificial detalhar e
+
+00:40:58.000 --> 00:41:00.000
+explicar o porquê de cada tomada de decisão,
+
+00:41:00.000 --> 00:41:02.000
+porque você tá num processo de aprendizado,
+
+00:41:02.000 --> 00:41:04.000
+né? Acho que isso é importante, né?
+
+00:41:04.000 --> 00:41:06.000
+Você não pular etapas e respeitar
+
+00:41:06.000 --> 00:41:08.000
+também as coisas
+
+00:41:08.000 --> 00:41:10.000
+que você precisa aprender para conseguir entender
+
+00:41:10.000 --> 00:41:12.000
+o que tá rolando ali, né? Acho que isso também
+
+00:41:12.000 --> 00:41:14.000
+vale a pena explorar, né?
+
+00:41:14.000 --> 00:41:16.000
+Exatamente.
+
+00:41:16.000 --> 00:41:18.000
+Esses são os dois arquivos
+
+00:41:18.000 --> 00:41:20.000
+que vão ser a base de tudo
+
+00:41:20.000 --> 00:41:22.000
+aqui, tá? A base do
+
+00:41:22.000 --> 00:41:24.000
+nosso desenvolvimento. Wart, tem uma
+
+00:41:24.000 --> 00:41:26.000
+pergunta muito interessante aqui, cara,
+
+00:41:26.000 --> 00:41:28.000
+da Cri, ela falou o seguinte, ela
+
+00:41:28.000 --> 00:41:30.000
+complementou num outro comentário
+
+00:41:30.000 --> 00:41:32.000
+aqui, mas é bem legal a pergunta dela, achei
+
+00:41:32.000 --> 00:41:34.000
+capiciosa. Ela
+
+00:41:34.000 --> 00:41:36.000
+perguntou se a gente acha que pode
+
+00:41:36.000 --> 00:41:38.000
+virar uma tendência parar de fazer
+
+00:41:38.000 --> 00:41:40.000
+APIs com componentes, ou mesmo landing pages
+
+00:41:40.000 --> 00:41:42.000
+para economizar a quantidade de tokens,
+
+00:41:42.000 --> 00:41:44.000
+e ela explicou melhor. Ela falou que
+
+00:41:44.000 --> 00:41:46.000
+muitos já estão pensando em utilizar linguagens
+
+00:41:46.000 --> 00:41:48.000
+menos verbosas, como o Ruby,
+
+00:41:48.000 --> 00:41:50.000
+pensando em quantidade de tokens
+
+00:41:50.000 --> 00:41:52.000
+na hora de gerar um projeto com o IA, ou
+
+00:41:52.000 --> 00:41:54.000
+passar aquele projeto como contexto.
+
+00:41:54.000 --> 00:41:56.000
+O que você acha, cara?
+
+00:41:56.000 --> 00:41:58.000
+Olha, é bem, essa é uma pergunta
+
+00:41:58.000 --> 00:42:00.000
+muito boa, eu tô acompanhando um pouco
+
+00:42:00.000 --> 00:42:02.000
+dessas discussões, eu acho que a gente
+
+00:42:02.000 --> 00:42:04.000
+tem que pensar sempre o seguinte, ainda
+
+00:42:04.000 --> 00:42:06.000
+estamos numa fase onde
+
+00:42:06.000 --> 00:42:08.000
+a IA desenvolve, mas a gente
+
+00:42:08.000 --> 00:42:10.000
+tem que dar manutenção. Então,
+
+00:42:10.000 --> 00:42:12.000
+eu acho que esse é um fator
+
+00:42:12.000 --> 00:42:14.000
+importante, assim, o nível
+
+00:42:14.000 --> 00:42:16.000
+de experiência
+
+00:42:16.000 --> 00:42:18.000
+que o time tem com
+
+00:42:18.000 --> 00:42:20.000
+uma determinada tecnologia. Porque
+
+00:42:20.000 --> 00:42:22.000
+de fato, hoje, Vinilton, não tem muito
+
+00:42:22.000 --> 00:42:24.000
+limites, né? Eu posso pegar
+
+00:42:24.000 --> 00:42:26.000
+qualquer tecnologia, eu posso
+
+00:42:26.000 --> 00:42:28.000
+por exemplo, pegar Golang,
+
+00:42:28.000 --> 00:42:30.000
+tá? E desenvolver isso aqui.
+
+00:42:30.000 --> 00:42:32.000
+Só que eu não conheço Golang,
+
+00:42:32.000 --> 00:42:34.000
+eu não tenho a mínima
+
+00:42:34.000 --> 00:42:36.000
+conhecimento da linguagem, então
+
+00:42:36.000 --> 00:42:38.000
+muitas vezes eu vou preferir, de repente,
+
+00:42:38.000 --> 00:42:40.000
+priorizar uma outra linguagem que também
+
+00:42:40.000 --> 00:42:42.000
+dá certo para aquele contexto
+
+00:42:42.000 --> 00:42:44.000
+que o meu time tem experiência, tá?
+
+00:42:44.000 --> 00:42:46.000
+Mas, realmente, com o avanço
+
+00:42:46.000 --> 00:42:48.000
+cada vez maior da IA,
+
+00:42:48.000 --> 00:42:50.000
+pode ser que a gente, o nosso
+
+00:42:50.000 --> 00:42:52.000
+papel como desenvolvedor, profissional em tecnologia
+
+00:42:52.000 --> 00:42:54.000
+mude bastante.
+
+00:42:54.000 --> 00:42:56.000
+E aí, esse tipo de discussão,
+
+00:42:56.000 --> 00:42:58.000
+se de repente vale a pena ter uma linguagem
+
+00:42:58.000 --> 00:43:00.000
+super verbosa ou não, se vale
+
+00:43:00.000 --> 00:43:02.000
+a pena até usar um clean architecture,
+
+00:43:02.000 --> 00:43:04.000
+será que não é muita coisa que usar um
+
+00:43:04.000 --> 00:43:06.000
+clean architecture, né? Mas eu sempre
+
+00:43:06.000 --> 00:43:08.000
+penso na manutenção futura, viu Vinilton?
+
+00:43:08.000 --> 00:43:10.000
+Sim. É, exatamente.
+
+00:43:10.000 --> 00:43:12.000
+Principalmente esse ponto que você
+
+00:43:12.000 --> 00:43:14.000
+colocou, né? Do time, né? De você
+
+00:43:14.000 --> 00:43:16.000
+conhecer o time que vai estar
+
+00:43:16.000 --> 00:43:18.000
+atuando ali, mantendo aquele
+
+00:43:18.000 --> 00:43:20.000
+projeto, isso é super importante, né? Porque
+
+00:43:20.000 --> 00:43:22.000
+às vezes você acaba otimizando
+
+00:43:22.000 --> 00:43:24.000
+do ponto de vista de uso de tokens,
+
+00:43:24.000 --> 00:43:26.000
+mas você acaba indo para uma stack
+
+00:43:26.000 --> 00:43:28.000
+que seu time não domina, e aí,
+
+00:43:28.000 --> 00:43:30.000
+cara, qualquer necessidade
+
+00:43:30.000 --> 00:43:32.000
+ali de um ajuste pontual,
+
+00:43:32.000 --> 00:43:34.000
+você vai acabar delegando para a IA,
+
+00:43:34.000 --> 00:43:36.000
+seu time vai acabar perdendo autonomia
+
+00:43:36.000 --> 00:43:38.000
+técnica e pode ser que acabe virando
+
+00:43:38.000 --> 00:43:40.000
+uma bola de neve, né? Então,
+
+00:43:40.000 --> 00:43:42.000
+são decisões importantes, né?
+
+00:43:42.000 --> 00:43:44.000
+E coisas que a gente precisa refletir também,
+
+00:43:44.000 --> 00:43:46.000
+porque como o Oswaldo falou,
+
+00:43:46.000 --> 00:43:48.000
+um ponto que vai se tornar cada vez
+
+00:43:48.000 --> 00:43:50.000
+mais importante nessa nossa interação
+
+00:43:50.000 --> 00:43:52.000
+como criadores de soluções,
+
+00:43:52.000 --> 00:43:54.000
+e criadoras de soluções,
+
+00:43:54.000 --> 00:43:56.000
+vai ser gerenciar a IA,
+
+00:43:56.000 --> 00:43:58.000
+tá ali sempre lado a lado com ela
+
+00:43:58.000 --> 00:44:00.000
+para conseguir extrair o melhor dela,
+
+00:44:00.000 --> 00:44:02.000
+sempre dando as diretivas,
+
+00:44:02.000 --> 00:44:04.000
+diretrizes ali necessárias para que ela
+
+00:44:04.000 --> 00:44:06.000
+consegue com qualidade o que a gente deseja
+
+00:44:06.000 --> 00:44:08.000
+e não deixa a gente maluco no futuro, né?
+
+00:44:08.000 --> 00:44:10.000
+Exatamente, exatamente.
+
+00:44:10.000 --> 00:44:12.000
+E Vilton, e aí, o que que acontece?
+
+00:44:12.000 --> 00:44:14.000
+Existem três tipos diferentes
+
+00:44:14.000 --> 00:44:16.000
+de agentes, sabia?
+
+00:44:16.000 --> 00:44:18.000
+Eu vou mostrar aqui agora
+
+00:44:18.000 --> 00:44:20.000
+os três tipos de agentes
+
+00:44:20.000 --> 00:44:22.000
+que você pode utilizar para desenvolver
+
+00:44:22.000 --> 00:44:24.000
+uma solução. Vou começar com...
+
+00:44:24.000 --> 00:44:26.000
+É, então vamos lá,
+
+00:44:26.000 --> 00:44:28.000
+eu vou até, antes disso,
+
+00:44:28.000 --> 00:44:30.000
+deixa eu fazer um desenho aqui bem rápido
+
+00:44:30.000 --> 00:44:32.000
+para mostrar um conceito para vocês
+
+00:44:32.000 --> 00:44:34.000
+aqui, vou aproveitar o próprio lugar
+
+00:44:34.000 --> 00:44:36.000
+aqui onde eu prototipei,
+
+00:44:36.000 --> 00:44:38.000
+tá?
+
+00:44:38.000 --> 00:44:40.000
+Vamos pensar o seguinte, ó,
+
+00:44:40.000 --> 00:44:42.000
+é... quais são
+
+00:44:42.000 --> 00:44:44.000
+os três tipos de agentes aí que a gente
+
+00:44:44.000 --> 00:44:46.000
+normalmente
+
+00:44:46.000 --> 00:44:48.000
+tem?
+
+00:44:48.000 --> 00:44:50.000
+Vamos colocar o Cloud Code aqui.
+
+00:44:52.000 --> 00:44:54.000
+Tá. O primeiro tipo de agente,
+
+00:44:54.000 --> 00:44:56.000
+Vilton, é o padrão,
+
+00:44:56.000 --> 00:44:58.000
+é o que todo mundo, a maioria das pessoas
+
+00:44:58.000 --> 00:45:00.000
+usam, né?
+
+00:45:00.000 --> 00:45:02.000
+Que é você utilizar
+
+00:45:02.000 --> 00:45:04.000
+um único agente
+
+00:45:04.000 --> 00:45:06.000
+e um único
+
+00:45:06.000 --> 00:45:08.000
+janela de contexto,
+
+00:45:08.000 --> 00:45:10.000
+tá? O agente é o Severino aí,
+
+00:45:10.000 --> 00:45:12.000
+no caso, né? Você faz tudo.
+
+00:45:12.000 --> 00:45:14.000
+Exatamente. Então, quando a gente vai lá e começa
+
+00:45:14.000 --> 00:45:16.000
+a falar diretamente lá com
+
+00:45:16.000 --> 00:45:18.000
+o Cloud Code, é
+
+00:45:18.000 --> 00:45:20.000
+esse modelo aqui que a gente está utilizando,
+
+00:45:20.000 --> 00:45:22.000
+tá? Não muda muito.
+
+00:45:22.000 --> 00:45:24.000
+Existe uma outra forma
+
+00:45:24.000 --> 00:45:26.000
+de você criar agente, e eu,
+
+00:45:26.000 --> 00:45:28.000
+na live anterior, a gente
+
+00:45:28.000 --> 00:45:30.000
+utilizou um pouco esse conceito
+
+00:45:30.000 --> 00:45:32.000
+aqui, que é você criar
+
+00:45:32.000 --> 00:45:34.000
+agentes especialistas, tá?
+
+00:45:34.000 --> 00:45:36.000
+Então, eu posso criar
+
+00:45:36.000 --> 00:45:38.000
+um agente, por exemplo, que é o
+
+00:45:38.000 --> 00:45:40.000
+Product Owner,
+
+00:45:42.000 --> 00:45:44.000
+e um outro agente que é
+
+00:45:44.000 --> 00:45:46.000
+de repente o
+
+00:45:46.000 --> 00:45:48.000
+arquiteto,
+
+00:45:48.000 --> 00:45:50.000
+tá? E aí, Vinilto,
+
+00:45:50.000 --> 00:45:52.000
+qual que é a vantagem, desvantagem,
+
+00:45:52.000 --> 00:45:54.000
+enfim, tá? Quando a gente fala de
+
+00:45:54.000 --> 00:45:56.000
+um único agente, a gente tem sempre um
+
+00:45:56.000 --> 00:45:58.000
+problema que a gente precisa ficar atento, que é a janela
+
+00:45:58.000 --> 00:46:00.000
+de contexto, que ela é limitada, né?
+
+00:46:00.000 --> 00:46:02.000
+E aí, quando eu falo
+
+00:46:02.000 --> 00:46:04.000
+em dois agentes, eu consigo separar
+
+00:46:04.000 --> 00:46:06.000
+bem as funções de cada um, cada um
+
+00:46:06.000 --> 00:46:08.000
+vai fazer. Consequentemente,
+
+00:46:08.000 --> 00:46:10.000
+esse problema da janela de contexto limitada,
+
+00:46:10.000 --> 00:46:12.000
+eu estou quebrando o problema em dois,
+
+00:46:12.000 --> 00:46:14.000
+tá bom? Faz sentido.
+
+00:46:14.000 --> 00:46:16.000
+Dividindo as responsabilidades ali, né?
+
+00:46:16.000 --> 00:46:18.000
+Dividindo as responsabilidades.
+
+00:46:18.000 --> 00:46:20.000
+Qual que é o trade-off desse modelo aqui?
+
+00:46:20.000 --> 00:46:22.000
+Esse modelo é muito fácil de usar, a gente vai também
+
+00:46:22.000 --> 00:46:24.000
+acabar usando aqui hoje, tá?
+
+00:46:24.000 --> 00:46:26.000
+Qual que é a diferença desse modelo aqui?
+
+00:46:26.000 --> 00:46:28.000
+Esses agentes aqui, o Product
+
+00:46:28.000 --> 00:46:30.000
+Owner e o Arquiteto, eles não se conversam.
+
+00:46:30.000 --> 00:46:32.000
+Eles não têm
+
+00:46:32.000 --> 00:46:34.000
+comunicação entre eles, tá?
+
+00:46:34.000 --> 00:46:36.000
+Eles, eu starto ele,
+
+00:46:36.000 --> 00:46:38.000
+ele faz o que tem que fazer
+
+00:46:38.000 --> 00:46:40.000
+e ele devolve ali para o Cloud Code,
+
+00:46:40.000 --> 00:46:42.000
+vamos dizer assim, o agente main,
+
+00:46:42.000 --> 00:46:44.000
+o principal, o que ele fez.
+
+00:46:44.000 --> 00:46:46.000
+Tá? Então, não tem uma comunicação
+
+00:46:46.000 --> 00:46:48.000
+entre esses dois agentes aqui.
+
+00:46:48.000 --> 00:46:50.000
+Só que
+
+00:46:50.000 --> 00:46:52.000
+tem uma funcionalidade
+
+00:46:52.000 --> 00:46:54.000
+no Cloud Code, chamada
+
+00:46:54.000 --> 00:46:56.000
+Agent Team,
+
+00:46:56.000 --> 00:46:58.000
+que é a terceira forma da gente
+
+00:46:58.000 --> 00:47:00.000
+criar os agentes, tá?
+
+00:47:00.000 --> 00:47:02.000
+Então, essa aqui é baseada no Agent Team.
+
+00:47:02.000 --> 00:47:04.000
+Nós vamos usar essa funcionalidade
+
+00:47:04.000 --> 00:47:06.000
+hoje também,
+
+00:47:06.000 --> 00:47:08.000
+que para mim é a mais poderosa, mas
+
+00:47:08.000 --> 00:47:10.000
+ela tem que ser usada com muita cautela,
+
+00:47:10.000 --> 00:47:12.000
+porque ela tem os trade-offs dela também.
+
+00:47:12.000 --> 00:47:14.000
+E qual que é a vantagem aqui,
+
+00:47:14.000 --> 00:47:16.000
+Vinilton? Eu posso criar um time
+
+00:47:16.000 --> 00:47:18.000
+de agentes, tá?
+
+00:47:18.000 --> 00:47:20.000
+Então, eu posso ter o PO,
+
+00:47:20.000 --> 00:47:22.000
+eu posso ter aqui o back-end,
+
+00:47:22.000 --> 00:47:24.000
+developer.
+
+00:47:24.000 --> 00:47:26.000
+Esses, o main
+
+00:47:26.000 --> 00:47:28.000
+aqui, fala com todo mundo,
+
+00:47:28.000 --> 00:47:30.000
+tá? Então,
+
+00:47:30.000 --> 00:47:32.000
+o main vai falar com todo mundo,
+
+00:47:32.000 --> 00:47:34.000
+só que
+
+00:47:34.000 --> 00:47:36.000
+nesse Agent Team,
+
+00:47:36.000 --> 00:47:38.000
+os agentes
+
+00:47:38.000 --> 00:47:40.000
+também se falam entre eles.
+
+00:47:40.000 --> 00:47:42.000
+Eles se conhecem.
+
+00:47:42.000 --> 00:47:44.000
+Eles se conhecem
+
+00:47:44.000 --> 00:47:46.000
+e eles vão trabalhar
+
+00:47:46.000 --> 00:47:48.000
+em prol de um
+
+00:47:48.000 --> 00:47:50.000
+objetivo.
+
+00:47:50.000 --> 00:47:52.000
+A gente vai passar o objetivo para ele
+
+00:47:52.000 --> 00:47:54.000
+e ele vai trabalhar em prol desse objetivo.
+
+00:47:54.000 --> 00:47:56.000
+Tá bom? Nós vamos ver
+
+00:47:56.000 --> 00:47:58.000
+as três formas agora.
+
+00:47:58.000 --> 00:48:00.000
+Eu vou começar pelo que é
+
+00:48:00.000 --> 00:48:02.000
+mais fácil, que todo mundo
+
+00:48:02.000 --> 00:48:04.000
+conhece, tá?
+
+00:48:04.000 --> 00:48:06.000
+Que é, basicamente, aí a gente
+
+00:48:06.000 --> 00:48:08.000
+fazer,
+
+00:48:08.000 --> 00:48:10.000
+vamos criar aqui
+
+00:48:10.000 --> 00:48:12.000
+o primeiro agente nosso.
+
+00:48:12.000 --> 00:48:14.000
+E aí, ô Vinilton, tem um ponto?
+
+00:48:14.000 --> 00:48:16.000
+Então, vamos lá. Para poder criar,
+
+00:48:16.000 --> 00:48:18.000
+eu já vou abrir meu terminal aqui,
+
+00:48:18.000 --> 00:48:20.000
+o meu iTerm.
+
+00:48:24.000 --> 00:48:26.000
+Eu vou abrir meu iTerm aqui.
+
+00:48:26.000 --> 00:48:28.000
+Vou tentar deixar aqui num tamanho que vocês
+
+00:48:28.000 --> 00:48:30.000
+de casa vão conseguir
+
+00:48:30.000 --> 00:48:32.000
+ver também com facilidade, tá?
+
+00:48:32.000 --> 00:48:34.000
+Vamos entrar lá no projeto.
+
+00:48:36.000 --> 00:48:38.000
+Deixa eu só ver qual que é
+
+00:48:38.000 --> 00:48:40.000
+aqui o diretório
+
+00:48:40.000 --> 00:48:42.000
+do projeto de hoje.
+
+00:48:42.000 --> 00:48:44.000
+Acho que é o
+
+00:48:44.000 --> 00:48:46.000
+Live 2.
+
+00:48:46.000 --> 00:48:48.000
+É esse aí, tá?
+
+00:48:50.000 --> 00:48:52.000
+Bom, a gente já viu isso
+
+00:48:52.000 --> 00:48:54.000
+na live anterior, né? Para eu poder
+
+00:48:54.000 --> 00:48:56.000
+entrar aqui no
+
+00:48:56.000 --> 00:48:58.000
+cloud, ou seja, me conectar
+
+00:48:58.000 --> 00:49:00.000
+aqui, basta eu digitar
+
+00:49:00.000 --> 00:49:02.000
+cloud aqui dentro do diretório,
+
+00:49:02.000 --> 00:49:04.000
+Vinilton. E aí eu já estou rodando o cloud,
+
+00:49:04.000 --> 00:49:06.000
+tá? É só garantir aqui que ele está
+
+00:49:06.000 --> 00:49:08.000
+apontando realmente para o diretório
+
+00:49:08.000 --> 00:49:10.000
+que precisa.
+
+00:49:10.000 --> 00:49:12.000
+E essa aqui é a forma
+
+00:49:12.000 --> 00:49:14.000
+mais, vamos dizer assim, mais simples
+
+00:49:14.000 --> 00:49:16.000
+da gente começar
+
+00:49:16.000 --> 00:49:18.000
+a criar o primeiro agente, tá?
+
+00:49:18.000 --> 00:49:20.000
+Uma coisa que é bastante interessante,
+
+00:49:20.000 --> 00:49:22.000
+Vinilton,
+
+00:49:22.000 --> 00:49:24.000
+eu tenho bastante informação
+
+00:49:24.000 --> 00:49:26.000
+já dentro desse diretório, né?
+
+00:49:26.000 --> 00:49:28.000
+Posso aqui colocar !ls
+
+00:49:28.000 --> 00:49:30.000
+e aí a gente vai ver que eu tenho
+
+00:49:30.000 --> 00:49:32.000
+o arquivo de arquitetura e o arquivo
+
+00:49:32.000 --> 00:49:34.000
+de design ali.
+
+00:49:34.000 --> 00:49:36.000
+Então eu posso usar um comando aqui, que a gente
+
+00:49:36.000 --> 00:49:38.000
+também falou dele na live anterior,
+
+00:49:38.000 --> 00:49:40.000
+que é o init, tá?
+
+00:49:40.000 --> 00:49:42.000
+O init, o que ele vai fazer?
+
+00:49:42.000 --> 00:49:44.000
+Ele vai ler todos os arquivos
+
+00:49:44.000 --> 00:49:46.000
+que estão aí no meu
+
+00:49:46.000 --> 00:49:48.000
+diretório atual,
+
+00:49:48.000 --> 00:49:50.000
+e vai gerar para mim um arquivo chamado
+
+00:49:50.000 --> 00:49:52.000
+cloud.md.
+
+00:49:52.000 --> 00:49:54.000
+Esse cloud.md
+
+00:49:54.000 --> 00:49:56.000
+é o arquivo que,
+
+00:49:56.000 --> 00:49:58.000
+vamos dizer assim, é a memória inicial
+
+00:49:58.000 --> 00:50:00.000
+que o Cloud Code precisa.
+
+00:50:00.000 --> 00:50:02.000
+Porque quando eu abro uma sessão,
+
+00:50:02.000 --> 00:50:04.000
+pensa assim, quando eu crio uma sessão nova
+
+00:50:04.000 --> 00:50:06.000
+no Cloud Code, ele não conhece nada do meu
+
+00:50:06.000 --> 00:50:08.000
+projeto, tá?
+
+00:50:08.000 --> 00:50:10.000
+E como que eu faço para ele já vir?
+
+00:50:10.000 --> 00:50:12.000
+A gente até fala que ele vem com amnésia, né?
+
+00:50:12.000 --> 00:50:14.000
+Ou seja, ele vem virado.
+
+00:50:14.000 --> 00:50:16.000
+A partir do momento que eu
+
+00:50:16.000 --> 00:50:18.000
+vou falando para ele o que ele tem que fazer,
+
+00:50:18.000 --> 00:50:20.000
+daí ele vai, obviamente,
+
+00:50:20.000 --> 00:50:22.000
+começando a trabalhar
+
+00:50:22.000 --> 00:50:24.000
+e entendendo um pouco o contexto.
+
+00:50:24.000 --> 00:50:26.000
+Agora, se eu quero que ele comece
+
+00:50:26.000 --> 00:50:28.000
+o trabalho já
+
+00:50:28.000 --> 00:50:30.000
+com uma certa memória,
+
+00:50:30.000 --> 00:50:32.000
+basta eu criar um arquivo cloud.md
+
+00:50:32.000 --> 00:50:34.000
+e aí ele vai ter já
+
+00:50:34.000 --> 00:50:36.000
+uma informação rica
+
+00:50:36.000 --> 00:50:38.000
+sobre o projeto.
+
+00:50:38.000 --> 00:50:40.000
+Então toda vez que eu inicio uma sessão do cloud,
+
+00:50:40.000 --> 00:50:42.000
+o que é iniciar uma sessão? Ou eu vim aqui
+
+00:50:42.000 --> 00:50:44.000
+e dá um clear,
+
+00:50:44.000 --> 00:50:46.000
+iniciei uma sessão, ou eu saio do cloud
+
+00:50:46.000 --> 00:50:48.000
+e volto do cloud, tá?
+
+00:50:48.000 --> 00:50:50.000
+Então ele já tem essas informações aí.
+
+00:50:50.000 --> 00:50:52.000
+Então eu acabei de criar aqui
+
+00:50:52.000 --> 00:50:54.000
+o meu cloud.md para poder me dar
+
+00:50:54.000 --> 00:50:56.000
+essa informação básica
+
+00:50:56.000 --> 00:50:58.000
+aí, opa,
+
+00:50:58.000 --> 00:51:00.000
+do meu projeto,
+
+00:51:00.000 --> 00:51:02.000
+tá? Simples assim.
+
+00:51:02.000 --> 00:51:04.000
+Beleza.
+
+00:51:04.000 --> 00:51:06.000
+Vamos lá.
+
+00:51:06.000 --> 00:51:08.000
+Qual que vai ser a primeira coisa
+
+00:51:08.000 --> 00:51:10.000
+que nós vamos fazer aqui, Vinilton?
+
+00:51:10.000 --> 00:51:12.000
+Nós vamos criar um prompt aqui.
+
+00:51:12.000 --> 00:51:14.000
+Eu vou mostrar para vocês a parte
+
+00:51:14.000 --> 00:51:16.000
+aqui, ó.
+
+00:51:16.000 --> 00:51:18.000
+Eu sempre gosto de começar os meus projetos
+
+00:51:18.000 --> 00:51:20.000
+criando um diagrama, Vinilton,
+
+00:51:20.000 --> 00:51:22.000
+um diagrama de entidade de relacionamento,
+
+00:51:22.000 --> 00:51:24.000
+tá?
+
+00:51:24.000 --> 00:51:26.000
+É como que eu vejo os dados.
+
+00:51:26.000 --> 00:51:28.000
+Então, ó, esse é um primeiro prompt
+
+00:51:28.000 --> 00:51:30.000
+que eu vou pedir
+
+00:51:30.000 --> 00:51:32.000
+para ele, né,
+
+00:51:32.000 --> 00:51:34.000
+eu tô começando um projeto,
+
+00:51:34.000 --> 00:51:36.000
+tô pedindo para ele olhar tanto para o design
+
+00:51:36.000 --> 00:51:38.000
+quanto para a arquitetura,
+
+00:51:38.000 --> 00:51:40.000
+tá?
+
+00:51:40.000 --> 00:51:42.000
+E vou pedir para ele criar o arquivo
+
+00:51:42.000 --> 00:51:44.000
+ERD aqui, que é o de entidade de relacionamento.
+
+00:51:44.000 --> 00:51:46.000
+Tá bom?
+
+00:51:46.000 --> 00:51:48.000
+É...
+
+00:51:48.000 --> 00:51:50.000
+Nada muito elaborado, mas que vai ser
+
+00:51:50.000 --> 00:51:52.000
+suficiente aqui para que o nosso
+
+00:51:52.000 --> 00:51:54.000
+cloud comece a trabalhar.
+
+00:51:54.000 --> 00:51:56.000
+Então eu coloco aí
+
+00:51:56.000 --> 00:51:58.000
+as informações ali
+
+00:51:58.000 --> 00:52:00.000
+e vamos esperar aí o que ele vai fazer, né?
+
+00:52:00.000 --> 00:52:02.000
+Ele vai criar todo
+
+00:52:02.000 --> 00:52:04.000
+esse arquivo, que vai ser um primeiro
+
+00:52:04.000 --> 00:52:06.000
+arquivo adicional ao arquivo
+
+00:52:06.000 --> 00:52:08.000
+da arquitetura, tá?
+
+00:52:08.000 --> 00:52:10.000
+Legal, legal.
+
+00:52:10.000 --> 00:52:12.000
+Bart, tem uma pergunta aqui
+
+00:52:12.000 --> 00:52:14.000
+do Tenório.
+
+00:52:14.000 --> 00:52:16.000
+Ele perguntou qual é a melhor
+
+00:52:16.000 --> 00:52:18.000
+forma de usar o cloud aí, né?
+
+00:52:18.000 --> 00:52:20.000
+A gente tá mostrando aqui, principalmente
+
+00:52:20.000 --> 00:52:22.000
+olhando ali para o
+
+00:52:22.000 --> 00:52:24.000
+terminal, né? Mas ele
+
+00:52:24.000 --> 00:52:26.000
+perguntou das alternativas, né?
+
+00:52:26.000 --> 00:52:28.000
+No navegador, como uma extensão
+
+00:52:28.000 --> 00:52:30.000
+ali no VS Code ou no terminal.
+
+00:52:30.000 --> 00:52:32.000
+Acho que são
+
+00:52:32.000 --> 00:52:34.000
+formas de usar diferentes
+
+00:52:34.000 --> 00:52:36.000
+que, dependendo da situação, você pode
+
+00:52:36.000 --> 00:52:38.000
+extrair bons resultados, né? Acho que
+
+00:52:38.000 --> 00:52:40.000
+vai depender muito do que você deseja fazer,
+
+00:52:40.000 --> 00:52:42.000
+né, cara? O que você acha?
+
+00:52:42.000 --> 00:52:44.000
+Exatamente. Até a gente comentou um pouquinho
+
+00:52:44.000 --> 00:52:46.000
+sobre isso na live anterior,
+
+00:52:46.000 --> 00:52:48.000
+que assim, existe realmente vários
+
+00:52:48.000 --> 00:52:50.000
+sabores aí, né, de
+
+00:52:50.000 --> 00:52:52.000
+cloud code. Por exemplo,
+
+00:52:52.000 --> 00:52:54.000
+eu comecei a usar o cloud code
+
+00:52:54.000 --> 00:52:56.000
+direto pela versão desktop dele.
+
+00:52:56.000 --> 00:52:58.000
+Depois
+
+00:52:58.000 --> 00:53:00.000
+eu migrei para essa
+
+00:53:00.000 --> 00:53:02.000
+versão aqui, que é a versão
+
+00:53:02.000 --> 00:53:04.000
+CLI, né, de command line.
+
+00:53:04.000 --> 00:53:06.000
+E agora eu tô usando o Tmux,
+
+00:53:06.000 --> 00:53:08.000
+depois eu vou mostrar para vocês aqui como
+
+00:53:08.000 --> 00:53:10.000
+que usa, porque dá um pouco mais de flexibilidade.
+
+00:53:10.000 --> 00:53:12.000
+Então, eu acho que assim,
+
+00:53:12.000 --> 00:53:14.000
+à medida que a gente vai aprendendo
+
+00:53:14.000 --> 00:53:16.000
+a usar o cloud code, a gente vai
+
+00:53:16.000 --> 00:53:18.000
+aperfeiçoando também,
+
+00:53:18.000 --> 00:53:20.000
+vai entendendo qual que é a melhor forma de utilizar.
+
+00:53:20.000 --> 00:53:22.000
+Hoje eu uso
+
+00:53:22.000 --> 00:53:24.000
+o linha de comando aqui, pelo terminal
+
+00:53:24.000 --> 00:53:26.000
+interativo direto, que eu acho
+
+00:53:26.000 --> 00:53:28.000
+que, para mim, é o que funcionou melhor,
+
+00:53:28.000 --> 00:53:30.000
+o Venilton.
+
+00:53:30.000 --> 00:53:32.000
+Boa, boa.
+
+00:53:32.000 --> 00:53:34.000
+Uma galera comentando aqui que usou
+
+00:53:34.000 --> 00:53:36.000
+o Obsidian como o segundo cérebro ali,
+
+00:53:36.000 --> 00:53:38.000
+né, das soluções, então é legal, né?
+
+00:53:38.000 --> 00:53:40.000
+Porque tem também esse tipo de flexibilidade,
+
+00:53:40.000 --> 00:53:42.000
+né, cara, de você poder
+
+00:53:42.000 --> 00:53:44.000
+às vezes combinar ferramentas,
+
+00:53:44.000 --> 00:53:46.000
+né, cara, isso é legal demais, porque
+
+00:53:46.000 --> 00:53:48.000
+esse conceito de agentes
+
+00:53:48.000 --> 00:53:50.000
+e tudo isso que a gente está
+
+00:53:50.000 --> 00:53:52.000
+vendo juntos aí ao longo das lives,
+
+00:53:52.000 --> 00:53:54.000
+são conceitos que podem ser replicados
+
+00:53:54.000 --> 00:53:56.000
+em diferentes ambientes, com diferentes
+
+00:53:56.000 --> 00:53:58.000
+provedores, diferentes modelos,
+
+00:53:58.000 --> 00:54:00.000
+né, isso é bacana demais.
+
+00:54:00.000 --> 00:54:02.000
+Exatamente. Venilton, eu já criei aqui
+
+00:54:02.000 --> 00:54:04.000
+então o segundo arquivo de referência,
+
+00:54:04.000 --> 00:54:06.000
+tá, dentro de docs aqui,
+
+00:54:06.000 --> 00:54:08.000
+que é um arquivo que fala tudo sobre
+
+00:54:08.000 --> 00:54:10.000
+a minha modelagem, né, então tem lá,
+
+00:54:10.000 --> 00:54:12.000
+ó, decisões de modelagem,
+
+00:54:12.000 --> 00:54:14.000
+então ele já leu um pouco
+
+00:54:14.000 --> 00:54:16.000
+do documento de arquitetura e
+
+00:54:16.000 --> 00:54:18.000
+todas as coisas do projeto e criou.
+
+00:54:18.000 --> 00:54:20.000
+Mas eu vou fazer uma coisa
+
+00:54:20.000 --> 00:54:22.000
+demais aqui, tá, você conhece o
+
+00:54:22.000 --> 00:54:24.000
+mermaid, né, eu sei que você usa bastante
+
+00:54:24.000 --> 00:54:26.000
+o mermaid aí no
+
+00:54:26.000 --> 00:54:28.000
+diagramar. Bom demais, né,
+
+00:54:28.000 --> 00:54:30.000
+bom demais criar diagramas.
+
+00:54:30.000 --> 00:54:32.000
+Eu vou colocar
+
+00:54:32.000 --> 00:54:34.000
+aqui um
+
+00:54:34.000 --> 00:54:36.000
+direto aqui, ó, deixa eu pegar
+
+00:54:36.000 --> 00:54:38.000
+aqui só para vocês poderem ver também,
+
+00:54:38.000 --> 00:54:40.000
+mas eu tenho aqui um
+
+00:54:40.000 --> 00:54:42.000
+prompt, que simplesmente
+
+00:54:42.000 --> 00:54:44.000
+ele fala, né, a partir desse arquivo que
+
+00:54:44.000 --> 00:54:46.000
+nós geramos aqui, para ele gerar
+
+00:54:46.000 --> 00:54:48.000
+o arquivo mermaid, né, eu acho
+
+00:54:48.000 --> 00:54:50.000
+que esse aqui é o legal mesmo da gente
+
+00:54:50.000 --> 00:54:52.000
+ver assim. Então, pessoal,
+
+00:54:52.000 --> 00:54:54.000
+essa forma que eu estou mostrando para vocês aqui,
+
+00:54:54.000 --> 00:54:56.000
+eu acho que assim, todo mundo que
+
+00:54:56.000 --> 00:54:58.000
+começa a utilizar o Cloud Code para poder
+
+00:54:58.000 --> 00:55:00.000
+desenvolver software, começa dessa
+
+00:55:00.000 --> 00:55:02.000
+forma, tá,
+
+00:55:02.000 --> 00:55:04.000
+começa utilizando aqui o modo interativo,
+
+00:55:04.000 --> 00:55:06.000
+ó, isso que é importante
+
+00:55:06.000 --> 00:55:08.000
+também, tá, eu estou no modo aqui de
+
+00:55:08.000 --> 00:55:10.000
+utilização do Cloud Code e tudo que ele vai fazer
+
+00:55:10.000 --> 00:55:12.000
+ele vai me pedir permissão.
+
+00:55:12.000 --> 00:55:14.000
+Então, você vê que ele está pedindo permissão
+
+00:55:14.000 --> 00:55:16.000
+para mim a todo momento, eu estou quase
+
+00:55:16.000 --> 00:55:18.000
+no modo automático aqui, porque eu estou muito
+
+00:55:18.000 --> 00:55:20.000
+acostumado de dar permissão,
+
+00:55:20.000 --> 00:55:22.000
+mas depois eu vou mostrar para vocês
+
+00:55:22.000 --> 00:55:24.000
+como que você tira isso, como que você
+
+00:55:24.000 --> 00:55:26.000
+dá mais autonomia e também
+
+00:55:26.000 --> 00:55:28.000
+dos riscos que envolve dar essa
+
+00:55:28.000 --> 00:55:30.000
+autonomia toda aí para ele, tá.
+
+00:55:30.000 --> 00:55:32.000
+Benito, vamos ver, ó, ele criou
+
+00:55:32.000 --> 00:55:34.000
+o arquivo aqui, tá, do mermaid,
+
+00:55:34.000 --> 00:55:36.000
+e agora
+
+00:55:36.000 --> 00:55:38.000
+eu tenho um cara bem
+
+00:55:38.000 --> 00:55:40.000
+legal aqui, que é esse cara aqui, ó,
+
+00:55:40.000 --> 00:55:42.000
+que ele permite visualizar.
+
+00:55:42.000 --> 00:55:44.000
+Mermaid é vida, galera,
+
+00:55:44.000 --> 00:55:46.000
+Mermaid é bom demais, porque dá para você
+
+00:55:46.000 --> 00:55:48.000
+demonstrar
+
+00:55:48.000 --> 00:55:50.000
+visualmente as suas decisões de modelagem,
+
+00:55:50.000 --> 00:55:52.000
+né, olha que legal, ele já montou
+
+00:55:52.000 --> 00:55:54.000
+o diagrama de entidade
+
+00:55:54.000 --> 00:55:56.000
+relacionamento, né, cara, muito bom.
+
+00:55:56.000 --> 00:55:58.000
+Isso aqui ajuda muito, assim, numa agenda
+
+00:55:58.000 --> 00:56:00.000
+com o time técnico, né,
+
+00:56:00.000 --> 00:56:02.000
+a gente conseguir visualizar.
+
+00:56:02.000 --> 00:56:04.000
+Então, olha, ele já criou aqui, ó,
+
+00:56:04.000 --> 00:56:06.000
+a tabela restaurante,
+
+00:56:06.000 --> 00:56:08.000
+recebe pedidos, a tabela
+
+00:56:08.000 --> 00:56:10.000
+order, a tabela menu item,
+
+00:56:10.000 --> 00:56:12.000
+menu section, enfim,
+
+00:56:12.000 --> 00:56:14.000
+pessoal, a gente já começa
+
+00:56:14.000 --> 00:56:16.000
+a ter aqui uma documentação que vai ser
+
+00:56:16.000 --> 00:56:18.000
+importante em algum momento,
+
+00:56:18.000 --> 00:56:20.000
+para a gente poder
+
+00:56:20.000 --> 00:56:22.000
+desenvolver, tá? Então, vocês viram
+
+00:56:22.000 --> 00:56:24.000
+aí, foi a forma mais
+
+00:56:24.000 --> 00:56:26.000
+primitiva, vamos dizer assim, de você
+
+00:56:26.000 --> 00:56:28.000
+você está usando um agent man, tá,
+
+00:56:28.000 --> 00:56:30.000
+você está usando um agent principal aqui
+
+00:56:30.000 --> 00:56:32.000
+para poder fazer tudo, né, Benilton?
+
+00:56:32.000 --> 00:56:34.000
+Sim, sim, é,
+
+00:56:34.000 --> 00:56:36.000
+o legal do Mermaid também, né,
+
+00:56:36.000 --> 00:56:38.000
+galera, para quem não conhece,
+
+00:56:38.000 --> 00:56:40.000
+é que você pode criar
+
+00:56:40.000 --> 00:56:42.000
+esse tipo de diagrama, basicamente, né,
+
+00:56:42.000 --> 00:56:44.000
+estou até mandando o link aí para o pessoal que não conhece,
+
+00:56:44.000 --> 00:56:46.000
+dá uma olhada,
+
+00:56:46.000 --> 00:56:48.000
+é basicamente uma biblioteca,
+
+00:56:48.000 --> 00:56:50.000
+né, Javascript ali,
+
+00:56:50.000 --> 00:56:52.000
+na essência que
+
+00:56:52.000 --> 00:56:54.000
+boa parte dos repositórios de código
+
+00:56:54.000 --> 00:56:56.000
+já interpretam, então se você
+
+00:56:56.000 --> 00:56:58.000
+subir um diagrama Mermaid lá no Readme
+
+00:56:58.000 --> 00:57:00.000
+do seu GitHub, por exemplo, o próprio
+
+00:57:00.000 --> 00:57:02.000
+GitHub interpreta o seu diagrama Mermaid
+
+00:57:02.000 --> 00:57:04.000
+e mostra ele visualmente ali, então
+
+00:57:04.000 --> 00:57:06.000
+para a documentação de software, igual
+
+00:57:06.000 --> 00:57:08.000
+o Varte está mostrando aqui,
+
+00:57:08.000 --> 00:57:10.000
+é bom demais, né, porque você consegue
+
+00:57:10.000 --> 00:57:12.000
+criar diagramas sem ter
+
+00:57:12.000 --> 00:57:14.000
+necessidade, por exemplo, de uma ferramenta
+
+00:57:14.000 --> 00:57:16.000
+de desenho ML, igual a galera já
+
+00:57:16.000 --> 00:57:18.000
+comentou aí no chat, né, que era comum
+
+00:57:18.000 --> 00:57:20.000
+antigamente, então hoje em dia você pode
+
+00:57:20.000 --> 00:57:22.000
+criar qualquer diagrama ML, por exemplo,
+
+00:57:22.000 --> 00:57:24.000
+usando o Mermaid com a sintaxe dele, então
+
+00:57:24.000 --> 00:57:26.000
+isso é bom demais também.
+
+00:57:26.000 --> 00:57:28.000
+E sabe o que é legal, Benilton? Como o Mermaid
+
+00:57:28.000 --> 00:57:30.000
+ele tem esse formato dele aqui
+
+00:57:30.000 --> 00:57:32.000
+que é texto, né, no final,
+
+00:57:32.000 --> 00:57:34.000
+o LLM,
+
+00:57:34.000 --> 00:57:36.000
+os LLMs lidam muito bem
+
+00:57:36.000 --> 00:57:38.000
+esse formato aqui, então muitas
+
+00:57:38.000 --> 00:57:40.000
+vezes, assim, depois eu preciso
+
+00:57:40.000 --> 00:57:42.000
+fazer alguma, imagina que eu preciso fazer
+
+00:57:42.000 --> 00:57:44.000
+uma query no banco, por exemplo, eu posso vir
+
+00:57:44.000 --> 00:57:46.000
+pro Claudio e falar, me faz uma query
+
+00:57:46.000 --> 00:57:48.000
+que pega esse produto, ele vem,
+
+00:57:48.000 --> 00:57:50.000
+ele tem isso aqui como referência, ele consegue criar
+
+00:57:50.000 --> 00:57:52.000
+esses tipos de artefatos pra mim,
+
+00:57:52.000 --> 00:57:54.000
+tá? Legal, e você pode criar
+
+00:57:54.000 --> 00:57:56.000
+qualquer tipo de diagrama, né, o pessoal
+
+00:57:56.000 --> 00:57:58.000
+falando que gera modelo C4,
+
+00:57:58.000 --> 00:58:00.000
+que são mais foco arquitetural,
+
+00:58:00.000 --> 00:58:02.000
+então assim, o céu é o limite, né.
+
+00:58:02.000 --> 00:58:04.000
+Benilton, tem uma coisa também
+
+00:58:04.000 --> 00:58:06.000
+legal, assim, o pessoal que é
+
+00:58:06.000 --> 00:58:08.000
+novo em tecnologia tem dificuldade
+
+00:58:08.000 --> 00:58:10.000
+com Git, né, não sei se você já percebeu isso,
+
+00:58:10.000 --> 00:58:12.000
+mas até a pessoa começar a se adaptar
+
+00:58:12.000 --> 00:58:14.000
+e tal, e aí o
+
+00:58:14.000 --> 00:58:16.000
+Cloud Code ele ajuda muito nesse sentido também,
+
+00:58:16.000 --> 00:58:18.000
+né, então, por exemplo, eu
+
+00:58:18.000 --> 00:58:20.000
+dificilmente eu fico aqui digitando
+
+00:58:20.000 --> 00:58:22.000
+comando Git, eu venho aqui, por exemplo,
+
+00:58:22.000 --> 00:58:24.000
+eu dei um comando ali que é o git init,
+
+00:58:24.000 --> 00:58:26.000
+só pra poder inicializar o meu repositório aqui,
+
+00:58:26.000 --> 00:58:28.000
+tá, mas se eu quero,
+
+00:58:28.000 --> 00:58:30.000
+por exemplo, vamos
+
+00:58:30.000 --> 00:58:32.000
+colocar assim, ó, cri, create,
+
+00:58:32.000 --> 00:58:34.000
+git ignore,
+
+00:58:38.000 --> 00:58:40.000
+git ignore, tá,
+
+00:58:40.000 --> 00:58:42.000
+o Cloud Code ele já tem
+
+00:58:42.000 --> 00:58:44.000
+todos os padrões aí de criação
+
+00:58:44.000 --> 00:58:46.000
+de git ignore e tal,
+
+00:58:46.000 --> 00:58:48.000
+então você simplesmente vai lá, dá permissão pra ele,
+
+00:58:48.000 --> 00:58:50.000
+ó, ele já criou o git ignore pra você,
+
+00:58:50.000 --> 00:58:52.000
+tá, ah, eu quero fazer um
+
+00:58:52.000 --> 00:58:54.000
+commit, commit, tá,
+
+00:58:54.000 --> 00:58:56.000
+tem coisas assim que eu falo, o pessoal às vezes
+
+00:58:56.000 --> 00:58:58.000
+fica escrevendo muito com a IA, né,
+
+00:58:58.000 --> 00:59:00.000
+tem coisa que não precisa, cara,
+
+00:59:00.000 --> 00:59:02.000
+mas ele falou commit ali, ó, ele já criou,
+
+00:59:02.000 --> 00:59:04.000
+já tá fazendo o add,
+
+00:59:04.000 --> 00:59:06.000
+já tá incluindo todos os arquivos,
+
+00:59:06.000 --> 00:59:08.000
+e já tá criando aqui uma descrição aqui
+
+00:59:08.000 --> 00:59:10.000
+do commit com tudo que eu fiz até agora.
+
+00:59:10.000 --> 00:59:12.000
+Uma coisa que é legal, Varte, que eu acompanhei lá
+
+00:59:12.000 --> 00:59:14.000
+nos commits que vocês fizeram no
+
+00:59:14.000 --> 00:59:16.000
+repositório do Mandaí,
+
+00:59:16.000 --> 00:59:18.000
+é que o autor do commit
+
+00:59:18.000 --> 00:59:20.000
+é o próprio Cloud Code, né, cara, então
+
+00:59:20.000 --> 00:59:22.000
+ele vira meio que um colaborador do projeto, né,
+
+00:59:22.000 --> 00:59:24.000
+é muito massa isso, eu não pensei
+
+00:59:24.000 --> 00:59:26.000
+que fosse assim, isso é legal demais.
+
+00:59:26.000 --> 00:59:28.000
+Ele é um co-autor, ele é um co-autor
+
+00:59:28.000 --> 00:59:30.000
+do projeto, né.
+
+00:59:30.000 --> 00:59:32.000
+Legal, vamos lá, vamos ver
+
+00:59:32.000 --> 00:59:34.000
+a segunda forma agora, a gente viu a primeira
+
+00:59:34.000 --> 00:59:36.000
+que é a mais básica, né, todo mundo
+
+00:59:36.000 --> 00:59:38.000
+utiliza, agora eu vou mostrar pra vocês
+
+00:59:38.000 --> 00:59:40.000
+uma segunda forma
+
+00:59:40.000 --> 00:59:42.000
+da gente criar agentes, tá,
+
+00:59:42.000 --> 00:59:44.000
+aqui no Cloud Code,
+
+00:59:44.000 --> 00:59:46.000
+e aí nós vamos criar dois agentes
+
+00:59:46.000 --> 00:59:48.000
+aqui, nós vamos criar o PO,
+
+00:59:48.000 --> 00:59:50.000
+e nós vamos criar o arquiteto, e a gente
+
+00:59:50.000 --> 00:59:52.000
+depois vai pedir pra eles poderem trabalhar
+
+00:59:52.000 --> 00:59:54.000
+em alguns artefatos aqui.
+
+00:59:54.000 --> 00:59:56.000
+UserStory, pra poder
+
+00:59:56.000 --> 00:59:58.000
+descrever como é que vai funcionar
+
+00:59:58.000 --> 01:00:00.000
+o nosso software, e o ADR,
+
+01:00:00.000 --> 01:00:02.000
+que é o documento de arquitetura.
+
+01:00:02.000 --> 01:00:04.000
+Vamos lá, então assim, ó,
+
+01:00:04.000 --> 01:00:06.000
+Benilton, barra agents, então
+
+01:00:06.000 --> 01:00:08.000
+barra, aqui no Cloud Code a gente já
+
+01:00:08.000 --> 01:00:10.000
+viu isso também, ele é o command,
+
+01:00:10.000 --> 01:00:12.000
+tá, é o comando, então,
+
+01:00:12.000 --> 01:00:14.000
+vem aqui,
+
+01:00:14.000 --> 01:00:16.000
+vamos vir aqui em library, eu não tenho
+
+01:00:16.000 --> 01:00:18.000
+nenhum agente criado aqui nesse repositório,
+
+01:00:18.000 --> 01:00:20.000
+create new agent,
+
+01:00:20.000 --> 01:00:22.000
+tem duas opções, ou eu boto
+
+01:00:22.000 --> 01:00:24.000
+na minha conta, vale pra
+
+01:00:24.000 --> 01:00:26.000
+todos os meus projetos, eu boto no
+
+01:00:26.000 --> 01:00:28.000
+projeto, vou botar no projeto,
+
+01:00:28.000 --> 01:00:30.000
+e vou falar pra ele que eu quero fazer uma
+
+01:00:30.000 --> 01:00:32.000
+configuração manual. Eu nunca uso essa recomendada,
+
+01:00:32.000 --> 01:00:34.000
+porque ele coloca muita coisa
+
+01:00:34.000 --> 01:00:36.000
+aqui, tá, vou colocar
+
+01:00:36.000 --> 01:00:38.000
+aqui o primeiro agente nosso,
+
+01:00:38.000 --> 01:00:40.000
+que é o Product Owner,
+
+01:00:42.000 --> 01:00:44.000
+ele vai pedir aqui agora pra eu
+
+01:00:44.000 --> 01:00:46.000
+entrar aqui com o System Prompt,
+
+01:00:46.000 --> 01:00:48.000
+tá, do agente,
+
+01:00:48.000 --> 01:00:50.000
+e aí eu vou trazer novamente pra
+
+01:00:50.000 --> 01:00:52.000
+tela, pra poder mostrar pra vocês sempre
+
+01:00:52.000 --> 01:00:54.000
+aqui, tá, ó, é um System Prompt
+
+01:00:54.000 --> 01:00:56.000
+simples, tá, onde eu falo aqui
+
+01:00:56.000 --> 01:00:58.000
+você é um Product Owner experiente,
+
+01:00:58.000 --> 01:01:00.000
+sua especialidade é traduzir requisitos
+
+01:01:00.000 --> 01:01:02.000
+técnicos, visuais,
+
+01:01:02.000 --> 01:01:04.000
+em user stories claras, ele tem também
+
+01:01:04.000 --> 01:01:06.000
+o formato aqui da user story,
+
+01:01:06.000 --> 01:01:08.000
+e regrinhas básicas aqui que
+
+01:01:08.000 --> 01:01:10.000
+ele tem que cumprir, tá,
+
+01:01:10.000 --> 01:01:12.000
+então vamos colocar o System Prompt
+
+01:01:12.000 --> 01:01:14.000
+aqui,
+
+01:01:14.000 --> 01:01:16.000
+legal, e
+
+01:01:16.000 --> 01:01:18.000
+isso aqui é importantíssimo,
+
+01:01:18.000 --> 01:01:20.000
+Vinilton, quando
+
+01:01:20.000 --> 01:01:22.000
+esse agente,
+
+01:01:22.000 --> 01:01:24.000
+quando ele deveria ser usado,
+
+01:01:24.000 --> 01:01:26.000
+né, quando esse agente deveria ser
+
+01:01:26.000 --> 01:01:28.000
+usado, e aí eu também vou
+
+01:01:28.000 --> 01:01:30.000
+pegar um texto que eu tenho aqui,
+
+01:01:30.000 --> 01:01:32.000
+mais ou menos pronto,
+
+01:01:32.000 --> 01:01:34.000
+que é, use esse agente para escrever user
+
+01:01:34.000 --> 01:01:36.000
+stories estruturadas a partir de fontes,
+
+01:01:36.000 --> 01:01:38.000
+tá, eu tô falando do handoff,
+
+01:01:38.000 --> 01:01:40.000
+das especificações,
+
+01:01:40.000 --> 01:01:42.000
+enfim, tá, vamos colocar
+
+01:01:42.000 --> 01:01:44.000
+aqui então.
+
+01:01:44.000 --> 01:01:46.000
+Lembrando, galera, que esse repositório
+
+01:01:46.000 --> 01:01:48.000
+vai ficar disponível, né, com todos os
+
+01:01:48.000 --> 01:01:50.000
+arquivos ali de definição
+
+01:01:50.000 --> 01:01:52.000
+dos agentes e tudo mais,
+
+01:01:52.000 --> 01:01:54.000
+então todos esses System Prompt
+
+01:01:54.000 --> 01:01:56.000
+aí que o Varty está demonstrando,
+
+01:01:56.000 --> 01:01:58.000
+de criação dos Prompt e configuração
+
+01:01:58.000 --> 01:02:00.000
+dos agentes, vai estar disponível no repositório,
+
+01:02:00.000 --> 01:02:02.000
+tá, então não se preocupem aí,
+
+01:02:02.000 --> 01:02:04.000
+eu sei que vocês já estão
+
+01:02:04.000 --> 01:02:06.000
+coçando aí para ver
+
+01:02:06.000 --> 01:02:08.000
+como é que os agentes estão ficando, mas
+
+01:02:08.000 --> 01:02:10.000
+eles vão estar disponíveis, beleza, depois a gente
+
+01:02:10.000 --> 01:02:12.000
+mostra para vocês.
+
+01:02:12.000 --> 01:02:14.000
+Exatamente, bom, aqui eu vou escolher
+
+01:02:14.000 --> 01:02:16.000
+o modelo, né, isso é legal, quando você
+
+01:02:16.000 --> 01:02:18.000
+escolhe os agentes, você pode escolher o modelo,
+
+01:02:18.000 --> 01:02:20.000
+o Vinilton,
+
+01:02:20.000 --> 01:02:22.000
+o Sonnet é muito poderoso, tá,
+
+01:02:22.000 --> 01:02:24.000
+então ele até fala aqui que é o mais balanceado,
+
+01:02:24.000 --> 01:02:26.000
+dificilmente eu uso o Opus,
+
+01:02:26.000 --> 01:02:28.000
+tá, porque o Opus ele é muito mais
+
+01:02:28.000 --> 01:02:30.000
+complexo.
+
+01:02:30.000 --> 01:02:32.000
+Ele tá muito
+
+01:02:32.000 --> 01:02:34.000
+rústico também, né, cara. Isso, exatamente,
+
+01:02:34.000 --> 01:02:36.000
+tá, então eu tô usando, vou adotar
+
+01:02:36.000 --> 01:02:38.000
+o Sonnet, vou dar uma corzinha
+
+01:02:38.000 --> 01:02:40.000
+para ele, que é o vermelho, e vou falar
+
+01:02:40.000 --> 01:02:42.000
+aqui que ele tá no nível de
+
+01:02:42.000 --> 01:02:44.000
+o escopo de projeto mesmo, tá,
+
+01:02:44.000 --> 01:02:46.000
+feito isso eu confirmo, e aí
+
+01:02:46.000 --> 01:02:48.000
+eu tenho meu primeiro agente criado aqui,
+
+01:02:48.000 --> 01:02:50.000
+que foi o Product Owner, tá,
+
+01:02:50.000 --> 01:02:52.000
+vamos criar o segundo agente agora, Vinilton,
+
+01:02:52.000 --> 01:02:54.000
+mesmo processo, eu vou vir aqui
+
+01:02:54.000 --> 01:02:56.000
+de novo em Create Agents, mesma coisa,
+
+01:02:56.000 --> 01:02:58.000
+ó, configuração manual,
+
+01:02:58.000 --> 01:03:00.000
+e agora a gente vai criar o arquiteto,
+
+01:03:00.000 --> 01:03:02.000
+tá? Boa.
+
+01:03:02.000 --> 01:03:04.000
+Então vamos criar o arquiteto,
+
+01:03:04.000 --> 01:03:06.000
+é, novamente, vamos
+
+01:03:06.000 --> 01:03:08.000
+colocar aqui um
+
+01:03:08.000 --> 01:03:10.000
+System Prompt para ele,
+
+01:03:10.000 --> 01:03:12.000
+eu vou mostrar para vocês aqui,
+
+01:03:12.000 --> 01:03:14.000
+ó, o System Prompt do arquiteto,
+
+01:03:14.000 --> 01:03:16.000
+né, um arquiteto de software
+
+01:03:16.000 --> 01:03:18.000
+experiente,
+
+01:03:18.000 --> 01:03:20.000
+eu tô falando aqui que ele vai documentar
+
+01:03:20.000 --> 01:03:22.000
+as decisões dele em ADRs, né,
+
+01:03:22.000 --> 01:03:24.000
+que é um formato aí, de Architecture Decision
+
+01:03:24.000 --> 01:03:26.000
+Records, é como se fosse um histórico,
+
+01:03:26.000 --> 01:03:28.000
+né, Vinilton, assim, do porquê que nós tomamos
+
+01:03:28.000 --> 01:03:30.000
+essas decisões, tá?
+
+01:03:30.000 --> 01:03:32.000
+E também tô dando
+
+01:03:32.000 --> 01:03:34.000
+informações gerais aqui
+
+01:03:34.000 --> 01:03:36.000
+para ele, tá, basicamente é isso aí,
+
+01:03:36.000 --> 01:03:38.000
+vou levar lá para o System Prompt,
+
+01:03:38.000 --> 01:03:40.000
+vou colocar lá, e aí
+
+01:03:40.000 --> 01:03:42.000
+vou, novamente, colocar aqui quando
+
+01:03:42.000 --> 01:03:44.000
+vai usar esse agente, tá? Então vou
+
+01:03:44.000 --> 01:03:46.000
+usar esse agente para documentar
+
+01:03:46.000 --> 01:03:48.000
+decisões arquiteturais
+
+01:03:48.000 --> 01:03:50.000
+em ADRs, tá?
+
+01:03:50.000 --> 01:03:52.000
+Então, beleza,
+
+01:03:52.000 --> 01:03:54.000
+aqui, é as
+
+01:03:54.000 --> 01:03:56.000
+tools, tá? Eu tô dando
+
+01:03:56.000 --> 01:03:58.000
+todas as tools aí para eles, e selecionando
+
+01:03:58.000 --> 01:04:00.000
+também o modelo SONET aqui,
+
+01:04:00.000 --> 01:04:02.000
+e vou botar uma cor aqui para ele, que vai ser
+
+01:04:02.000 --> 01:04:04.000
+o Yellow, e mais um
+
+01:04:04.000 --> 01:04:06.000
+agente criado aí, tá? Então agora,
+
+01:04:06.000 --> 01:04:08.000
+se vocês olharem aqui, a gente tem o arquiteto,
+
+01:04:08.000 --> 01:04:10.000
+tá? E tem
+
+01:04:10.000 --> 01:04:12.000
+também o Product Owner. Tranquilo?
+
+01:04:12.000 --> 01:04:14.000
+Boa, boa, tranquilo.
+
+01:04:14.000 --> 01:04:16.000
+Ah, tem uma galera perguntando
+
+01:04:16.000 --> 01:04:18.000
+se dá para fazer esse mesmo
+
+01:04:18.000 --> 01:04:20.000
+passo usando o Cloud Desktop,
+
+01:04:20.000 --> 01:04:22.000
+ou até mesmo
+
+01:04:22.000 --> 01:04:24.000
+as extensões ali, por exemplo, no VS
+
+01:04:24.000 --> 01:04:26.000
+Code, é tudo possível, né, Vart?
+
+01:04:26.000 --> 01:04:28.000
+Dá para fazer usando
+
+01:04:28.000 --> 01:04:30.000
+o Cloud Code Desktop.
+
+01:04:30.000 --> 01:04:32.000
+Aí é
+
+01:04:32.000 --> 01:04:34.000
+possível também fazer por lá,
+
+01:04:34.000 --> 01:04:36.000
+porque quando você usa o Cloud Code Desktop, você
+
+01:04:36.000 --> 01:04:38.000
+também coloca o seu Work Directory,
+
+01:04:38.000 --> 01:04:40.000
+ou seja, o seu Diretório de Trabalho,
+
+01:04:40.000 --> 01:04:42.000
+e ele vai criando lá. Inclusive,
+
+01:04:42.000 --> 01:04:44.000
+Nilton, olha o que acontece, que é importante,
+
+01:04:44.000 --> 01:04:46.000
+ó, quando
+
+01:04:46.000 --> 01:04:48.000
+eu criei esses agentes,
+
+01:04:48.000 --> 01:04:50.000
+deixa eu fechar isso aqui, que isso aqui não precisa mais,
+
+01:04:50.000 --> 01:04:52.000
+você tá vendo que ele criou um diretório novo ali,
+
+01:04:52.000 --> 01:04:54.000
+.cloud, tá?
+
+01:04:54.000 --> 01:04:56.000
+Ah, ó a galera aí, ó.
+
+01:04:56.000 --> 01:04:58.000
+É, tá lá, o agente, tá?
+
+01:04:58.000 --> 01:05:00.000
+Então temos o arquiteto aqui, com todas as informações
+
+01:05:00.000 --> 01:05:02.000
+que eu coloquei, e temos também
+
+01:05:02.000 --> 01:05:04.000
+o Product Owner, com todas as
+
+01:05:04.000 --> 01:05:06.000
+informações que eu coloquei. Você pode
+
+01:05:06.000 --> 01:05:08.000
+colocar direto aqui, tá? Você pode vir aqui e escrever
+
+01:05:08.000 --> 01:05:10.000
+o seu MD aqui, é, basta você
+
+01:05:10.000 --> 01:05:12.000
+seguir esse formato que ele coloca, eu
+
+01:05:12.000 --> 01:05:14.000
+prefiro criar por lá, porque eu acho que é
+
+01:05:14.000 --> 01:05:16.000
+mais fácil aí, para ele poder
+
+01:05:16.000 --> 01:05:18.000
+entender, tá?
+
+01:05:18.000 --> 01:05:20.000
+Uma coisa que é bem interessante
+
+01:05:20.000 --> 01:05:22.000
+é que os arquivos
+
+01:05:22.000 --> 01:05:24.000
+Markdowns aí, eles são simples de entender,
+
+01:05:24.000 --> 01:05:26.000
+né, então, mesmo atendo
+
+01:05:26.000 --> 01:05:28.000
+o olho, você consegue entender
+
+01:05:28.000 --> 01:05:30.000
+o objetivo daquele agente,
+
+01:05:30.000 --> 01:05:32.000
+o que que ele vai fazer de fato, e como
+
+01:05:32.000 --> 01:05:34.000
+é tudo em linguagem natural, é como
+
+01:05:34.000 --> 01:05:36.000
+se você estivesse realmente documentando, né,
+
+01:05:36.000 --> 01:05:38.000
+o seu... o seu
+
+01:05:38.000 --> 01:05:40.000
+software, né, muito bom.
+
+01:05:40.000 --> 01:05:42.000
+Exatamente, Vinilto. Vinilto, agora
+
+01:05:42.000 --> 01:05:44.000
+que a gente já tem os dois agentes, a gente vai colocar eles para
+
+01:05:44.000 --> 01:05:46.000
+trabalhar. E qual que é a vantagem de você usar
+
+01:05:46.000 --> 01:05:48.000
+essa metodologia, essa...
+
+01:05:48.000 --> 01:05:50.000
+não é metodologia, né, essa técnica
+
+01:05:50.000 --> 01:05:52.000
+aqui de criação dos agentes, que
+
+01:05:52.000 --> 01:05:54.000
+você pode colocar eles para trabalhar em
+
+01:05:54.000 --> 01:05:56.000
+paralelo, não é?
+
+01:05:56.000 --> 01:05:58.000
+Porque assim, enquanto o Product Owner
+
+01:05:58.000 --> 01:06:00.000
+tá ali, escrevendo as user stories,
+
+01:06:00.000 --> 01:06:02.000
+eu posso ter o arquiteto
+
+01:06:02.000 --> 01:06:04.000
+escrevendo os ADRs, não é
+
+01:06:04.000 --> 01:06:06.000
+verdade? Então,
+
+01:06:06.000 --> 01:06:08.000
+é isso que a gente vai fazer aqui, tá?
+
+01:06:08.000 --> 01:06:10.000
+Então eu vou colocar, e aí, olha, eu especifico
+
+01:06:10.000 --> 01:06:12.000
+para ele, em paralelo,
+
+01:06:12.000 --> 01:06:14.000
+execute as duas tarefas
+
+01:06:14.000 --> 01:06:16.000
+abaixo, tá? Tarefa
+
+01:06:16.000 --> 01:06:18.000
+1, use o PO.
+
+01:06:18.000 --> 01:06:20.000
+Eu vou ter que colocar aqui Product Owner,
+
+01:06:20.000 --> 01:06:22.000
+que lá eu usei Product
+
+01:06:22.000 --> 01:06:24.000
+Owner, e às vezes é bom
+
+01:06:24.000 --> 01:06:26.000
+a gente usar o mesmo termo, tá?
+
+01:06:26.000 --> 01:06:28.000
+A mesma semântica ali, né? A mesma semântica,
+
+01:06:28.000 --> 01:06:30.000
+para ele poder não se perder, tá?
+
+01:06:30.000 --> 01:06:32.000
+E aí eu estou passando uma série de instruções
+
+01:06:32.000 --> 01:06:34.000
+para ele gerar as user stories, para ele se basear
+
+01:06:34.000 --> 01:06:36.000
+nesses arquivos fontes, que é
+
+01:06:36.000 --> 01:06:38.000
+o handoff,
+
+01:06:38.000 --> 01:06:40.000
+o word que eu acabei de criar
+
+01:06:40.000 --> 01:06:42.000
+lá com vocês, o architecture, tá?
+
+01:06:42.000 --> 01:06:44.000
+E aqui, no caso, Vinil, eu já estou
+
+01:06:44.000 --> 01:06:46.000
+falando para ele quais são as user stories.
+
+01:06:46.000 --> 01:06:48.000
+Eu preciso...
+
+01:06:48.000 --> 01:06:50.000
+Não, se eu não passar, ele vai tomar a decisão,
+
+01:06:50.000 --> 01:06:52.000
+tá?
+
+01:06:52.000 --> 01:06:54.000
+Como aqui a gente, a ideia é
+
+01:06:54.000 --> 01:06:56.000
+a gente também estar no piloto,
+
+01:06:56.000 --> 01:06:58.000
+estar no controle, então eu estou passando
+
+01:06:58.000 --> 01:07:00.000
+para ele o que eu espero, e ele vai
+
+01:07:00.000 --> 01:07:02.000
+seguir isso aí, tá bom?
+
+01:07:02.000 --> 01:07:04.000
+E a tarefa 2, que é o agente, é o
+
+01:07:04.000 --> 01:07:06.000
+arquiteto, aí como eu usei lá, eu acho
+
+01:07:06.000 --> 01:07:08.000
+que eu usei inglês lá, né?
+
+01:07:08.000 --> 01:07:10.000
+Vamos colocar...
+
+01:07:10.000 --> 01:07:12.000
+architect também, tá?
+
+01:07:12.000 --> 01:07:14.000
+Vamos só verificar.
+
+01:07:14.000 --> 01:07:16.000
+Tá ali na pastinha.
+
+01:07:16.000 --> 01:07:18.000
+Isso, tá aqui do lado, perfeito, tá?
+
+01:07:18.000 --> 01:07:20.000
+E aí aqui, vamos falar para ele que
+
+01:07:20.000 --> 01:07:22.000
+ele vai gerar aqui os ADRs,
+
+01:07:22.000 --> 01:07:24.000
+eu também especifiquei quais são os principais
+
+01:07:24.000 --> 01:07:26.000
+ADRs aqui, que são basicamente as decisões
+
+01:07:26.000 --> 01:07:28.000
+que a gente tomou, tá?
+
+01:07:28.000 --> 01:07:30.000
+Pô, decidiu usar no Apple...
+
+01:07:30.000 --> 01:07:32.000
+Isso, e até aproveitando,
+
+01:07:32.000 --> 01:07:34.000
+o Varte teve um comentário
+
+01:07:34.000 --> 01:07:36.000
+aqui do Rafa, que ele falou se
+
+01:07:36.000 --> 01:07:38.000
+no architect ele poderia colocar
+
+01:07:38.000 --> 01:07:40.000
+referências externas de padrões
+
+01:07:40.000 --> 01:07:42.000
+arquiteturais, nomenclaturas, etc,
+
+01:07:42.000 --> 01:07:44.000
+para ele atuar com os padrões
+
+01:07:44.000 --> 01:07:46.000
+de arquiteto que a empresa segue, por exemplo.
+
+01:07:46.000 --> 01:07:48.000
+É exatamente isso que você está mostrando agora, né?
+
+01:07:48.000 --> 01:07:50.000
+Que você definiu ali
+
+01:07:50.000 --> 01:07:52.000
+determinadas boas práticas, vamos dizer assim,
+
+01:07:52.000 --> 01:07:54.000
+coisas importantes que você
+
+01:07:54.000 --> 01:07:56.000
+quer que ele siga, e ele vai gerar
+
+01:07:56.000 --> 01:07:58.000
+os ADRs com base nisso, né?
+
+01:07:58.000 --> 01:08:00.000
+Exatamente, e aí é interessante, assim,
+
+01:08:00.000 --> 01:08:02.000
+se você quer que ele busque
+
+01:08:02.000 --> 01:08:04.000
+referências externas, você precisa deixar isso explícito.
+
+01:08:04.000 --> 01:08:06.000
+Consulte na web
+
+01:08:06.000 --> 01:08:08.000
+por referências externas.
+
+01:08:08.000 --> 01:08:10.000
+Consulte na web
+
+01:08:10.000 --> 01:08:12.000
+no site tal,
+
+01:08:12.000 --> 01:08:14.000
+entendeu?
+
+01:08:14.000 --> 01:08:16.000
+E aí ele vai usar as tools, por exemplo,
+
+01:08:16.000 --> 01:08:18.000
+ele vai usar uma tool de busca
+
+01:08:18.000 --> 01:08:20.000
+na internet. É muito importante você
+
+01:08:20.000 --> 01:08:22.000
+enfatize isso, tá?
+
+01:08:22.000 --> 01:08:24.000
+Exatamente.
+
+01:08:24.000 --> 01:08:26.000
+Consulte na web, e aí
+
+01:08:26.000 --> 01:08:28.000
+ele vai lá buscar também na web,
+
+01:08:28.000 --> 01:08:30.000
+tá?
+
+01:08:30.000 --> 01:08:32.000
+Como seria se não fosse monohack
+
+01:08:32.000 --> 01:08:34.000
+e sim dois repositórios,
+
+01:08:34.000 --> 01:08:36.000
+dois projetos separados?
+
+01:08:36.000 --> 01:08:38.000
+Legal, você pode usar, rodar
+
+01:08:38.000 --> 01:08:40.000
+duas instâncias do cloud,
+
+01:08:40.000 --> 01:08:42.000
+tá? Então, por exemplo, eu tenho
+
+01:08:42.000 --> 01:08:44.000
+um cloud rodando num diretório e outro cloud rodando
+
+01:08:44.000 --> 01:08:46.000
+em outro diretório. É assim, simples
+
+01:08:46.000 --> 01:08:48.000
+assim, tá bom? E aí
+
+01:08:48.000 --> 01:08:50.000
+cada um deles vai
+
+01:08:50.000 --> 01:08:52.000
+trabalhar em um
+
+01:08:52.000 --> 01:08:54.000
+repositório diferente.
+
+01:08:54.000 --> 01:08:56.000
+Boa, vou lá. Tá bom?
+
+01:08:56.000 --> 01:08:58.000
+Tranquilo? Vamos lá, vamos executar isso aqui,
+
+01:08:58.000 --> 01:09:00.000
+vamos ver o que vai acontecer.
+
+01:09:00.000 --> 01:09:02.000
+Eu coloquei também aqui a saída, o que
+
+01:09:02.000 --> 01:09:04.000
+que eu espero, e aí
+
+01:09:04.000 --> 01:09:06.000
+eu também no final ainda enfatizei,
+
+01:09:06.000 --> 01:09:08.000
+ó, duas tarefas ao mesmo tempo,
+
+01:09:08.000 --> 01:09:10.000
+tá? Pessoal...
+
+01:09:10.000 --> 01:09:12.000
+Teve um comentário do Luís aqui,
+
+01:09:12.000 --> 01:09:14.000
+ele falou que essa mentoria já valeu a assinatura
+
+01:09:14.000 --> 01:09:16.000
+do Jupro, e que
+
+01:09:16.000 --> 01:09:18.000
+hoje ele tava criando um app no modo
+
+01:09:18.000 --> 01:09:20.000
+Now, que literalmente ele gastou
+
+01:09:20.000 --> 01:09:22.000
+15% dos tokens dele em
+
+01:09:22.000 --> 01:09:24.000
+uma hora, e que agora a live tá sendo o Wilson,
+
+01:09:24.000 --> 01:09:26.000
+o suporte psicológico dele.
+
+01:09:28.000 --> 01:09:30.000
+Bom demais. Legal demais, legal demais.
+
+01:09:30.000 --> 01:09:32.000
+Valeu, Luís, valeu.
+
+01:09:32.000 --> 01:09:34.000
+Cara, que bom que vocês
+
+01:09:34.000 --> 01:09:36.000
+tão vendo o valor que tem, né,
+
+01:09:36.000 --> 01:09:38.000
+no Pro. Eu acho que é
+
+01:09:38.000 --> 01:09:40.000
+por isso que a gente fala, né, Venuto, assim,
+
+01:09:40.000 --> 01:09:42.000
+o Pro é um pacote de benefícios
+
+01:09:42.000 --> 01:09:44.000
+que tudo que a gente vai
+
+01:09:44.000 --> 01:09:46.000
+lançando depois, de conteúdo, a gente vai
+
+01:09:46.000 --> 01:09:48.000
+trazendo pra vocês. Então, vale
+
+01:09:48.000 --> 01:09:50.000
+muito a pena assinar o Pro.
+
+01:09:50.000 --> 01:09:52.000
+Se você tem algum amigo aí que não
+
+01:09:52.000 --> 01:09:54.000
+tem o Pro, cara, recomenda
+
+01:09:54.000 --> 01:09:56.000
+pra ele, fala, meu, o Pro é muito bom.
+
+01:09:56.000 --> 01:09:58.000
+Por quê? Porque é isso, tá? A gente tá sempre
+
+01:09:58.000 --> 01:10:00.000
+trazendo conteúdos novos, e agora
+
+01:10:00.000 --> 01:10:02.000
+nós vamos trazer muito conteúdo, né, Venuto,
+
+01:10:02.000 --> 01:10:04.000
+esse ano aqui de Inteligência Artificial.
+
+01:10:04.000 --> 01:10:06.000
+A pegada desse ano vai ser insana, galera.
+
+01:10:06.000 --> 01:10:08.000
+Vai ser muito conteúdo de
+
+01:10:08.000 --> 01:10:10.000
+IA, agentes, enfim.
+
+01:10:10.000 --> 01:10:12.000
+Vai ser insano. Tá sendo uma
+
+01:10:12.000 --> 01:10:14.000
+brincadeira, né? Todo mundo tá tendo que aprender
+
+01:10:14.000 --> 01:10:16.000
+a lidar com essa nova onda,
+
+01:10:16.000 --> 01:10:18.000
+e vamos surfar ela junto, né? Acho que
+
+01:10:18.000 --> 01:10:20.000
+esse é o objetivo aí. Exatamente.
+
+01:10:20.000 --> 01:10:22.000
+Venuto, eu vou simplesmente, ó, só pra
+
+01:10:22.000 --> 01:10:24.000
+garantir, tá? Copiei e colei lá
+
+01:10:24.000 --> 01:10:26.000
+o Pro System Prompt, botei aqui,
+
+01:10:26.000 --> 01:10:28.000
+vamos ver esses caras trabalhando
+
+01:10:28.000 --> 01:10:30.000
+aí juntos, tá? Bom,
+
+01:10:30.000 --> 01:10:32.000
+o que a gente já vai ver agora, ó,
+
+01:10:32.000 --> 01:10:34.000
+olha só o que o Claudio tá falando aqui.
+
+01:10:34.000 --> 01:10:36.000
+Disparando os dois agentes
+
+01:10:36.000 --> 01:10:38.000
+em paralelo agora, tá?
+
+01:10:38.000 --> 01:10:40.000
+Ah, legal. Isso que é importante.
+
+01:10:40.000 --> 01:10:42.000
+Por quê? Porque se a gente não especifica,
+
+01:10:42.000 --> 01:10:44.000
+ele vai tomar a decisão
+
+01:10:44.000 --> 01:10:46.000
+dele, ele vai pegar, fazer com um,
+
+01:10:46.000 --> 01:10:48.000
+depois fazer com o outro.
+
+01:10:48.000 --> 01:10:50.000
+Então aqui, ó,
+
+01:10:50.000 --> 01:10:52.000
+olha lá, o Product Owner começou
+
+01:10:52.000 --> 01:10:54.000
+a trabalhar. Já começou,
+
+01:10:54.000 --> 01:10:56.000
+aí sim. Ele começou a gerar as
+
+01:10:56.000 --> 01:10:58.000
+user stories ali, né?
+
+01:10:58.000 --> 01:11:00.000
+Pode ser que demore um pouquinho, tá, pro
+
+01:11:00.000 --> 01:11:02.000
+próximo entrar, por quê? Provavelmente
+
+01:11:02.000 --> 01:11:04.000
+o Product Owner já
+
+01:11:04.000 --> 01:11:06.000
+tinha informação de contexto dele ali
+
+01:11:06.000 --> 01:11:08.000
+que ele precisava pra poder
+
+01:11:08.000 --> 01:11:10.000
+começar a trabalhar, tá?
+
+01:11:10.000 --> 01:11:12.000
+Agora o arquiteto já tá trabalhando também,
+
+01:11:12.000 --> 01:11:14.000
+Vinilton. Cara, legal,
+
+01:11:14.000 --> 01:11:16.000
+e ele vai dando um feedback
+
+01:11:16.000 --> 01:11:18.000
+visual também, né? Tipo, mostrando
+
+01:11:18.000 --> 01:11:20.000
+onde eles estão trabalhando,
+
+01:11:20.000 --> 01:11:22.000
+o que que tá acontecendo. Muito bom.
+
+01:11:22.000 --> 01:11:24.000
+Aqui embaixo, Vinilton, a gente consegue
+
+01:11:24.000 --> 01:11:26.000
+inclusive navegar, tá?
+
+01:11:26.000 --> 01:11:28.000
+Se eu quiser ver o que cada um tá fazendo,
+
+01:11:28.000 --> 01:11:30.000
+eu posso vir aqui e selecionar.
+
+01:11:30.000 --> 01:11:32.000
+Aí eu vejo o que o Pio tá fazendo.
+
+01:11:32.000 --> 01:11:34.000
+Ah, legal, cara. Caramba.
+
+01:11:34.000 --> 01:11:36.000
+Eu consigo ver todas as interações que ele tá
+
+01:11:36.000 --> 01:11:38.000
+tendo, ó. Tá vendo que ele tá usando
+
+01:11:38.000 --> 01:11:40.000
+as tools? Tá usando o Bash, tá usando o
+
+01:11:40.000 --> 01:11:42.000
+Write. Ele tá tendo problema, ó.
+
+01:11:42.000 --> 01:11:44.000
+Ele tá, ó, tá tomando
+
+01:11:44.000 --> 01:11:46.000
+problema de permissão. De permissão.
+
+01:11:46.000 --> 01:11:48.000
+Ele vai tentar resolver. Se ele
+
+01:11:48.000 --> 01:11:50.000
+não conseguir resolver, ele vai mandar pra mim.
+
+01:11:50.000 --> 01:11:52.000
+Ele vai falar, ó, preciso de uma permissão
+
+01:11:52.000 --> 01:11:54.000
+aqui e tal. Precisa acessar
+
+01:11:54.000 --> 01:11:56.000
+esse arquivo, essa pasta. Muito bom.
+
+01:11:56.000 --> 01:11:58.000
+Exatamente, exatamente. Então, pessoal,
+
+01:11:58.000 --> 01:12:00.000
+esse é o segundo,
+
+01:12:00.000 --> 01:12:02.000
+da segunda fala, ó.
+
+01:12:02.000 --> 01:12:04.000
+Agora, tá vendo? Isso aí, ó.
+
+01:12:04.000 --> 01:12:06.000
+Permissão. Vamos liberar aqui.
+
+01:12:06.000 --> 01:12:08.000
+Trabalhem aí, meninos.
+
+01:12:08.000 --> 01:12:10.000
+Vamos lá. Quero vocês aí.
+
+01:12:10.000 --> 01:12:12.000
+Quero vocês aí.
+
+01:12:12.000 --> 01:12:14.000
+Pessoal, essa é a segunda
+
+01:12:14.000 --> 01:12:16.000
+forma, então, que a gente tá mostrando
+
+01:12:16.000 --> 01:12:18.000
+pra vocês, de criar agentes.
+
+01:12:18.000 --> 01:12:20.000
+Tá? Vocês viram? Eu mostrei a forma
+
+01:12:20.000 --> 01:12:22.000
+um, que é uma forma bem, assim,
+
+01:12:22.000 --> 01:12:24.000
+todo mundo usa, eu uso também, eu uso
+
+01:12:24.000 --> 01:12:26.000
+a maioria dos trabalhos que eu faço,
+
+01:12:26.000 --> 01:12:28.000
+eu simplesmente abro o Cloud Code
+
+01:12:28.000 --> 01:12:30.000
+e começo a falar com a gente
+
+01:12:30.000 --> 01:12:32.000
+ali, tá? Mas se você
+
+01:12:32.000 --> 01:12:34.000
+tem que fazer alguma coisa que vai levar
+
+01:12:34.000 --> 01:12:36.000
+mais tempo, você pode paralelizar,
+
+01:12:36.000 --> 01:12:38.000
+tá? Você pode quebrar
+
+01:12:38.000 --> 01:12:40.000
+os desafios,
+
+01:12:40.000 --> 01:12:42.000
+quebrar os objetivos.
+
+01:12:42.000 --> 01:12:44.000
+Pio, faça isso.
+
+01:12:44.000 --> 01:12:46.000
+Arquiteto, faça dessa forma
+
+01:12:46.000 --> 01:12:48.000
+aqui. Isso é bastante importante
+
+01:12:48.000 --> 01:12:50.000
+vocês entenderem.
+
+01:12:50.000 --> 01:12:52.000
+Já tá na User History 6
+
+01:12:52.000 --> 01:12:54.000
+já, cara. Já tá...
+
+01:12:54.000 --> 01:12:56.000
+Já tá trabalhando.
+
+01:12:56.000 --> 01:12:58.000
+Entregando valor ali, ó.
+
+01:12:58.000 --> 01:13:00.000
+Exatamente, exatamente.
+
+01:13:00.000 --> 01:13:02.000
+Enquanto isso, enquanto tá rolando isso aqui,
+
+01:13:02.000 --> 01:13:04.000
+se a gente vier aqui no nosso projeto,
+
+01:13:04.000 --> 01:13:06.000
+eu já vou ver aqui, ó,
+
+01:13:06.000 --> 01:13:08.000
+as User Stories nascendo.
+
+01:13:08.000 --> 01:13:10.000
+Exatamente.
+
+01:13:10.000 --> 01:13:12.000
+Tá? Então, eu já consigo ver lá
+
+01:13:12.000 --> 01:13:14.000
+as User Stories nascendo,
+
+01:13:14.000 --> 01:13:16.000
+eu já posso vir aqui, ter uma visualização
+
+01:13:16.000 --> 01:13:18.000
+um pouco melhor delas também.
+
+01:13:18.000 --> 01:13:20.000
+Certo, Venilton? E aí, eu consigo
+
+01:13:20.000 --> 01:13:22.000
+já ir validando, tá?
+
+01:13:22.000 --> 01:13:24.000
+Isso é importante, tá? Então, assim,
+
+01:13:24.000 --> 01:13:26.000
+pô, esse é o momento da gente
+
+01:13:26.000 --> 01:13:28.000
+entender se é tudo
+
+01:13:28.000 --> 01:13:30.000
+isso aqui é ótimo, Venilton, pra quê?
+
+01:13:30.000 --> 01:13:32.000
+Pra gente sentar com o time de negócio
+
+01:13:32.000 --> 01:13:34.000
+agora e validar junto essas
+
+01:13:34.000 --> 01:13:36.000
+User Stories, né? Porque a gente...
+
+01:13:36.000 --> 01:13:38.000
+Da onde a gente partiu? A gente partiu lá do
+
+01:13:38.000 --> 01:13:40.000
+desenho, cara. Não tinha nada, não tinha
+
+01:13:40.000 --> 01:13:42.000
+as regras, não tinha nada, né?
+
+01:13:42.000 --> 01:13:44.000
+Era tudo mato, né, velho?
+
+01:13:44.000 --> 01:13:46.000
+Era tudo mato. Então, esse é o
+
+01:13:46.000 --> 01:13:48.000
+momento, assim, da gente sentar lá com eles
+
+01:13:48.000 --> 01:13:50.000
+e você vê que ele faz referência, realmente,
+
+01:13:50.000 --> 01:13:52.000
+né? O handoff, nesse caso aqui,
+
+01:13:52.000 --> 01:13:54.000
+é a Screen Home, né?
+
+01:13:54.000 --> 01:13:56.000
+E ele vai descrever um pouco
+
+01:13:56.000 --> 01:13:58.000
+o comportamento esperado, né?
+
+01:13:58.000 --> 01:14:00.000
+Ao abrir a Home List, os
+
+01:14:00.000 --> 01:14:02.000
+restaurantes é exibido sem necessidade...
+
+01:14:02.000 --> 01:14:04.000
+Cara, e ele olhou até pra
+
+01:14:04.000 --> 01:14:06.000
+modelagem, né, cara? Porque ele colocou ali
+
+01:14:06.000 --> 01:14:08.000
+os campos e dados envolvidos, então
+
+01:14:08.000 --> 01:14:10.000
+ele fez ali um link com a modelagem
+
+01:14:10.000 --> 01:14:12.000
+de dados que você tinha feito já, né?
+
+01:14:12.000 --> 01:14:14.000
+Exatamente, Venilton.
+
+01:14:14.000 --> 01:14:16.000
+Ele olha tudo, tá? Muito coerente, né?
+
+01:14:16.000 --> 01:14:18.000
+Da hora. Exatamente, exatamente.
+
+01:14:18.000 --> 01:14:20.000
+Então,
+
+01:14:20.000 --> 01:14:22.000
+vamos aguardar ele aqui terminar.
+
+01:14:22.000 --> 01:14:24.000
+Ele já tá terminando, tá?
+
+01:14:24.000 --> 01:14:26.000
+Assim que ele terminar aqui, a gente
+
+01:14:26.000 --> 01:14:28.000
+vai pro terceiro,
+
+01:14:28.000 --> 01:14:30.000
+pra terceira forma de criar
+
+01:14:30.000 --> 01:14:32.000
+agentes, que aí sim, Venilton, vai explodir
+
+01:14:32.000 --> 01:14:34.000
+a cabeça da galera aqui, tá?
+
+01:14:34.000 --> 01:14:36.000
+É você, realmente,
+
+01:14:36.000 --> 01:14:38.000
+é você criar um time de agentes,
+
+01:14:38.000 --> 01:14:40.000
+um agent team, tá?
+
+01:14:40.000 --> 01:14:42.000
+Ah, deixa eu abrir
+
+01:14:42.000 --> 01:14:44.000
+também um documento de arquitetura, Venilton,
+
+01:14:44.000 --> 01:14:46.000
+pra gente poder ver como que é os documentos...
+
+01:14:46.000 --> 01:14:48.000
+Ah, verdade, né? Ele tá criando os ADRs
+
+01:14:48.000 --> 01:14:50.000
+ali. É, muita gente tem curiosidade
+
+01:14:50.000 --> 01:14:52.000
+e tal, né?
+
+01:14:52.000 --> 01:14:54.000
+Deixa eu abrir aqui no formatinho
+
+01:14:54.000 --> 01:14:56.000
+que eu gosto mais, esse aqui.
+
+01:14:56.000 --> 01:14:58.000
+Ó, então,
+
+01:14:58.000 --> 01:15:00.000
+esse aqui é um registro de uma decisão
+
+01:15:00.000 --> 01:15:02.000
+arquitetural, tá?
+
+01:15:02.000 --> 01:15:04.000
+É assim que ela funciona. Então, decidimos usar
+
+01:15:04.000 --> 01:15:06.000
+MonoApple, então tem lá
+
+01:15:06.000 --> 01:15:08.000
+o projeto,
+
+01:15:08.000 --> 01:15:10.000
+descreve o projeto
+
+01:15:10.000 --> 01:15:12.000
+aqui, a decisão,
+
+01:15:12.000 --> 01:15:14.000
+duas pastas, apps web e apps
+
+01:15:14.000 --> 01:15:16.000
+API, lado a lado, na raiz.
+
+01:15:16.000 --> 01:15:18.000
+Cada um é um projeto
+
+01:15:18.000 --> 01:15:20.000
+independente, com o seu próprio...
+
+01:15:20.000 --> 01:15:22.000
+Isso é muito bom, né, cara? Isso é muito bom.
+
+01:15:22.000 --> 01:15:24.000
+Porque é como se você tivesse
+
+01:15:24.000 --> 01:15:26.000
+um histórico das suas
+
+01:15:26.000 --> 01:15:28.000
+decisões arquiteturais dentro do projeto.
+
+01:15:28.000 --> 01:15:30.000
+Então, o projeto já nasce com as decisões
+
+01:15:30.000 --> 01:15:32.000
+que foram tomadas no
+
+01:15:32.000 --> 01:15:34.000
+T0, no primeiro momento,
+
+01:15:34.000 --> 01:15:36.000
+no momento que o projeto nasceu,
+
+01:15:36.000 --> 01:15:38.000
+e à medida que o projeto vai evoluindo,
+
+01:15:38.000 --> 01:15:40.000
+tecnicamente, o time vai
+
+01:15:40.000 --> 01:15:42.000
+implementando mais features, vai tomando
+
+01:15:42.000 --> 01:15:44.000
+mais decisões técnicas
+
+01:15:44.000 --> 01:15:46.000
+e de negócio,
+
+01:15:46.000 --> 01:15:48.000
+esses ADRs podem ir
+
+01:15:48.000 --> 01:15:50.000
+sendo evoluídos também, né, Marti?
+
+01:15:50.000 --> 01:15:52.000
+Refinados, isso é muito bom, né?
+
+01:15:52.000 --> 01:15:54.000
+Podem ser, com certeza, com certeza,
+
+01:15:54.000 --> 01:15:56.000
+eu acho que eles já terminaram aqui.
+
+01:15:56.000 --> 01:15:58.000
+Ó, terminou o trabalho, tá?
+
+01:15:58.000 --> 01:16:00.000
+Então, todos os agentes aí,
+
+01:16:00.000 --> 01:16:02.000
+19 arquivos criados, eles já fizeram
+
+01:16:02.000 --> 01:16:04.000
+um resumo aqui pra mim, então
+
+01:16:04.000 --> 01:16:06.000
+estamos prontos aqui pra dar o próximo passo,
+
+01:16:06.000 --> 01:16:08.000
+tá? O que eu posso fazer aqui? Olha,
+
+01:16:08.000 --> 01:16:10.000
+sei lá, validei, tá tudo certo, vamos
+
+01:16:10.000 --> 01:16:12.000
+em frente, senão eu poderia continuar falando com
+
+01:16:12.000 --> 01:16:14.000
+eles aqui, tá? Então, vamos
+
+01:16:14.000 --> 01:16:16.000
+comitar
+
+01:16:16.000 --> 01:16:18.000
+essas últimas alterações
+
+01:16:18.000 --> 01:16:20.000
+aqui, tá?
+
+01:16:20.000 --> 01:16:22.000
+E aí, Venil, tem alguma pergunta aí?
+
+01:16:22.000 --> 01:16:24.000
+Senão a gente vai seguir pro próximo passo
+
+01:16:24.000 --> 01:16:26.000
+aqui.
+
+01:16:26.000 --> 01:16:28.000
+A galera tava aqui falando
+
+01:16:28.000 --> 01:16:30.000
+do Global, tinha uma galera
+
+01:16:30.000 --> 01:16:32.000
+falando que já assina o Global, o pessoal
+
+01:16:32.000 --> 01:16:34.000
+falou que conseguiu trazer
+
+01:16:34.000 --> 01:16:36.000
+uma galera pro Global também, o pessoal vende
+
+01:16:36.000 --> 01:16:38.000
+valor aí nos produtos, tanto o PRO quanto
+
+01:16:38.000 --> 01:16:40.000
+o Global, isso é legal demais. Valeu pelo feedback,
+
+01:16:40.000 --> 01:16:42.000
+hein, pessoal, e valeu pela confiança
+
+01:16:42.000 --> 01:16:44.000
+aí, a gente tá sempre trabalhando pra
+
+01:16:44.000 --> 01:16:46.000
+trazer tudo de melhor aí
+
+01:16:46.000 --> 01:16:48.000
+tanto pra galera do PRO quanto pra galera
+
+01:16:48.000 --> 01:16:50.000
+do Global, então, contem
+
+01:16:50.000 --> 01:16:52.000
+com a gente. É isso aí. Venilton,
+
+01:16:52.000 --> 01:16:54.000
+o seguinte,
+
+01:16:54.000 --> 01:16:56.000
+fizemos aqui
+
+01:16:56.000 --> 01:16:58.000
+o...
+
+01:16:58.000 --> 01:17:00.000
+vamos pra terceira forma
+
+01:17:00.000 --> 01:17:02.000
+agora? Bora. A terceira forma
+
+01:17:02.000 --> 01:17:04.000
+é o seguinte, pessoal, o que vocês vão precisar?
+
+01:17:04.000 --> 01:17:06.000
+Primeira coisa,
+
+01:17:06.000 --> 01:17:08.000
+a gente vai precisar de um recurso aqui
+
+01:17:08.000 --> 01:17:10.000
+visual pra poder conseguir ver
+
+01:17:10.000 --> 01:17:12.000
+melhor os agentes trabalhando, tá?
+
+01:17:12.000 --> 01:17:14.000
+Eu não sei se todo mundo conhece o
+
+01:17:14.000 --> 01:17:16.000
+Tmux, tá? O que é o Tmux?
+
+01:17:16.000 --> 01:17:18.000
+T-M-U-X,
+
+01:17:18.000 --> 01:17:20.000
+tá? Inclusive
+
+01:17:20.000 --> 01:17:22.000
+aqui no Mac, se você quiser
+
+01:17:22.000 --> 01:17:24.000
+instalar o Tmux no Mac, é
+
+01:17:24.000 --> 01:17:26.000
+Brill, eu uso Brill, tá?
+
+01:17:26.000 --> 01:17:28.000
+Install, Tmux,
+
+01:17:28.000 --> 01:17:30.000
+se você estiver usando o Linux aí, você vai
+
+01:17:30.000 --> 01:17:32.000
+usar algo assim, sudo apt
+
+01:17:32.000 --> 01:17:34.000
+install tmux, tá?
+
+01:17:34.000 --> 01:17:36.000
+O Tmux, Venilton, ele é só
+
+01:17:36.000 --> 01:17:38.000
+uma forma de você
+
+01:17:38.000 --> 01:17:40.000
+splitar a tela ou o teu console
+
+01:17:40.000 --> 01:17:42.000
+aqui em várias partes, tá?
+
+01:17:42.000 --> 01:17:44.000
+Então, deixa eu te mostrar
+
+01:17:44.000 --> 01:17:46.000
+como é que ele funciona aqui, ó.
+
+01:17:46.000 --> 01:17:48.000
+Se eu vim aqui e digito
+
+01:17:48.000 --> 01:17:50.000
+tmux,
+
+01:17:50.000 --> 01:17:52.000
+beleza?
+
+01:17:52.000 --> 01:17:54.000
+E aí eu posso dividir
+
+01:17:54.000 --> 01:17:56.000
+minha tela, ó, eu posso vir aqui
+
+01:17:56.000 --> 01:17:58.000
+e dividir minha tela em duas.
+
+01:17:58.000 --> 01:18:00.000
+Eu posso vir aqui e
+
+01:18:00.000 --> 01:18:02.000
+dividir minha tela novamente,
+
+01:18:02.000 --> 01:18:04.000
+agora a tela da direita,
+
+01:18:04.000 --> 01:18:06.000
+dividir em duas de novo, tá?
+
+01:18:06.000 --> 01:18:08.000
+Então isso é importante, porque a hora que a gente colocar os agentes
+
+01:18:08.000 --> 01:18:10.000
+pra poder trabalhar aqui,
+
+01:18:10.000 --> 01:18:12.000
+isso aqui vai fazer muito sentido pra nós.
+
+01:18:12.000 --> 01:18:14.000
+Tá?
+
+01:18:14.000 --> 01:18:16.000
+Legal, então eu vou usar o Tmux,
+
+01:18:16.000 --> 01:18:18.000
+tá? Então no meu já está instalado, se você não
+
+01:18:18.000 --> 01:18:20.000
+tiver, você instala. É importante
+
+01:18:20.000 --> 01:18:22.000
+também o teu cloud estar atualizado, tá,
+
+01:18:22.000 --> 01:18:24.000
+pessoal? Então, cloud update,
+
+01:18:24.000 --> 01:18:26.000
+cloud update,
+
+01:18:26.000 --> 01:18:28.000
+você vai,
+
+01:18:28.000 --> 01:18:30.000
+você vai botar o teu cloud aí pra
+
+01:18:30.000 --> 01:18:32.000
+ficar atualizado. Exatamente.
+
+01:18:32.000 --> 01:18:34.000
+E aí, Venilton, tem um ponto
+
+01:18:34.000 --> 01:18:36.000
+que é importante agora. Tem uma feature,
+
+01:18:36.000 --> 01:18:38.000
+essa feature do
+
+01:18:38.000 --> 01:18:40.000
+agent team é meio experimental,
+
+01:18:40.000 --> 01:18:42.000
+tá? Então,
+
+01:18:42.000 --> 01:18:44.000
+você precisa ativar ela, ela não
+
+01:18:44.000 --> 01:18:46.000
+vem previamente ativada,
+
+01:18:46.000 --> 01:18:48.000
+tá? E onde é que a gente
+
+01:18:48.000 --> 01:18:50.000
+ativa ela, tá? Você ativa ela
+
+01:18:50.000 --> 01:18:52.000
+o seguinte, ó, existe um arquivo
+
+01:18:52.000 --> 01:18:54.000
+lá, sabe a home do seu usuário,
+
+01:18:54.000 --> 01:18:56.000
+beleza?
+
+01:18:58.000 --> 01:19:00.000
+.cloud,
+
+01:19:00.000 --> 01:19:02.000
+tá, é um diretório que está lá
+
+01:19:02.000 --> 01:19:04.000
+oculto lá,
+
+01:19:04.000 --> 01:19:06.000
+agentteams.json,
+
+01:19:06.000 --> 01:19:08.000
+tá bom?
+
+01:19:08.000 --> 01:19:10.000
+Então é esse arquivo aqui. Como
+
+01:19:10.000 --> 01:19:12.000
+que eu faço pra ativar? Primeiro,
+
+01:19:12.000 --> 01:19:14.000
+eu preciso incluir esta
+
+01:19:14.000 --> 01:19:16.000
+chave aqui.
+
+01:19:16.000 --> 01:19:18.000
+Ah, legal. Tá?
+
+01:19:18.000 --> 01:19:20.000
+env.cloud.code.experimental.agente.teams
+
+01:19:20.000 --> 01:19:22.000
+igual a 1.
+
+01:19:22.000 --> 01:19:24.000
+É uma feature flag isso aqui, né?
+
+01:19:24.000 --> 01:19:26.000
+Sim, sim, legal.
+
+01:19:26.000 --> 01:19:28.000
+Exatamente. E aqui embaixo,
+
+01:19:28.000 --> 01:19:30.000
+Venilton, eu preciso criar isso aqui, ó,
+
+01:19:30.000 --> 01:19:32.000
+uma propriedade chamada preference,
+
+01:19:32.000 --> 01:19:34.000
+e aí eu vou colocar tmux
+
+01:19:34.000 --> 01:19:36.000
+splitpanes true,
+
+01:19:36.000 --> 01:19:38.000
+tá? Que é justamente
+
+01:19:38.000 --> 01:19:40.000
+pra gente ver a hora que a gente botar o time
+
+01:19:40.000 --> 01:19:42.000
+pra funcionar, o tmux
+
+01:19:42.000 --> 01:19:44.000
+ele vai quebrar em várias telas,
+
+01:19:44.000 --> 01:19:46.000
+tá? Ele vai mostrar todos os agentes trabalhando
+
+01:19:46.000 --> 01:19:48.000
+junto. Beleza?
+
+01:19:48.000 --> 01:19:50.000
+Só isso, pessoal. Não
+
+01:19:50.000 --> 01:19:52.000
+precisa fazer muita coisa,
+
+01:19:52.000 --> 01:19:54.000
+tá? env.cloud.code.
+
+01:19:54.000 --> 01:19:56.000
+experimental.agente.teams 1
+
+01:19:56.000 --> 01:19:58.000
+e se você errar
+
+01:19:58.000 --> 01:20:00.000
+aqui qualquer
+
+01:20:00.000 --> 01:20:02.000
+camelcase, vai dar
+
+01:20:02.000 --> 01:20:04.000
+problema, tá? Vocês não vão conseguir, então
+
+01:20:04.000 --> 01:20:06.000
+tira um print aí da tela
+
+01:20:06.000 --> 01:20:08.000
+porque isso aqui é bastante
+
+01:20:08.000 --> 01:20:10.000
+importante, tá bom? Beleza.
+
+01:20:10.000 --> 01:20:12.000
+Aproveitando esse
+
+01:20:12.000 --> 01:20:14.000
+tema aí do tmux, a gente sabe que
+
+01:20:14.000 --> 01:20:16.000
+no primeiro momento é mais pra um
+
+01:20:16.000 --> 01:20:18.000
+apelo mais visual, mas teve uma pergunta
+
+01:20:18.000 --> 01:20:20.000
+aqui do Luiz
+
+01:20:20.000 --> 01:20:22.000
+que ele perguntou como usar
+
+01:20:22.000 --> 01:20:24.000
+um chat imenso e dividir
+
+01:20:24.000 --> 01:20:26.000
+ele nesse modelo de
+
+01:20:26.000 --> 01:20:28.000
+agentes, né? Então acho que ele tá tentando
+
+01:20:28.000 --> 01:20:30.000
+mudar um pouco a forma dele pensar
+
+01:20:30.000 --> 01:20:32.000
+pra conseguir
+
+01:20:32.000 --> 01:20:34.000
+dividir um pouco essas tarefas
+
+01:20:34.000 --> 01:20:36.000
+entre agentes com responsabilidades
+
+01:20:36.000 --> 01:20:38.000
+específicas. E tem uma outra
+
+01:20:38.000 --> 01:20:40.000
+depois aqui do Hernan que
+
+01:20:40.000 --> 01:20:42.000
+eu vou pegar também.
+
+01:20:42.000 --> 01:20:44.000
+Boa. É,
+
+01:20:44.000 --> 01:20:46.000
+vocês vão ver aqui que assim, o tmux
+
+01:20:46.000 --> 01:20:48.000
+depois que você começa a usar ele, ele te ajuda
+
+01:20:48.000 --> 01:20:50.000
+justamente por isso. Você nunca tá fazendo uma coisa
+
+01:20:50.000 --> 01:20:52.000
+só, né? Você tá ali, falando
+
+01:20:52.000 --> 01:20:54.000
+com a gente, ao mesmo tempo você tá
+
+01:20:54.000 --> 01:20:56.000
+rodando talvez o ambiente
+
+01:20:56.000 --> 01:20:58.000
+aqui na sua lateral,
+
+01:20:58.000 --> 01:21:00.000
+enfim. Então tem várias coisas aqui, tá?
+
+01:21:00.000 --> 01:21:02.000
+O tmux tem outras funcionalidades,
+
+01:21:02.000 --> 01:21:04.000
+tá? Ele não é só pra isso, tá, Vinil?
+
+01:21:04.000 --> 01:21:06.000
+Não é só pra dividir a tela
+
+01:21:06.000 --> 01:21:08.000
+não. Ele também permite
+
+01:21:08.000 --> 01:21:10.000
+você deixar um processo rodando mesmo que
+
+01:21:10.000 --> 01:21:12.000
+você fecha o terminal.
+
+01:21:12.000 --> 01:21:14.000
+Isso é legal. Então, exatamente.
+
+01:21:14.000 --> 01:21:16.000
+Tanto que eu vou abrir aqui uma sessão,
+
+01:21:16.000 --> 01:21:18.000
+ó, new session, tmux
+
+01:21:18.000 --> 01:21:20.000
+new session.
+
+01:21:20.000 --> 01:21:22.000
+E aí eu posso dar um nome
+
+01:21:22.000 --> 01:21:24.000
+pra ela. Por exemplo,
+
+01:21:24.000 --> 01:21:26.000
+cloud work, tá?
+
+01:21:26.000 --> 01:21:28.000
+Opa.
+
+01:21:28.000 --> 01:21:30.000
+Deixa eu dar um
+
+01:21:30.000 --> 01:21:32.000
+cloud, sei lá,
+
+01:21:32.000 --> 01:21:34.000
+cloud live.
+
+01:21:36.000 --> 01:21:38.000
+Ah, peraí. Tá, tem um comando
+
+01:21:38.000 --> 01:21:40.000
+errado aqui.
+
+01:21:40.000 --> 01:21:42.000
+Cloud, ó, tmux
+
+01:21:42.000 --> 01:21:44.000
+new session, menos
+
+01:21:44.000 --> 01:21:46.000
+s. Faltou um menos s aqui, cara.
+
+01:21:46.000 --> 01:21:48.000
+Tá? Cloud work, vai.
+
+01:21:50.000 --> 01:21:52.000
+Que aí eu dei um
+
+01:21:52.000 --> 01:21:54.000
+nome pra sessão, tá? Então eu posso
+
+01:21:54.000 --> 01:21:56.000
+fechar e voltar e essa sessão vai
+
+01:21:56.000 --> 01:21:58.000
+estar ativa. Isso você não consegue fazer no terminal,
+
+01:21:58.000 --> 01:22:00.000
+tá? No terminal você normalmente
+
+01:22:00.000 --> 01:22:02.000
+perde ali se você sai do
+
+01:22:02.000 --> 01:22:04.000
+do teu projeto. Vamos voltar
+
+01:22:04.000 --> 01:22:06.000
+pro projeto. Ele te dá
+
+01:22:06.000 --> 01:22:08.000
+mais autonomia, né, pra esse tipo de execução.
+
+01:22:08.000 --> 01:22:10.000
+Aí o Lúcio complementou
+
+01:22:10.000 --> 01:22:12.000
+aqui que ele tá usando o cloud desktop
+
+01:22:12.000 --> 01:22:14.000
+e ele já tem um
+
+01:22:14.000 --> 01:22:16.000
+chat ali que ele queria aproveitar aquele
+
+01:22:16.000 --> 01:22:18.000
+contexto, né? Que ele já tá
+
+01:22:18.000 --> 01:22:20.000
+usando pra usar um, pra criar
+
+01:22:20.000 --> 01:22:22.000
+um app, que ele já tem algumas decisões tomadas
+
+01:22:22.000 --> 01:22:24.000
+ali, um contexto meio grande
+
+01:22:24.000 --> 01:22:26.000
+e ele queria saber como ele poderia
+
+01:22:26.000 --> 01:22:28.000
+retomar essa
+
+01:22:28.000 --> 01:22:30.000
+conversa ou dividir
+
+01:22:30.000 --> 01:22:32.000
+essa conversa.
+
+01:22:32.000 --> 01:22:34.000
+É um pouco disso. É uma dificuldade
+
+01:22:34.000 --> 01:22:36.000
+que a gente tem também, né, cara? Que às vezes
+
+01:22:36.000 --> 01:22:38.000
+a gente toma algumas decisões, o chat
+
+01:22:38.000 --> 01:22:40.000
+fica muito comprido
+
+01:22:40.000 --> 01:22:42.000
+ali, né? E aí você acaba
+
+01:22:42.000 --> 01:22:44.000
+perdendo a mão ali na janela
+
+01:22:44.000 --> 01:22:46.000
+de contexto, né? Uma coisa que
+
+01:22:46.000 --> 01:22:48.000
+dá pra fazer que
+
+01:22:48.000 --> 01:22:50.000
+geralmente é interessante. Às vezes você
+
+01:22:50.000 --> 01:22:52.000
+consolidar aquele chat
+
+01:22:52.000 --> 01:22:54.000
+em um documento
+
+01:22:54.000 --> 01:22:56.000
+meio que resume tudo que foi
+
+01:22:56.000 --> 01:22:58.000
+conversado ali. Você pode até solicitar isso
+
+01:22:58.000 --> 01:23:00.000
+pro próprio
+
+01:23:00.000 --> 01:23:02.000
+cloud desktop ali, né?
+
+01:23:02.000 --> 01:23:04.000
+Falar assim, olha, eu vou iniciar essa
+
+01:23:04.000 --> 01:23:06.000
+conversa que a gente tá tendo aqui
+
+01:23:06.000 --> 01:23:08.000
+em uma outra sessão e eu gostaria que
+
+01:23:08.000 --> 01:23:10.000
+as nossas principais decisões fossem documentadas.
+
+01:23:10.000 --> 01:23:12.000
+Como se fosse um ADR
+
+01:23:12.000 --> 01:23:14.000
+ali, né, que a gente tá falando, mas
+
+01:23:14.000 --> 01:23:16.000
+pra você poder iniciar um chat novo.
+
+01:23:16.000 --> 01:23:18.000
+Eu acho que funcionaria, tá, Luiz?
+
+01:23:18.000 --> 01:23:20.000
+Acho que é uma alternativa
+
+01:23:20.000 --> 01:23:22.000
+válida aí que deve
+
+01:23:22.000 --> 01:23:24.000
+ajudar. É isso aí.
+
+01:23:24.000 --> 01:23:26.000
+Ó, ponto de
+
+01:23:26.000 --> 01:23:28.000
+atenção. Opa, vai lá.
+
+01:23:28.000 --> 01:23:30.000
+Então, só aproveitando que tem uma outra
+
+01:23:30.000 --> 01:23:32.000
+pergunta do
+
+01:23:32.000 --> 01:23:34.000
+Hermann aqui, que ele falou que nesse novo
+
+01:23:34.000 --> 01:23:36.000
+paradigma de inteligência artificial,
+
+01:23:36.000 --> 01:23:38.000
+né, como que a gente enxerga o peso
+
+01:23:38.000 --> 01:23:40.000
+do senso crítico de quem tá usando,
+
+01:23:40.000 --> 01:23:42.000
+né, e da visão de negócio comparado
+
+01:23:42.000 --> 01:23:44.000
+à habilidade técnica pura, né?
+
+01:23:44.000 --> 01:23:46.000
+É um bom diferencial no mercado atual?
+
+01:23:46.000 --> 01:23:48.000
+Boa pergunta, excelente pergunta.
+
+01:23:48.000 --> 01:23:50.000
+Sim, como
+
+01:23:50.000 --> 01:23:52.000
+que enxerga o senso crítico
+
+01:23:52.000 --> 01:23:54.000
+comparado à habilidade técnica
+
+01:23:54.000 --> 01:23:56.000
+pura? Tá, tá bom,
+
+01:23:56.000 --> 01:23:58.000
+entendi. Olha, assim,
+
+01:23:58.000 --> 01:24:00.000
+né, Vinilton, eu acho que
+
+01:24:00.000 --> 01:24:02.000
+eu falo que assim, a gente tem uma missão
+
+01:24:02.000 --> 01:24:04.000
+muito maior agora, né, como
+
+01:24:04.000 --> 01:24:06.000
+profissional de tech, não é? Porque assim,
+
+01:24:06.000 --> 01:24:08.000
+tá cada vez mais fácil, né,
+
+01:24:08.000 --> 01:24:10.000
+cada time ali pegar o Cloud Code e
+
+01:24:10.000 --> 01:24:12.000
+sair criando o próprio software.
+
+01:24:12.000 --> 01:24:14.000
+Quem é que vai dar o caminho? Quem é que
+
+01:24:14.000 --> 01:24:16.000
+vai explicar a melhor forma
+
+01:24:16.000 --> 01:24:18.000
+de criar pra depois rodar em produção
+
+01:24:18.000 --> 01:24:20.000
+de uma forma que fique seguro?
+
+01:24:20.000 --> 01:24:22.000
+A gente precisa
+
+01:24:22.000 --> 01:24:24.000
+se capacitar, pessoal, pra que a gente
+
+01:24:24.000 --> 01:24:26.000
+não fique pra trás, pra que a gente
+
+01:24:26.000 --> 01:24:28.000
+possa, né,
+
+01:24:28.000 --> 01:24:30.000
+não deixar essa onda acontecer
+
+01:24:30.000 --> 01:24:32.000
+dentro das nossas empresas
+
+01:24:32.000 --> 01:24:34.000
+e tal, mas a gente tá ali
+
+01:24:34.000 --> 01:24:36.000
+realmente amparando todos os times
+
+01:24:36.000 --> 01:24:38.000
+e trazendo a
+
+01:24:38.000 --> 01:24:40.000
+boa, vamos dizer assim,
+
+01:24:40.000 --> 01:24:42.000
+todos os padrões, como que eu crio
+
+01:24:42.000 --> 01:24:44.000
+realmente, né?
+
+01:24:44.000 --> 01:24:46.000
+É, exato, porque assim,
+
+01:24:46.000 --> 01:24:48.000
+mais do que nunca, né, a atuação
+
+01:24:48.000 --> 01:24:50.000
+humana nesse senso crítico
+
+01:24:50.000 --> 01:24:52.000
+do que a IA tá fazendo vai ser
+
+01:24:52.000 --> 01:24:54.000
+essencial, né, então
+
+01:24:54.000 --> 01:24:56.000
+por exemplo, se o Wart não tivesse a experiência
+
+01:24:56.000 --> 01:24:58.000
+nas tomadas de decisão arquiteturais
+
+01:24:58.000 --> 01:25:00.000
+ali, da vida inteira dele,
+
+01:25:00.000 --> 01:25:02.000
+né, ele não teria
+
+01:25:02.000 --> 01:25:04.000
+conseguido refinar tão bem ali os prompts
+
+01:25:04.000 --> 01:25:06.000
+pra conseguir direcionar a IA pra desenvolver
+
+01:25:06.000 --> 01:25:08.000
+com aquela arquitetura que ele
+
+01:25:08.000 --> 01:25:10.000
+expôs aqui pra gente, né,
+
+01:25:10.000 --> 01:25:12.000
+então, eu acho que
+
+01:25:12.000 --> 01:25:14.000
+a intenção, né, é que nós
+
+01:25:14.000 --> 01:25:16.000
+continuemos melhorando
+
+01:25:16.000 --> 01:25:18.000
+tecnicamente como profissionais de tecnologia,
+
+01:25:18.000 --> 01:25:20.000
+né, então a gente não pode deixar de
+
+01:25:20.000 --> 01:25:22.000
+estudar, deixar de aprender mais
+
+01:25:22.000 --> 01:25:24.000
+e aproveitar a IA
+
+01:25:24.000 --> 01:25:26.000
+pra acelerar esse processo,
+
+01:25:26.000 --> 01:25:28.000
+né, Wart? Então, assim, principalmente pra
+
+01:25:28.000 --> 01:25:30.000
+quem tá estudando, galera, não cai muito no
+
+01:25:30.000 --> 01:25:32.000
+erro de delegar tudo pra
+
+01:25:32.000 --> 01:25:34.000
+a IA pra ela resolver os seus
+
+01:25:34.000 --> 01:25:36.000
+problemas sem você entender o que tá acontecendo.
+
+01:25:36.000 --> 01:25:38.000
+Isso valia pra alguns momentos
+
+01:25:38.000 --> 01:25:40.000
+aí que surgiram ferramentas mágicas,
+
+01:25:40.000 --> 01:25:42.000
+que faziam tudo ali, e a galera
+
+01:25:42.000 --> 01:25:44.000
+foi entregando valor sem se
+
+01:25:44.000 --> 01:25:46.000
+preocupar muito, mas
+
+01:25:46.000 --> 01:25:48.000
+o que importa profissionalmente, né,
+
+01:25:48.000 --> 01:25:50.000
+é o quanto você conhece
+
+01:25:50.000 --> 01:25:52.000
+do processo de desenvolvimento, o quanto você
+
+01:25:52.000 --> 01:25:54.000
+conhece do produto que você
+
+01:25:54.000 --> 01:25:56.000
+tá desenvolvendo e evoluindo no dia a dia,
+
+01:25:56.000 --> 01:25:58.000
+então, isso não tem preço, né,
+
+01:25:58.000 --> 01:26:00.000
+isso é valioso pra todas as empresas e vai ser
+
+01:26:00.000 --> 01:26:02.000
+pra sempre. Então, assim,
+
+01:26:02.000 --> 01:26:04.000
+é isso que vocês têm que
+
+01:26:04.000 --> 01:26:06.000
+ter em mente, né, eu acho que a IA
+
+01:26:06.000 --> 01:26:08.000
+vem pra acelerar o
+
+01:26:08.000 --> 01:26:10.000
+dia a dia de todo mundo, né, então
+
+01:26:10.000 --> 01:26:12.000
+tá todo mundo tendo que aprender
+
+01:26:12.000 --> 01:26:14.000
+como que ela vai ser útil no
+
+01:26:14.000 --> 01:26:16.000
+dia a dia, mas
+
+01:26:16.000 --> 01:26:18.000
+principalmente, né, eu acho que
+
+01:26:18.000 --> 01:26:20.000
+traz muita
+
+01:26:20.000 --> 01:26:22.000
+agilidade, né, cara, pra
+
+01:26:22.000 --> 01:26:24.000
+nossa vida, assim, principalmente
+
+01:26:24.000 --> 01:26:26.000
+pro processo de aprendizagem, né, cara?
+
+01:26:26.000 --> 01:26:28.000
+Consegue aprender coisas numa
+
+01:26:28.000 --> 01:26:30.000
+velocidade muito maior do que antes, né?
+
+01:26:30.000 --> 01:26:32.000
+Então, na educação, principalmente,
+
+01:26:32.000 --> 01:26:34.000
+pra quem tá aprendendo, igual a galera
+
+01:26:34.000 --> 01:26:36.000
+que tá aí no PRO e tal,
+
+01:26:36.000 --> 01:26:38.000
+no Global também, então,
+
+01:26:38.000 --> 01:26:40.000
+assim, cara, pra aprender qualquer coisa
+
+01:26:40.000 --> 01:26:42.000
+é um baita de um parceiro, né,
+
+01:26:42.000 --> 01:26:44.000
+Marti, pro dia a dia. É, assim,
+
+01:26:44.000 --> 01:26:46.000
+a gente sempre,
+
+01:26:46.000 --> 01:26:48.000
+todo mundo que trabalha em tecnologia sempre estudou
+
+01:26:48.000 --> 01:26:50.000
+demais, isso não vai mudar, isso vai ser
+
+01:26:50.000 --> 01:26:52.000
+sempre assim, né, a Inteligência Artificial
+
+01:26:52.000 --> 01:26:54.000
+tá trazendo mais produtividade,
+
+01:26:54.000 --> 01:26:56.000
+ainda bem, né,
+
+01:26:56.000 --> 01:26:58.000
+Vinilton, assim, tá trazendo
+
+01:26:58.000 --> 01:27:00.000
+bastante produtividade, mas a gente
+
+01:27:00.000 --> 01:27:02.000
+vai ter que tá sempre se aperfeiçoando,
+
+01:27:02.000 --> 01:27:04.000
+entendendo, eu falo
+
+01:27:04.000 --> 01:27:06.000
+que alguns conhecimentos que antes
+
+01:27:06.000 --> 01:27:08.000
+eram muito específicos, ficavam
+
+01:27:08.000 --> 01:27:10.000
+muito, assim, sei lá, mais
+
+01:27:10.000 --> 01:27:12.000
+proporcional ao sênior, quem realmente
+
+01:27:12.000 --> 01:27:14.000
+trabalhava com arquitetura, hoje tá sendo
+
+01:27:14.000 --> 01:27:16.000
+importante também, todo mundo entender
+
+01:27:16.000 --> 01:27:18.000
+um pouquinho sobre design de código,
+
+01:27:18.000 --> 01:27:20.000
+né, tornar o meu código mais
+
+01:27:20.000 --> 01:27:22.000
+legível, arquitetura de software
+
+01:27:22.000 --> 01:27:24.000
+principalmente,
+
+01:27:24.000 --> 01:27:26.000
+então, isso são
+
+01:27:26.000 --> 01:27:28.000
+disciplinas aí que são importantes,
+
+01:27:28.000 --> 01:27:30.000
+né, pra gente poder dar o direcionamento aqui
+
+01:27:30.000 --> 01:27:32.000
+pra IA, vocês viram que, assim,
+
+01:27:32.000 --> 01:27:34.000
+eu falei muito pra ela aqui, tudo bem que
+
+01:27:34.000 --> 01:27:36.000
+eu já tinha preparado os prompts, né, Vinilton,
+
+01:27:36.000 --> 01:27:38.000
+pra gente ficar mais rápido aqui,
+
+01:27:38.000 --> 01:27:40.000
+mas existe todo um trabalho antes de
+
+01:27:40.000 --> 01:27:42.000
+pesquisa que a gente tem que
+
+01:27:42.000 --> 01:27:44.000
+continuar fazendo, tá?
+
+01:27:44.000 --> 01:27:46.000
+É isso aí, cara, é isso aí. Vinilton, o seguinte,
+
+01:27:46.000 --> 01:27:48.000
+ó, vocês viram lá, lembra lá, então,
+
+01:27:48.000 --> 01:27:50.000
+aquele arquivo, né, que a gente
+
+01:27:50.000 --> 01:27:52.000
+o arquivo do diretório do
+
+01:27:52.000 --> 01:27:54.000
+usuário .cloudsettings
+
+01:27:54.000 --> 01:27:56.000
+.json,
+
+01:27:56.000 --> 01:27:58.000
+então, aquilo ali é importante pra você ativar
+
+01:27:58.000 --> 01:28:00.000
+a feature de agent team, tá?
+
+01:28:00.000 --> 01:28:02.000
+E pra feature de agent team funcionar,
+
+01:28:02.000 --> 01:28:04.000
+o que que a gente precisa fazer aqui?
+
+01:28:04.000 --> 01:28:06.000
+É uma coisa que você vai ter que
+
+01:28:06.000 --> 01:28:08.000
+fazer aí na sua casa também, se você quiser
+
+01:28:08.000 --> 01:28:10.000
+fazer isso acontecer, mas faça
+
+01:28:10.000 --> 01:28:12.000
+com cautela e entenda os riscos,
+
+01:28:12.000 --> 01:28:14.000
+tá, pessoal? Existe
+
+01:28:14.000 --> 01:28:16.000
+uma feature flag aqui,
+
+01:28:16.000 --> 01:28:18.000
+ó, que eu vou passar pro cloud,
+
+01:28:18.000 --> 01:28:20.000
+que é essa aqui, ó, ele até fala
+
+01:28:20.000 --> 01:28:22.000
+que é perigoso, tá?
+
+01:28:22.000 --> 01:28:24.000
+Escreva ali.
+
+01:28:24.000 --> 01:28:26.000
+Por quê? Porque, assim,
+
+01:28:26.000 --> 01:28:28.000
+a partir de agora, eu tô dando permissão
+
+01:28:28.000 --> 01:28:30.000
+pro cloud fazer o que ele quiser.
+
+01:28:30.000 --> 01:28:32.000
+Autonomia total, basicamente.
+
+01:28:32.000 --> 01:28:34.000
+Autonomia total. É o mesmo lance
+
+01:28:34.000 --> 01:28:36.000
+lá do OpenCLO, né? Quando
+
+01:28:36.000 --> 01:28:38.000
+o OpenCLO fala, olha, toma cuidado
+
+01:28:38.000 --> 01:28:40.000
+aqui, tá? Então, pessoal,
+
+01:28:40.000 --> 01:28:42.000
+toma cuidado, normalmente a gente recomenda
+
+01:28:42.000 --> 01:28:44.000
+que isso seja feito num sandbox,
+
+01:28:44.000 --> 01:28:46.000
+eu nunca tive problema com isso aqui,
+
+01:28:46.000 --> 01:28:48.000
+tá, porque ele fica contido dentro
+
+01:28:48.000 --> 01:28:50.000
+do diretório que eu especifiquei aqui,
+
+01:28:50.000 --> 01:28:52.000
+tá, que é o da live2 aqui, da nossa mentoria,
+
+01:28:52.000 --> 01:28:54.000
+mas é importante
+
+01:28:54.000 --> 01:28:56.000
+falar isso aqui pra todo mundo.
+
+01:28:56.000 --> 01:28:58.000
+E quando eu inicio o cloud
+
+01:28:58.000 --> 01:29:00.000
+code com isso aqui, Venilton,
+
+01:29:00.000 --> 01:29:02.000
+ele aparece isso aqui embaixo, ó,
+
+01:29:02.000 --> 01:29:04.000
+é uma permissão a mais, então,
+
+01:29:04.000 --> 01:29:06.000
+existe o que não existe normalmente.
+
+01:29:06.000 --> 01:29:08.000
+Deixa até em vermelho ali o bypass, né?
+
+01:29:08.000 --> 01:29:10.000
+Tá bom.
+
+01:29:10.000 --> 01:29:12.000
+Tá bom, tá? Então,
+
+01:29:12.000 --> 01:29:14.000
+beleza, então isso aqui é importante,
+
+01:29:14.000 --> 01:29:16.000
+tá, pessoal, pra vocês poderem
+
+01:29:16.000 --> 01:29:18.000
+ativar essa feature que a gente vai mexer agora.
+
+01:29:18.000 --> 01:29:20.000
+E aí, ó, eu vou mostrar
+
+01:29:20.000 --> 01:29:22.000
+pra vocês agora uma coisa que é bem importante
+
+01:29:22.000 --> 01:29:24.000
+também, que é o prompt,
+
+01:29:24.000 --> 01:29:26.000
+que vai fazer
+
+01:29:26.000 --> 01:29:28.000
+disparar um agent team,
+
+01:29:28.000 --> 01:29:30.000
+tá, e eu vou tentar deixar mais claro
+
+01:29:30.000 --> 01:29:32.000
+aqui, Venilton, as partes que são
+
+01:29:32.000 --> 01:29:34.000
+mais importantes aqui
+
+01:29:34.000 --> 01:29:36.000
+do agent team, tá?
+
+01:29:36.000 --> 01:29:38.000
+Só pra não entrar em conflito
+
+01:29:38.000 --> 01:29:40.000
+aqui, Vênis, o que que eu vou fazer,
+
+01:29:40.000 --> 01:29:42.000
+tá? Eu vou fazer o seguinte,
+
+01:29:42.000 --> 01:29:44.000
+eu vou tirar esses dois agentes aqui
+
+01:29:44.000 --> 01:29:46.000
+que nós criamos, tá, que às vezes pode ser
+
+01:29:46.000 --> 01:29:48.000
+que ele vai
+
+01:29:48.000 --> 01:29:50.000
+se perder aqui, ele vai entender que eu quero
+
+01:29:50.000 --> 01:29:52.000
+contactar esses agentes,
+
+01:29:52.000 --> 01:29:54.000
+tá, mas eu vou mostrar uma outra
+
+01:29:54.000 --> 01:29:56.000
+forma de fazer.
+
+01:29:56.000 --> 01:29:58.000
+Ele já vai criar os
+
+01:29:58.000 --> 01:30:00.000
+novos agentes a partir desse prompt
+

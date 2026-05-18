@@ -1,5 +1,9 @@
 # Sessão 1: Setup do Claude Code para Acelerar 100x a Produtividade no Desenvolvimento
+
 > Link da live: __https://web.dio.me/lives/setup-do-claude-code-para-acelerar-100x-a-produtividade-no-desenvolvimento__
+
+> [!IMPORTANT]
+> BÔNUS: Resumo feito pelo Felipão durante a live: __https://c.dio.me/7zqt01__
 
 ## Resumo Executivo
 

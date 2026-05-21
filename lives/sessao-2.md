@@ -1,11 +1,10 @@
-Vou compor o resumo baseado no que analisei das duas partes da live.
+# Sessão 2: Construindo os Agentes de Inteligência Artificial Back-end, Front-end, QA e DevOps com Claude Code
 
-# Construindo os Agentes de Inteligência Artificial Back-end, Front-end, QA e DevOps com Claude Code
 > Link da live: https://web.dio.me/lives/construindo-os-agentes-de-inteligencia-artificial-back-end-front-end-qa-e-devops-com-claude-code
 
 ## Resumo Executivo
 
-Nesta segunda sessão da Vitalício Week, Venilton (host) e Oswaldo Neto (Vart, CTO da DIO) saem do zero até um app de delivery funcional chamado Mandaí, usando Claude Design e Claude Code. O fluxo começa com um wireframe rabiscado no Excalidraw, vira um Design System completo no Claude Design, depois um protótipo de alta fidelidade exportado via handoff para o Claude Code. A arquitetura é definida manualmente em Markdown (Next.js no front, Fastify no back, Clean Architecture, Postgres) antes de qualquer agente codar uma linha, reforçando que a IA potencializa o profissional, mas não substitui a tomada de decisão técnica.
+Nesta segunda sessão da Vitalício Week, Venilton e Oswaldo Neto (Vart, CTO da DIO) saem do zero até um app de delivery funcional chamado Mandaí, usando Claude Design e Claude Code. O fluxo começa com um wireframe rabiscado no Excalidraw, vira um Design System completo no Claude Design, depois um protótipo de alta fidelidade exportado via handoff para o Claude Code. A arquitetura é definida manualmente em Markdown (Next.js no front, Fastify no back, Clean Architecture, Postgres) antes de qualquer agente codar uma linha, reforçando que a IA potencializa o profissional, mas não substitui a tomada de decisão técnica.
 
 A parte central da live mostra três formas progressivas de trabalhar com agentes no Claude Code. A primeira usa um único agente conversando diretamente no terminal, ideal para tarefas simples como gerar um ERD em Mermaid. A segunda cria agentes especialistas isolados (Product Owner e Arquiteto) que executam em paralelo, mas sem se comunicar entre si. A terceira ativa o Agent Team, uma feature experimental que exige flag no settings.json e permissão total via bypass, onde quatro agentes (PO, Arquiteto, Backend, Frontend) coordenados por um Lead conversam entre si e entregam o projeto completo. O Tmux serve para enxergar todos eles trabalhando simultaneamente em painéis divididos.
 
